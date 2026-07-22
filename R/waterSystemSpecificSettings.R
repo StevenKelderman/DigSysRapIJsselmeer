@@ -9,7 +9,7 @@ endyear <- 2024
 # voor naamgeving directory etc
 mijnGebied <- "Wadden"
 # voor selectie van data uit de DDL op basis van waterlichaam naam
-mijnGebieden <- c("Wadden", "Eems", "Dollard")
+mijnGebieden <- c("Wadden")
 
 # RWS stations with long term data
 trendLocaties <- c(
@@ -34,6 +34,7 @@ ThreddsDataPath <- "https://watersysteemdata.deltares.nl/thredds/fileServer/wate
 
 # calalogue of the thredds server wadden
 cataloguePath <- "https://watersysteemdata.deltares.nl/thredds/catalog/watersysteemdata/Wadden/catalog.html"
+
 # calalogue of vaklodingen thredds server
 catalogueVaklodingenPath <- "http://opendap.deltares.nl/thredds/dodsC/opendap/rijkswaterstaat/vaklodingen_new/catalog.nc"
 

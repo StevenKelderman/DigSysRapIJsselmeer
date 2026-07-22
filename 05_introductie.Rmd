@@ -1,12 +1,12 @@
 \newpage
 
-# Introductie - Introduction - Einleitung {#introductie}
+# Inleiding - Introduction {#introductie}
+
+!!! DIT IS EEN TESTVERSIE !!!
 
 Please click here for the [English version](#introduction) or scroll down.
 
-Für die [deutsche Fassung](#einleitung) klicken Sie hier oder scrollen Sie bitte nach unten.
-
-## Basismonitoring Wadden
+## Achtergrond
 
 Deze Digitale Systeemrapportage (DSR) is opgezet als onderdeel van het project Natuurmonitoring Wadden - onderdeel Morfologie van Rijkswaterstaat. Dit valt vervolgens weer onder de [Basismonitoring Wadden](https://basismonitoringwadden.waddenzee.nl/), en heeft betrekking op de niet-levende (abiotische) kenmerken van de Waddenzee. Basismonitoring Wadden houdt de ontwikkelingen in het Waddengebied in de gaten, met de volgende hoofddoelen:.
 
@@ -120,27 +120,9 @@ De systeemrapportage is bedoeld als een naslagwerk, waarin gericht en snel actue
 
 Een overzicht van de volledige inhoud is te vinden in de inhoudsopgave links in uw scherm. Daar vind u ook de zoekfunctie, instellingen voor lettergrootte (ook te wijzigen met [CRTL +/-] in uw browser, en een knop voor het maken van een pdf van de actuele versie. De meeste figuren zijn interactief: de gebruiker kan in-en uitzoomen op relevante gebeiden of perioden, met de cursor datapunten bevragen, en een plot exporteren als figuur voor verder gebruik. Door op een figuur te klikken wordt deze groter. Door nogmaals op het figuur te klikken wordt deze weer kleiner. De werking is getest in Firefox (103.02) en beperkter in Chrome en Edge. De rapportage is niet getest op mobiele platforms (tablet, telefoon) en is daar ook niet voor bedoeld.
 
-## Wettelijke kaders
-
-Sommige indicatoren zijn gekoppeld aan (wettelijke) doelstellingen, vanuit verschillende kaders. Via de koppelingen in tabel \@ref(tab:kadertabel) is het mogelijk om snel de juiste selectie indicatoren te vinden, behorend bij een bepaald kader. De wettelijke kaders zelf zijn niet opgenomen in deze systeemrapportage. Deze zijn elders vermeld; zo is bijvoorbeeld het areaal kwelders te vinden op de helpdesk water.
-
-```{r kadertabel}
-
-kadertabel <- readr::read_tsv(file.path(datadir, "RWS/Indicatoren_behorend_bij_kaders_v0_1.txt"), skip = 3) %>% replace_na(list(Kader = "", Indicator = "", Snelkoppeling = "")) %>%
-  mutate(Snelkoppeling = case_when(
-    Snelkoppeling != "<nog niet beschikbaar>" ~ paste0("[", Indicator, "]", "(", Snelkoppeling, ")"),
-    Snelkoppeling == "<nog niet beschikbaar>" ~ "nog niet beschikbaar"
-  )
-  ) %>%
-  select(-`...4`)
-
-# \@ref(sec:FirstSection)
-
-knitr::kable(kadertabel, caption = "Beheerskaders en beschikbare koppelingen naar de verschillende onderdelen in de systeemrapportage.")
-
-```
-
 ## Introduction English {.unnumbered #introduction}
+
+!!! DIT IS EEN TESTVERSIE !!!
 
 ### Basic Wadden Monitoring {.unnumbered}
 
@@ -169,33 +151,3 @@ The data represented by the indicators can be downloaded directly from the Appen
 Indicators are measurable (or derivable from measurements) quantities that have a signalling function, providing information about the quality of something, for example. In this system report, we limit ourselves to the information needs arising from the policy and management objectives for the abiotic nature of the Wadden Sea. This includes all abiotic characteristics that influence the naturalness of the Wadden system, such as sediment composition, turbidity, temperature, salinity, etc. The required data comes partly from spatial measurements (e.g. bottom location), and partly from monitoring stations and locations as shown in figure \@ref(fig:kaartAbiotieklocaties).
 
 An exception to this is the Ecotope Map and the map layers of current velocities, waves, salinity a dryfall duration used to create it. These are not based directly on measurements but on model simulations over specific periods. Thus, although these maps do not really belong on the DSR, they are included because they contain a lot of valuable, indicative spatial information for many users. However, the user should be aware of the limitations, namely that these are model results generated for a specific purpose, which are not simply suitable for other applications or general conclusions. 
-
-## Einleitung {.unnumbered #einleitung}
-
-### Basic Wadden Monitoring {.unnumbered}
-
-Der digitale Systembericht (DSR) wurde im Rahmen des Projekts Naturmonitoring Wadden - Sektion Morphologie des Rijkswaterstaat - erstellt. Dieses wiederum gehört zum [Basismonitoring Wadden] (<https://basismonitoringwadden.waddenzee.nl/>) und umfasst die nicht lebenden (abiotischen) Merkmale des Wattenmeeres. Das Basismonitoring Wadden überwacht die Entwicklungen im Wattgebiet und verfolgt dabei folgende Hauptziele:
-
-1.  Bereitstellung von Informationen über den Zustand und die Trends (Veränderungen) im Wattenmeergebiet für Manager und Nutzer;
-2.  Erreichung einer effektiven und effizienten systemgestützten Überwachung;
-3.  Zugang zu allen verfügbaren Informationen und Überwachungsdaten über das Wattenmeergebiet, damit die Nutzer einen Überblick über das gesamte Wattenmeersystem erhalten
-
-Das Basis-Wattenmeer-Monitoring konzentriert sich dabei auf die so genannten Kernwerte: Landschaftsqualitäten, natürliche abiotische Wattenmeere (nicht lebende Natur), natürliche biotische Wattenmeere (lebende Natur) und menschliche Mitnutzung. Politik- und Managementziele sind mit jedem dieser Kernwerte oder Themen verbunden. Weitere Informationen zu diesen Themen finden Sie im [Ambition of Basic Wadden Monitoring](https://basismonitoringwadden.waddenzee.nl/fileadmin/inhoud/pdf/Ambitie_Basismonitoring_Wadden_obw_mrt_2018.pdf).
-
-Für die abiotische Natur des Wattenmeeres ist ein Schlüsselziel:
-
-> *'eine möglichst natürliche Entwicklung der Wasserbewegungen und der damit verbundenen geomorphologischen und bodenkundlichen Prozesse.' - [Strukturvision Wattenmeer](https://www.noordzeeloket.nl/publish/pages/122066/brein-herziening-2021-structuurvisie-waddenzee-id-28.pdf)*
-
-### Zweck des DSR {.unnumbered}
-
-Das Ziel des Digitalen Systemberichts Wattenmeer ist es, aktuelle, transparente und konsistente Indikatorensätze zu erhalten und diese auf eine zugängliche Art und Weise zu präsentieren (veröffentlichen). Der digitale Bericht ermöglicht auch eine einfache Aktualisierung der Informationen. Damit trägt er bereits direkt zum ersten und dritten Ziel des Basic Monitoring Wadden bei.
-
-Indem die relevanten Informationen zugänglich gemacht werden, können Trends und Entwicklungen schnell erkannt und weiter analysiert werden. Dies trägt zu einem effizienteren und effektiveren Management bei, z. B. bei der Erklärung von beobachteten Entwicklungen bei Naturzielen oder dem Einfluss menschlicher Aktivitäten. Dabei werden auch Wissenslücken und zusätzlicher Überwachungsbedarf identifiziert, so dass der DSR indirekt zum zweiten Ziel der Basisüberwachung des Wattenmeeres beiträgt: der systembasierten Überwachung.
-
-Die Daten, die durch die Indikatoren dargestellt werden, können direkt von der Seite AppendiX \@ref(data) heruntergeladen werden.
-
-### Informationsbedarf und Indikatoren {.unnumbered}
-
-Indikatoren sind messbare (oder aus Messungen ableitbare) Größen, die eine Signalfunktion haben und z.B. Auskunft über die Qualität geben. In diesem Systembericht beschränken wir uns auf den Informationsbedarf, der sich aus den Politik- und Managementzielen für die abiotische Natur des Wattenmeeres ergibt. Dazu gehören alle abiotischen Merkmale, die die Natürlichkeit des Wattenmeeres beeinflussen, wie Sedimentzusammensetzung, Trübung, Temperatur, Salzgehalt usw. Die erforderlichen Daten stammen zum Teil aus räumlichen Messungen (z. B. Bodenlage) und zum Teil aus Überwachungsstationen und -standorten, wie in der Abbildung \@ref(fig:kaartAbiotieklocaties) dargestellt.
-
-Eine Ausnahme bilden die Ökotopkarte und die darunter liegenden Kartenebenen für Strömungsgeschwindigkeiten, Wellen, Salzgehalt und Trockenheitsdauer. Diese beruhen nicht direkt auf Messungen, sondern auf Modellsimulationen über bestimmte Zeiträume. Obwohl diese Karten also eigentlich nicht in den DSR gehören, wurden sie aufgenommen, weil sie für viele Nutzer viele wertvolle, indikative Rauminformationen enthalten. Die Nutzer sollten sich jedoch der Einschränkungen bewusst sein, nämlich dass es sich um Modellergebnisse handelt, die für einen bestimmten Zweck erstellt wurden und sich nicht ohne weiteres für andere Anwendungen oder allgemeine Schlussfolgerungen eignen. 

@@ -18,7 +18,7 @@ alt_theme_hy <- theme_tufte() + theme(axis.line=element_line()) #+
 
 
 
-# Brondata, bewerking en download {#data}
+# Overzicht gebruikte data {#data}
 
 
 ## Zeespiegelstijging {#Appzeespiegelstijging}
@@ -533,7 +533,7 @@ dataoverzicht <- read_delim(file.path(datadir, "dataoverzicht.csv"), delim = ";"
 
 
 
-# Beheer van de DSR
+# Meetdichtheidmatrices
 
 ## Versiebeheer en kwaliteitscontrole
 De R-code waaruit deze digitale systeemrapportage is gemaakt (tekst, scripts en figuren) wordt bewaard op SVN onder versiebeheer (https://repos.deltares.nl/repos/DigSysRapWadden/). Daar is precies te herleiden wanneer en door wie aan een bepaalde indicator is gewerkt, en welke bewerkingen op brondata zijn gedaan. 
