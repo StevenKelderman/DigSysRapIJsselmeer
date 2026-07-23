@@ -10,3 +10,4 @@ libs/
 **/*.html 
 # ignore all html files except:
 !**/mathjax_header.html
+!**/interactive/*
