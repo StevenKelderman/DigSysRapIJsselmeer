@@ -265,9 +265,9 @@ Tekst
 ```{r def, echo=FALSE, results='asis'}
 cat(
   '<iframe
-      src="images/interactive/wind_and_flows_combined_4subplots_test.html"
+      src="images/interactive/interactive_plot_waterbalans_wind_saliniteit_20260723.html"
       width="100%"
-      height="2000px"
+      height="1200px"
       style="border:none;">
    </iframe>'
 )
