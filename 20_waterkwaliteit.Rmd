@@ -77,104 +77,104 @@ leaflet::leaflet(WQlocations_IJS) %>%
 !!! DIT IS EEN TESTVERSIE !!!
 
 ```{r waterbalans-01, echo=FALSE, fig.cap="debiet IJssel"}
-knitr::include_graphics("images/waterbalans/debiet_IJssel.png")
+knitr::include_graphics("images/debiet/debiet_IJssel.png")
 ```
 
 ```{r waterbalans-02, echo=FALSE, fig.cap="debiet Olst (m3/s)"}
-knitr::include_graphics("images/waterbalans/debiet_Olst_Debiet_in_Oppervlaktewater_in_m3-s_20260803.png")
+knitr::include_graphics("images/debiet/debiet_Olst_Debiet_in_Oppervlaktewater_in_m3-s_20260803.png")
 ```
 
 ```{r waterbalans-03, echo=FALSE, fig.cap="debiet Olst etmaalgemiddelde"}
-knitr::include_graphics("images/waterbalans/debiet_Olst_Etmaalgemiddelde_Debiet_in_Oppervlaktewater_in_m3-s_20260803.png")
+knitr::include_graphics("images/debiet/debiet_Olst_Etmaalgemiddelde_Debiet_in_Oppervlaktewater_in_m3-s_20260803.png")
 ```
 
 ```{r waterbalans-04, echo=FALSE, fig.cap="debiet Neerslag"}
-knitr::include_graphics("images/waterbalans/debiet_Neerslag.png")
+knitr::include_graphics("images/debiet/debiet_Neerslag.png")
 ```
 
 ```{r waterbalans-05, echo=FALSE, fig.cap="debiet Den Oever, Waddenzee voorhaven (m3/d)"}
-knitr::include_graphics("images/waterbalans/debiet_Den_Oever,_Waddenzee_voorhaven_Debiet_in_Oppervlaktewater_in_m3-d_20260803.png")
+knitr::include_graphics("images/debiet/debiet_Den_Oever,_Waddenzee_voorhaven_Debiet_in_Oppervlaktewater_in_m3-d_20260803.png")
 ```
 
 ```{r waterbalans-06, echo=FALSE, fig.cap="debiet Den Oever, Waddenzee voorhaven (m3/s)"}
-knitr::include_graphics("images/waterbalans/debiet_Den_Oever,_Waddenzee_voorhaven_Debiet_in_Oppervlaktewater_in_m3-s_20260803.png")
+knitr::include_graphics("images/debiet/debiet_Den_Oever,_Waddenzee_voorhaven_Debiet_in_Oppervlaktewater_in_m3-s_20260803.png")
 ```
 
 ```{r waterbalans-07, echo=FALSE, fig.cap="debiet Kornwerderzand Waddenzee buitenhaven (m3/d)"}
-knitr::include_graphics("images/waterbalans/debiet_Kornwerderzand_Waddenzee_buitenhaven_Debiet_in_Oppervlaktewater_in_m3-d_20260803.png")
+knitr::include_graphics("images/debiet/debiet_Kornwerderzand_Waddenzee_buitenhaven_Debiet_in_Oppervlaktewater_in_m3-d_20260803.png")
 ```
 
 ```{r waterbalans-08, echo=FALSE, fig.cap="debiet Kornwerderzand Waddenzee buitenhaven (m3/s)"}
-knitr::include_graphics("images/waterbalans/debiet_Kornwerderzand_Waddenzee_buitenhaven_Debiet_in_Oppervlaktewater_in_m3-s_20260803.png")
+knitr::include_graphics("images/debiet/debiet_Kornwerderzand_Waddenzee_buitenhaven_Debiet_in_Oppervlaktewater_in_m3-s_20260803.png")
 ```
 
 ```{r waterbalans-09, echo=FALSE, fig.cap="debiet Lorentz spuisluizen (Afsluitdijk)"}
-knitr::include_graphics("images/waterbalans/debiet_Lorentz_spuisluizen_(Afsluitdijk).png")
+knitr::include_graphics("images/debiet/debiet_Lorentz_spuisluizen_(Afsluitdijk).png")
 ```
 
 ```{r waterbalans-10, echo=FALSE, fig.cap="debiet Stevin spuisluizen (Afsluitdijk)"}
-knitr::include_graphics("images/waterbalans/debiet_Stevin_spuisluizen_(afsluitdijk).png")
+knitr::include_graphics("images/debiet/debiet_Stevin_spuisluizen_(afsluitdijk).png")
 ```
 
 ```{r waterbalans-11, echo=FALSE, fig.cap="debiet Verdamping"}
-knitr::include_graphics("images/waterbalans/debiet_Verdamping.png")
+knitr::include_graphics("images/debiet/debiet_Verdamping.png")
 ```
 
 
 ```{r waterbalans-12, echo=FALSE, fig.cap="debiet Houtrib spuisluizen (Houtribdijk) aanvoer"}
-knitr::include_graphics("images/waterbalans/debiet_Houtrib_spuisluizen_(Houtribdijk)_aanvoer.png")
+knitr::include_graphics("images/debiet/debiet_Houtrib_spuisluizen_(Houtribdijk)_aanvoer.png")
 ```
 
 ```{r waterbalans-13, echo=FALSE, fig.cap="debiet Houtrib spuisluizen (Houtribdijk) afvoer"}
-knitr::include_graphics("images/waterbalans/debiet_Houtrib_spuisluizen_(Houtribdijk)_afvoer.png")
+knitr::include_graphics("images/debiet/debiet_Houtrib_spuisluizen_(Houtribdijk)_afvoer.png")
 ```
 
 ```{r waterbalans-14, echo=FALSE, fig.cap="debiet Krabbersgat, IJsselmeer (m3/d)"}
-knitr::include_graphics("images/waterbalans/debiet_Krabbersgat,_IJsselmeer_Debiet_in_Oppervlaktewater_in_m3-d_20260803.png")
+knitr::include_graphics("images/debiet/debiet_Krabbersgat,_IJsselmeer_Debiet_in_Oppervlaktewater_in_m3-d_20260803.png")
 ```
 
 ```{r waterbalans-15, echo=FALSE, fig.cap="debiet Krabbersgat, IJsselmeer (m3/s)"}
-knitr::include_graphics("images/waterbalans/debiet_Krabbersgat,_IJsselmeer_Debiet_in_Oppervlaktewater_in_m3-s_20260803.png")
+knitr::include_graphics("images/debiet/debiet_Krabbersgat,_IJsselmeer_Debiet_in_Oppervlaktewater_in_m3-s_20260803.png")
 ```
 
 ```{r waterbalans-16, echo=FALSE, fig.cap="debiet Krabbersgat, IJsselmeer etmaalgemiddelde"}
-knitr::include_graphics("images/waterbalans/debiet_Krabbersgat,_IJsselmeer_Etmaalgemiddelde_Debiet_in_Oppervlaktewater_in_m3-s_20260803.png")
+knitr::include_graphics("images/debiet/debiet_Krabbersgat,_IJsselmeer_Etmaalgemiddelde_Debiet_in_Oppervlaktewater_in_m3-s_20260803.png")
 ```
 
 ```{r waterbalans-17, echo=FALSE, fig.cap="debiet Krabbersgat, IJsselmeer sommatie waarden"}
-knitr::include_graphics("images/waterbalans/debiet_Krabbersgat,_IJsselmeer_Sommatie_waarden_Debiet_in_Oppervlaktewater_in_m3-d_20260803.png")
+knitr::include_graphics("images/debiet/debiet_Krabbersgat,_IJsselmeer_Sommatie_waarden_Debiet_in_Oppervlaktewater_in_m3-d_20260803.png")
 ```
 
 ```{r waterbalans-18, echo=FALSE, fig.cap="debiet Krabbersgat spuisluizen (Houtribdijk) aanvoer"}
-knitr::include_graphics("images/waterbalans/debiet_Krabbersgat_spuisluizen_(Houtribdijk)_aanvoer.png")
+knitr::include_graphics("images/debiet/debiet_Krabbersgat_spuisluizen_(Houtribdijk)_aanvoer.png")
 ```
 
 ```{r waterbalans-19, echo=FALSE, fig.cap="debiet Krabbersgat spuisluizen (Houtribdijk) afvoer"}
-knitr::include_graphics("images/waterbalans/debiet_Krabbersgat_spuisluizen_(Houtribdijk)_afvoer.png")
+knitr::include_graphics("images/debiet/debiet_Krabbersgat_spuisluizen_(Houtribdijk)_afvoer.png")
 ```
 
 ```{r waterbalans-20, echo=FALSE, fig.cap="debiet Lelystad Houtribsluis noord (m3/d)"}
-knitr::include_graphics("images/waterbalans/debiet_Lelystad,_Houtribsluis,_noord_Debiet_in_Oppervlaktewater_in_m3-d_20260803.png")
+knitr::include_graphics("images/debiet/debiet_Lelystad,_Houtribsluis,_noord_Debiet_in_Oppervlaktewater_in_m3-d_20260803.png")
 ```
 
 ```{r waterbalans-21, echo=FALSE, fig.cap="debiet Lelystad Houtribsluis noord (m3/s)"}
-knitr::include_graphics("images/waterbalans/debiet_Lelystad,_Houtribsluis,_noord_Debiet_in_Oppervlaktewater_in_m3-s_20260803.png")
+knitr::include_graphics("images/debiet/debiet_Lelystad,_Houtribsluis,_noord_Debiet_in_Oppervlaktewater_in_m3-s_20260803.png")
 ```
 
 ```{r waterbalans-22, echo=FALSE, fig.cap="debiet Lelystad Houtribsluis noord etmaalgemiddelde"}
-knitr::include_graphics("images/waterbalans/debiet_Lelystad,_Houtribsluis,_noord_Etmaalgemiddelde_Debiet_in_Oppervlaktewater_in_m3-s_20260803.png")
+knitr::include_graphics("images/debiet/debiet_Lelystad,_Houtribsluis,_noord_Etmaalgemiddelde_Debiet_in_Oppervlaktewater_in_m3-s_20260803.png")
 ```
 
 ```{r waterbalans-23, echo=FALSE, fig.cap="debiet Lelystad Houtribsluis noord sommatie waarden"}
-knitr::include_graphics("images/waterbalans/debiet_Lelystad,_Houtribsluis,_noord_Sommatie_waarden_Debiet_in_Oppervlaktewater_in_m3-d_20260803.png")
+knitr::include_graphics("images/debiet/debiet_Lelystad,_Houtribsluis,_noord_Sommatie_waarden_Debiet_in_Oppervlaktewater_in_m3-d_20260803.png")
 ```
 
 ```{r waterbalans-24, echo=FALSE, fig.cap="debiet all other locations summed"}
-knitr::include_graphics("images/waterbalans/debiet_all_other_locations_summed.png")
+knitr::include_graphics("images/debiet/debiet_all_other_locations_summed.png")
 ```
 
 ```{r waterbalans-25, echo=FALSE, fig.cap="debiet Berging IJsselmeer"}
-knitr::include_graphics("images/waterbalans/debiet_Berging_IJsselmeer.png")
+knitr::include_graphics("images/debiet/debiet_Berging_IJsselmeer.png")
 ```
 
 ```{r waterbalans-26, echo=FALSE, fig.cap="monthly in out netto flow"}
