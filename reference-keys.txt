@@ -16,8 +16,8 @@ informatiebehoefte-en-indicatoren
 handleiding-voor-gebruik
 Waterkwaliteit
 afbakening-definitie-en-herkomst
-waterbalans
-zoutbalans
+water
+zout
 mwtl-metingen
 waterhoogte
 debiet
