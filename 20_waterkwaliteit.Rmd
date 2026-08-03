@@ -190,7 +190,7 @@ knitr::include_graphics("images/waterbalans/monthly_in_out_percentage.png")
 !!! DIT IS EEN TESTVERSIE !!!
 De onderstaande figuren tonen de ontwikkeling van windsnelheid en windrichting op meetlocaties in en rond het IJsselmeergebied. Wind is een belangrijke sturende factor binnen het watersysteem en heeft invloed op onder andere waterstanden, golfopbouw, menging van de waterkolom en de verspreiding van stoffen. De tijdreeksen laten zowel seizoensgebonden patronen als kortdurende stormachtige gebeurtenissen zien. Door de ontwikkelingen door de tijd te volgen en verschillende locaties met elkaar te vergelijken, ontstaat inzicht in de ruimtelijke en temporele variatie van de windcondities en hun mogelijke invloed op het functioneren van het watersysteem.
 
-```{r interactive-wind, echo=FALSE, results='asis', fig.cap="Windsnelheid en windrichting Stavoren"}
+```{r interactive-wind, echo=FALSE, results='asis'}
 cat(
   '<iframe
       src="images\\wind\\wind_speed_direction_Stavoren IJsselmeer.html"
