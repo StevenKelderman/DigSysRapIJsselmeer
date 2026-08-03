@@ -76,16 +76,140 @@ leaflet::leaflet(WQlocations_IJS) %>%
 
 !!! DIT IS EEN TESTVERSIE !!!
 
-```{r waterbalans, echo=FALSE}
+```{r waterbalans-01, echo=FALSE, fig.cap="debiet IJssel"}
+knitr::include_graphics("images/waterbalans/debiet_IJssel.png")
+```
+
+```{r waterbalans-02, echo=FALSE, fig.cap="debiet Olst (m3/s)"}
+knitr::include_graphics("images/waterbalans/debiet_Olst_Debiet_in_Oppervlaktewater_in_m3-s_20260803.png")
+```
+
+```{r waterbalans-03, echo=FALSE, fig.cap="debiet Olst etmaalgemiddelde"}
+knitr::include_graphics("images/waterbalans/debiet_Olst_Etmaalgemiddelde_Debiet_in_Oppervlaktewater_in_m3-s_20260803.png")
+```
+
+```{r waterbalans-04, echo=FALSE, fig.cap="debiet Neerslag"}
+knitr::include_graphics("images/waterbalans/debiet_Neerslag.png")
+```
+
+```{r waterbalans-05, echo=FALSE, fig.cap="debiet Den Oever, Waddenzee voorhaven (m3/d)"}
+knitr::include_graphics("images/waterbalans/debiet_Den_Oever,_Waddenzee_voorhaven_Debiet_in_Oppervlaktewater_in_m3-d_20260803.png")
+```
+
+```{r waterbalans-06, echo=FALSE, fig.cap="debiet Den Oever, Waddenzee voorhaven (m3/s)"}
+knitr::include_graphics("images/waterbalans/debiet_Den_Oever,_Waddenzee_voorhaven_Debiet_in_Oppervlaktewater_in_m3-s_20260803.png")
+```
+
+```{r waterbalans-07, echo=FALSE, fig.cap="debiet Kornwerderzand Waddenzee buitenhaven (m3/d)"}
+knitr::include_graphics("images/waterbalans/debiet_Kornwerderzand_Waddenzee_buitenhaven_Debiet_in_Oppervlaktewater_in_m3-d_20260803.png")
+```
+
+```{r waterbalans-08, echo=FALSE, fig.cap="debiet Kornwerderzand Waddenzee buitenhaven (m3/s)"}
+knitr::include_graphics("images/waterbalans/debiet_Kornwerderzand_Waddenzee_buitenhaven_Debiet_in_Oppervlaktewater_in_m3-s_20260803.png")
+```
+
+```{r waterbalans-09, echo=FALSE, fig.cap="debiet Lorentz spuisluizen (Afsluitdijk)"}
+knitr::include_graphics("images/waterbalans/debiet_Lorentz_spuisluizen_(Afsluitdijk).png")
+```
+
+```{r waterbalans-10, echo=FALSE, fig.cap="debiet Stevin spuisluizen (Afsluitdijk)"}
+knitr::include_graphics("images/waterbalans/debiet_Stevin_spuisluizen_(afsluitdijk).png")
+```
+
+```{r waterbalans-11, echo=FALSE, fig.cap="debiet Verdamping"}
+knitr::include_graphics("images/waterbalans/debiet_Verdamping.png")
+```
+
+
+```{r waterbalans-12, echo=FALSE, fig.cap="debiet Houtrib spuisluizen (Houtribdijk) aanvoer"}
+knitr::include_graphics("images/waterbalans/debiet_Houtrib_spuisluizen_(Houtribdijk)_aanvoer.png")
+```
+
+```{r waterbalans-13, echo=FALSE, fig.cap="debiet Houtrib spuisluizen (Houtribdijk) afvoer"}
+knitr::include_graphics("images/waterbalans/debiet_Houtrib_spuisluizen_(Houtribdijk)_afvoer.png")
+```
+
+```{r waterbalans-14, echo=FALSE, fig.cap="debiet Krabbersgat, IJsselmeer (m3/d)"}
+knitr::include_graphics("images/waterbalans/debiet_Krabbersgat,_IJsselmeer_Debiet_in_Oppervlaktewater_in_m3-d_20260803.png")
+```
+
+```{r waterbalans-15, echo=FALSE, fig.cap="debiet Krabbersgat, IJsselmeer (m3/s)"}
+knitr::include_graphics("images/waterbalans/debiet_Krabbersgat,_IJsselmeer_Debiet_in_Oppervlaktewater_in_m3-s_20260803.png")
+```
+
+```{r waterbalans-16, echo=FALSE, fig.cap="debiet Krabbersgat, IJsselmeer etmaalgemiddelde"}
+knitr::include_graphics("images/waterbalans/debiet_Krabbersgat,_IJsselmeer_Etmaalgemiddelde_Debiet_in_Oppervlaktewater_in_m3-s_20260803.png")
+```
+
+```{r waterbalans-17, echo=FALSE, fig.cap="debiet Krabbersgat, IJsselmeer sommatie waarden"}
+knitr::include_graphics("images/waterbalans/debiet_Krabbersgat,_IJsselmeer_Sommatie_waarden_Debiet_in_Oppervlaktewater_in_m3-d_20260803.png")
+```
+
+```{r waterbalans-18, echo=FALSE, fig.cap="debiet Krabbersgat spuisluizen (Houtribdijk) aanvoer"}
+knitr::include_graphics("images/waterbalans/debiet_Krabbersgat_spuisluizen_(Houtribdijk)_aanvoer.png")
+```
+
+```{r waterbalans-19, echo=FALSE, fig.cap="debiet Krabbersgat spuisluizen (Houtribdijk) afvoer"}
+knitr::include_graphics("images/waterbalans/debiet_Krabbersgat_spuisluizen_(Houtribdijk)_afvoer.png")
+```
+
+```{r waterbalans-20, echo=FALSE, fig.cap="debiet Lelystad Houtribsluis noord (m3/d)"}
+knitr::include_graphics("images/waterbalans/debiet_Lelystad,_Houtribsluis,_noord_Debiet_in_Oppervlaktewater_in_m3-d_20260803.png")
+```
+
+```{r waterbalans-21, echo=FALSE, fig.cap="debiet Lelystad Houtribsluis noord (m3/s)"}
+knitr::include_graphics("images/waterbalans/debiet_Lelystad,_Houtribsluis,_noord_Debiet_in_Oppervlaktewater_in_m3-s_20260803.png")
+```
+
+```{r waterbalans-22, echo=FALSE, fig.cap="debiet Lelystad Houtribsluis noord etmaalgemiddelde"}
+knitr::include_graphics("images/waterbalans/debiet_Lelystad,_Houtribsluis,_noord_Etmaalgemiddelde_Debiet_in_Oppervlaktewater_in_m3-s_20260803.png")
+```
+
+```{r waterbalans-23, echo=FALSE, fig.cap="debiet Lelystad Houtribsluis noord sommatie waarden"}
+knitr::include_graphics("images/waterbalans/debiet_Lelystad,_Houtribsluis,_noord_Sommatie_waarden_Debiet_in_Oppervlaktewater_in_m3-d_20260803.png")
+```
+
+```{r waterbalans-24, echo=FALSE, fig.cap="debiet all other locations summed"}
+knitr::include_graphics("images/waterbalans/debiet_all_other_locations_summed.png")
+```
+
+```{r waterbalans-25, echo=FALSE, fig.cap="debiet Berging IJsselmeer"}
+knitr::include_graphics("images/waterbalans/debiet_Berging_IJsselmeer.png")
+```
+
+```{r waterbalans-26, echo=FALSE, fig.cap="monthly in out netto flow"}
+knitr::include_graphics("images/waterbalans/monthly_in_out_netto_flow.png")
+```
+
+```{r waterbalans-27, echo=FALSE, fig.cap="monthly in out percentage"}
+knitr::include_graphics("images/waterbalans/monthly_in_out_percentage.png")
+```
+
+## Wind {#wind}
+
+!!! DIT IS EEN TESTVERSIE !!!
+De onderstaande figuren tonen de ontwikkeling van windsnelheid en windrichting op meetlocaties in en rond het IJsselmeergebied. Wind is een belangrijke sturende factor binnen het watersysteem en heeft invloed op onder andere waterstanden, golfopbouw, menging van de waterkolom en de verspreiding van stoffen. De tijdreeksen laten zowel seizoensgebonden patronen als kortdurende stormachtige gebeurtenissen zien. Door de ontwikkelingen door de tijd te volgen en verschillende locaties met elkaar te vergelijken, ontstaat inzicht in de ruimtelijke en temporele variatie van de windcondities en hun mogelijke invloed op het functioneren van het watersysteem.
+
+```{r interactive-wind, echo=FALSE, results='asis', fig.cap="Windsnelheid en windrichting Stavoren"}
+cat(
+  '<iframe
+      src="images\\wind\\wind_speed_direction_Stavoren IJsselmeer.html"
+      width="100%"
+      height="650px"
+      style="border:none;">
+   </iframe>'
+)
+```
+
+```{r wind, echo=FALSE}
 imgs <- list.files(
-  "images/waterbalans",
+  "images/wind",
   pattern = "\\.png$",
   full.names = TRUE
 )
 
 knitr::include_graphics(imgs)
 ```
-## Wind {#wind}
 
 ## Zout {#zout}
 
@@ -188,20 +312,6 @@ imgs <- list.files(
 
 knitr::include_graphics(imgs)
 ```
-## Wind {#wind}
-
-!!! DIT IS EEN TESTVERSIE !!!
-De onderstaande figuren tonen de ontwikkeling van windsnelheid en windrichting op meetlocaties in en rond het IJsselmeergebied. Wind is een belangrijke sturende factor binnen het watersysteem en heeft invloed op onder andere waterstanden, golfopbouw, menging van de waterkolom en de verspreiding van stoffen. De tijdreeksen laten zowel seizoensgebonden patronen als kortdurende stormachtige gebeurtenissen zien. Door de ontwikkelingen door de tijd te volgen en verschillende locaties met elkaar te vergelijken, ontstaat inzicht in de ruimtelijke en temporele variatie van de windcondities en hun mogelijke invloed op het functioneren van het watersysteem.
-
-```{r wind, echo=FALSE}
-imgs <- list.files(
-  "images/wind",
-  pattern = "\\.png$",
-  full.names = TRUE
-)
-
-knitr::include_graphics(imgs)
-```
 
 ## Waterhoogte {#waterhoogte}
 
@@ -251,7 +361,7 @@ Tekst
 ```{r def, echo=FALSE, results='asis'}
 cat(
   '<iframe
-      src="images/interactive/interactive_plot_waterbalans_wind_saliniteit_20260723.html"
+      src="images/interactive/interactive_plot_waterbalans_wind_saliniteit_20260728.html"
       width="100%"
       height="1200px"
       style="border:none;">
