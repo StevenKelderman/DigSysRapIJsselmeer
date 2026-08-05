@@ -194,7 +194,7 @@ De onderstaande figuren tonen de ontwikkeling van windsnelheid en windrichting o
 ```{r interactive-wind, echo=FALSE, results='asis'}
 cat(
   '<iframe
-      src="images\\wind\\wind_speed_direction_Stavoren_IJsselmeer.html"
+      src="images/wind/wind_speed_direction_Stavoren_IJsselmeer.html"
       width="100%"
       height="650px"
       style="border:none;">
