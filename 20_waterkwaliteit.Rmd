@@ -81,19 +81,19 @@ knitr::include_graphics("images/debiet/WADAR_debiet_olst_20260824.png")
 ```
 
 ```{r 02-Debiet-Lorentzsluizen, echo=FALSE, fig.cap="debiet Lorentz spuisluizen"}
-knitr::include_graphics("images/debiet/carlijn_debiet_Lorentz_spuisluizen_(Afsluitdijk)_20260824.png")
+knitr::include_graphics("images/debiet/carlijn_debiet_Lorentz_spuisluizen_Afsluitdijk_20260824.png")
 ```
 
 ```{r 03-Debiet-Stevinssluizen, echo=FALSE, fig.cap="debiet Stevin spuisluizen"}
-knitr::include_graphics("images/debiet/carlijn_debiet_Stevin_spuisluizen_(afsluitdijk)_20260824.png")
+knitr::include_graphics("images/debiet/carlijn_debiet_Stevin_spuisluizen_afsluitdijk_20260824.png")
 ```
 
 ```{r 04-Debiet-Houtribsluis, echo=FALSE, fig.cap="debiet Houtribsluis noord"}
-knitr::include_graphics("images/debiet/WADAR_debiet_lelystad.houtribsluis.noord_20260824.png")
+knitr::include_graphics("images/debiet/WADAR_debiet_lelystad_houtribsluis_noord_20260824.png")
 ```
 
 ```{r 05-Debiet-Krabbersgatsluizen, echo=FALSE, fig.cap="debiet Krabbersgat"}
-knitr::include_graphics("images/debiet/WADAR_debiet_krabbersgat.ijsselmeer_20260824.png")
+knitr::include_graphics("images/debiet/WADAR_debiet_krabbersgat_ijsselmeer_20260824.png")
 ```
 
 ```{r 06-Debiet-overig, echo=FALSE, fig.cap="debiet overige locaties"}
@@ -263,19 +263,19 @@ knitr::include_graphics("images/saliniteit/WADAR_chloride_Andijk_20260824.png")
 ```
 
 ```{r 01-Zout-PWN, echo=FALSE, fig.cap="Chloride PWN"}
-knitr::include_graphics("images/saliniteit/carlijn_chloride_PWN_&_WRK_III_20260824.png")
+knitr::include_graphics("images/saliniteit/carlijn_chloride_PWN_WRK_III_20260824.png")
 ```
 
 ```{r 02-Zout-Den-oever-IJsselmeer-binnenhaven, echo=FALSE, fig.cap="Chloride Den Oever binnenhaven"}
-knitr::include_graphics("images/saliniteit/WADAR_chloride_Den_Oever,_IJsselmeer_binnenhaven_20260824.png")
+knitr::include_graphics("images/saliniteit/WADAR_chloride_Den_Oever_IJsselmeer_binnenhaven_20260824.png")
 ```
 
 ```{r 03-Zout-Den-oever-spuisluis-binnen, echo=FALSE, fig.cap="Chloride Den Oever spuisluis binnen"}
-knitr::include_graphics("images/saliniteit/WADAR_chloride_Den_Oever,_spuisluis,_binnen_20260824.png")
+knitr::include_graphics("images/saliniteit/WADAR_chloride_Den_Oever_spuisluis_binnen_20260824.png")
 ```
 
 ```{r 04-Zout-Den-oever-waddenzee, echo=FALSE, fig.cap="Chloride Den Oever voorhaven kolk"}
-knitr::include_graphics("images/saliniteit/WADAR_chloride_Den_Oever,_Waddenzee_voorhaven_kolk_20260824.png")
+knitr::include_graphics("images/saliniteit/WADAR_chloride_Den_Oever_Waddenzee_voorhaven_kolk_20260824.png")
 ```
 
 ```{r 05-Zout-Den-oever-vaargeul, echo=FALSE, fig.cap="Chloride Den Oever Vaargeul"}
@@ -287,11 +287,11 @@ knitr::include_graphics("images/saliniteit/WADAR_chloride_Den_Oever_Stevinsluize
 ```
 
 ```{r 07-Zout-Kornwerderzand-IJsselmeer-binnenhaven, echo=FALSE, fig.cap="Chloride Kornwerderzand binnenhaven"}
-knitr::include_graphics("images/saliniteit/WADAR_chloride_Kornwerderzand,_IJsselmeer_binnenhaven_20260824.png")
+knitr::include_graphics("images/saliniteit/WADAR_chloride_Kornwerderzand_IJsselmeer_binnenhaven_20260824.png")
 ```
 
 ```{r 08-Zout-Kornwerderzand-Waddenzee, echo=FALSE, fig.cap="Chloride Kornwerderzand Waddenzee"}
-knitr::include_graphics("images/saliniteit/WADAR_chloride_Kornwerderzand,_Waddenzee_voorhaven_kolk_20260824.png")
+knitr::include_graphics("images/saliniteit/WADAR_chloride_Kornwerderzand_Waddenzee_voorhaven_kolk_20260824.png")
 ```
 
 ```{r 09-Zout-Kornwerderzand-middelgronden, echo=FALSE, fig.cap="Chloride Kornwerderzand Middelgronden"}
@@ -311,33 +311,33 @@ knitr::include_graphics("images/saliniteit/WADAR_chloride_Kornwerderzand_Spuihav
 ```
 
 ```{r 13-Zout-Vrouwezand, echo=FALSE, fig.cap="Chloride Vrouwezand"}
-knitr::include_graphics("images/saliniteit/WADAR_chloride_Vrouwezand,_meetpaal_20260824.png")
+knitr::include_graphics("images/saliniteit/WADAR_chloride_Vrouwezand_meetpaal_20260824.png")
 ```
 
 ```{r 14-Zout-gemaal-Lely, echo=FALSE, fig.cap="Chloride gemaal Lely"}
-knitr::include_graphics("images/saliniteit/carlijn_chloride_gemaal_Lely_(Hollands_Kroon_HHNK)_20260824.png")
+knitr::include_graphics("images/saliniteit/carlijn_chloride_gemaal_Lely_Hollands_Kroon_HHNK_20260824.png")
 ```
 
 ##### Markermeer
 
 ```{r 01-Zout-Blocq-van-Kuffeler-hoog, echo=FALSE, fig.cap="Chloride Blocq-van-Kuffeler-hoog"}
-knitr::include_graphics("images/saliniteit/carlijn_chloride_gemaal_Blocq_van_Kuffeler_(hoog)_20260824.png")
+knitr::include_graphics("images/saliniteit/carlijn_chloride_gemaal_Blocq_van_Kuffeler_hoog_20260824.png")
 ```
 
 ```{r 02-Zout-Blocq-van-Kuffeler-laag, echo=FALSE, fig.cap="Chloride Blocq-van-Kuffeler-laag"}
-knitr::include_graphics("images/saliniteit/carlijn_chloride_gemaal_Blocq_van_Kuffeler_(laag)_20260824.png")
+knitr::include_graphics("images/saliniteit/carlijn_chloride_gemaal_Blocq_van_Kuffeler_laag_20260824.png")
 ```
 
 ```{r 03-Zout-gemaal-zeeburg-aanvoer, echo=FALSE, fig.cap="Chloride gemaal-zeeburg-aanvoer"}
-knitr::include_graphics("images/saliniteit/carlijn_chloride_gemaal_Zeeburg_aanvoer_(Amsterdam)_20260824.png")
+knitr::include_graphics("images/saliniteit/carlijn_chloride_gemaal_Zeeburg_aanvoer_Amsterdam_20260824.png")
 ```
 
 ```{r 04-Zout-gemaal-zeeburg-afvoer, echo=FALSE, fig.cap="Chloride gemaal-zeeburg-afvoer"}
-knitr::include_graphics("images/saliniteit/carlijn_chloride_gemaal_Zeeburg_afvoer_(Amsterdam)_20260824.png")
+knitr::include_graphics("images/saliniteit/carlijn_chloride_gemaal_Zeeburg_afvoer_Amsterdam_20260824.png")
 ```
 
 ```{r 05-Zout-Oranjesluizen, echo=FALSE, fig.cap="Chloride Schellingwoudebrug"}
-knitr::include_graphics("images/saliniteit/WADAR_chloride_Amsterdam,_Schellingwouderbrug_20260824.png")
+knitr::include_graphics("images/saliniteit/WADAR_chloride_Amsterdam_Schellingwouderbrug_20260824.png")
 ```
 
 ```{r 06-Zout-Schellingwoude, echo=FALSE, fig.cap="Chloride Oranjesluizen/Schellingerwoude"}
