@@ -76,112 +76,51 @@ leaflet::leaflet(WQlocations_IJS) %>%
 
 !!! DIT IS EEN TESTVERSIE !!!
 
-```{r waterbalans-01, echo=FALSE, fig.cap="debiet IJssel"}
-knitr::include_graphics("images/debiet/debiet_IJssel.png")
+```{r 01-Debiet-IJssel, echo=FALSE, fig.cap="debiet IJssel gemeten bij Olst"}
+knitr::include_graphics("images/debiet/WADAR_debiet_olst_20260824.png")
 ```
 
-```{r waterbalans-02, echo=FALSE, fig.cap="debiet Olst (m3/s)"}
-knitr::include_graphics("images/debiet/debiet_Olst_Debiet_in_Oppervlaktewater_in_m3-s_20260803.png")
+```{r 02-Debiet-Lorentzsluizen, echo=FALSE, fig.cap="debiet Lorentz spuisluizen"}
+knitr::include_graphics("images/debiet/carlijn_debiet_Lorentz_spuisluizen_(Afsluitdijk)_20260824.png")
 ```
 
-```{r waterbalans-03, echo=FALSE, fig.cap="debiet Olst etmaalgemiddelde"}
-knitr::include_graphics("images/debiet/debiet_Olst_Etmaalgemiddelde_Debiet_in_Oppervlaktewater_in_m3-s_20260803.png")
+```{r 03-Debiet-Stevinssluizen, echo=FALSE, fig.cap="debiet Stevin spuisluizen"}
+knitr::include_graphics("images/debiet/carlijn_debiet_Stevin_spuisluizen_(afsluitdijk)_20260824.png")
 ```
 
-```{r waterbalans-04, echo=FALSE, fig.cap="debiet Neerslag"}
-knitr::include_graphics("images/debiet/debiet_Neerslag.png")
+```{r 04-Debiet-Houtribsluis, echo=FALSE, fig.cap="debiet Houtribsluis noord"}
+knitr::include_graphics("images/debiet/WADAR_debiet_lelystad.houtribsluis.noord_20260824.png")
 ```
 
-```{r waterbalans-05, echo=FALSE, fig.cap="debiet Den Oever, Waddenzee voorhaven (m3/d)"}
-knitr::include_graphics("images/debiet/debiet_Den_Oever,_Waddenzee_voorhaven_Debiet_in_Oppervlaktewater_in_m3-d_20260803.png")
+```{r 05-Debiet-Krabbersgatsluizen, echo=FALSE, fig.cap="debiet Krabbersgat"}
+knitr::include_graphics("images/debiet/WADAR_debiet_krabbersgat.ijsselmeer_20260824.png")
 ```
 
-```{r waterbalans-06, echo=FALSE, fig.cap="debiet Den Oever, Waddenzee voorhaven (m3/s)"}
-knitr::include_graphics("images/debiet/debiet_Den_Oever,_Waddenzee_voorhaven_Debiet_in_Oppervlaktewater_in_m3-s_20260803.png")
+```{r 06-Debiet-overig, echo=FALSE, fig.cap="debiet overige locaties"}
+knitr::include_graphics("images/debiet/carlijn_debiet_overig_20260824.png")
 ```
 
-```{r waterbalans-07, echo=FALSE, fig.cap="debiet Kornwerderzand Waddenzee buitenhaven (m3/d)"}
-knitr::include_graphics("images/debiet/debiet_Kornwerderzand_Waddenzee_buitenhaven_Debiet_in_Oppervlaktewater_in_m3-d_20260803.png")
+#### Berging/Meerpeil
+```{r 01-Berging-IJsselmeer, echo=FALSE, fig.cap="Berging IJsselmeer"}
+knitr::include_graphics("images/debiet/carlijn_debiet_Berging_IJsselmeer_20260824.png")
 ```
 
-```{r waterbalans-08, echo=FALSE, fig.cap="debiet Kornwerderzand Waddenzee buitenhaven (m3/s)"}
-knitr::include_graphics("images/debiet/debiet_Kornwerderzand_Waddenzee_buitenhaven_Debiet_in_Oppervlaktewater_in_m3-s_20260803.png")
+#### Meteorologie
+```{r 01-Neerslag, echo=FALSE, fig.cap="Neerslag op dagbasis IJsselmeer"}
+knitr::include_graphics("images/debiet/carlijn_debiet_Neerslag_20260824.png")
 ```
 
-```{r waterbalans-09, echo=FALSE, fig.cap="debiet Lorentz spuisluizen (Afsluitdijk)"}
-knitr::include_graphics("images/debiet/debiet_Lorentz_spuisluizen_(Afsluitdijk).png")
+```{r 02-Verdamping, echo=FALSE, fig.cap="Verdamping op dagbasis IJsselmeer"}
+knitr::include_graphics("images/debiet/carlijn_debiet_Verdamping_20260824.png")
 ```
 
-```{r waterbalans-10, echo=FALSE, fig.cap="debiet Stevin spuisluizen (Afsluitdijk)"}
-knitr::include_graphics("images/debiet/debiet_Stevin_spuisluizen_(afsluitdijk).png")
-```
+#### Waterbalans
 
-```{r waterbalans-11, echo=FALSE, fig.cap="debiet Verdamping"}
-knitr::include_graphics("images/debiet/debiet_Verdamping.png")
-```
-
-
-```{r waterbalans-12, echo=FALSE, fig.cap="debiet Houtrib spuisluizen (Houtribdijk) aanvoer"}
-knitr::include_graphics("images/debiet/debiet_Houtrib_spuisluizen_(Houtribdijk)_aanvoer.png")
-```
-
-```{r waterbalans-13, echo=FALSE, fig.cap="debiet Houtrib spuisluizen (Houtribdijk) afvoer"}
-knitr::include_graphics("images/debiet/debiet_Houtrib_spuisluizen_(Houtribdijk)_afvoer.png")
-```
-
-```{r waterbalans-14, echo=FALSE, fig.cap="debiet Krabbersgat, IJsselmeer (m3/d)"}
-knitr::include_graphics("images/debiet/debiet_Krabbersgat,_IJsselmeer_Debiet_in_Oppervlaktewater_in_m3-d_20260803.png")
-```
-
-```{r waterbalans-15, echo=FALSE, fig.cap="debiet Krabbersgat, IJsselmeer (m3/s)"}
-knitr::include_graphics("images/debiet/debiet_Krabbersgat,_IJsselmeer_Debiet_in_Oppervlaktewater_in_m3-s_20260803.png")
-```
-
-```{r waterbalans-16, echo=FALSE, fig.cap="debiet Krabbersgat, IJsselmeer etmaalgemiddelde"}
-knitr::include_graphics("images/debiet/debiet_Krabbersgat,_IJsselmeer_Etmaalgemiddelde_Debiet_in_Oppervlaktewater_in_m3-s_20260803.png")
-```
-
-```{r waterbalans-17, echo=FALSE, fig.cap="debiet Krabbersgat, IJsselmeer sommatie waarden"}
-knitr::include_graphics("images/debiet/debiet_Krabbersgat,_IJsselmeer_Sommatie_waarden_Debiet_in_Oppervlaktewater_in_m3-d_20260803.png")
-```
-
-```{r waterbalans-18, echo=FALSE, fig.cap="debiet Krabbersgat spuisluizen (Houtribdijk) aanvoer"}
-knitr::include_graphics("images/debiet/debiet_Krabbersgat_spuisluizen_(Houtribdijk)_aanvoer.png")
-```
-
-```{r waterbalans-19, echo=FALSE, fig.cap="debiet Krabbersgat spuisluizen (Houtribdijk) afvoer"}
-knitr::include_graphics("images/debiet/debiet_Krabbersgat_spuisluizen_(Houtribdijk)_afvoer.png")
-```
-
-```{r waterbalans-20, echo=FALSE, fig.cap="debiet Lelystad Houtribsluis noord (m3/d)"}
-knitr::include_graphics("images/debiet/debiet_Lelystad,_Houtribsluis,_noord_Debiet_in_Oppervlaktewater_in_m3-d_20260803.png")
-```
-
-```{r waterbalans-21, echo=FALSE, fig.cap="debiet Lelystad Houtribsluis noord (m3/s)"}
-knitr::include_graphics("images/debiet/debiet_Lelystad,_Houtribsluis,_noord_Debiet_in_Oppervlaktewater_in_m3-s_20260803.png")
-```
-
-```{r waterbalans-22, echo=FALSE, fig.cap="debiet Lelystad Houtribsluis noord etmaalgemiddelde"}
-knitr::include_graphics("images/debiet/debiet_Lelystad,_Houtribsluis,_noord_Etmaalgemiddelde_Debiet_in_Oppervlaktewater_in_m3-s_20260803.png")
-```
-
-```{r waterbalans-23, echo=FALSE, fig.cap="debiet Lelystad Houtribsluis noord sommatie waarden"}
-knitr::include_graphics("images/debiet/debiet_Lelystad,_Houtribsluis,_noord_Sommatie_waarden_Debiet_in_Oppervlaktewater_in_m3-d_20260803.png")
-```
-
-```{r waterbalans-24, echo=FALSE, fig.cap="debiet all other locations summed"}
-knitr::include_graphics("images/debiet/debiet_all_other_locations_summed.png")
-```
-
-```{r waterbalans-25, echo=FALSE, fig.cap="debiet Berging IJsselmeer"}
-knitr::include_graphics("images/debiet/debiet_Berging_IJsselmeer.png")
-```
-
-```{r waterbalans-26, echo=FALSE, fig.cap="monthly in out netto flow"}
+```{r 01-waterbalans-abs, echo=FALSE, fig.cap="Maandelijkse in- en uitstroom absoluut"}
 knitr::include_graphics("images/waterbalans/monthly_in_out_netto_flow.png")
 ```
 
-```{r waterbalans-27, echo=FALSE, fig.cap="monthly in out percentage"}
+```{r 02-waterbalans-rel, echo=FALSE, fig.cap="Maandelijkse in- en uitstroom relatief"}
 knitr::include_graphics("images/waterbalans/monthly_in_out_percentage.png")
 ```
 
@@ -202,15 +141,17 @@ cat(
 )
 ```
 
-```{r wind, echo=FALSE}
-imgs <- list.files(
-  "images/wind",
-  pattern = "\\.png$",
-  full.names = TRUE
-)
 
-knitr::include_graphics(imgs)
+```{r wind, echo=FALSE}
+# imgs <- list.files(
+#   "images/wind",
+#   pattern = "\\.png$",
+#   full.names = TRUE
+# )
+# 
+# knitr::include_graphics(imgs)
 ```
+
 
 ## Zout {#zout}
 
@@ -304,14 +245,103 @@ De metingen (figuur \@ref(fig:jaargemiddeldeSal)) laten een seizoensfluctuatie v
 
 De onderstaande figuren tonen de ontwikkeling van diverse hydrologische en waterkwaliteitsparameters op meerdere meetlocaties binnen het IJsselmeergebied. De tijdreeksen geven inzicht in zowel langjarige trends als kortdurende fluctuaties, waardoor veranderingen in de toestand van het watersysteem door de tijd gevolgd kunnen worden. De weergegeven locaties omvatten onder andere belangrijke in- en uitstroompunten zoals Den Oever en Krabbersgat, evenals verschillende meetstations verspreid over het IJsselmeer. Voor meerdere parameters zijn duidelijke seizoenspatronen zichtbaar, terwijl andere reeksen juist worden gekenmerkt door incidentele pieken die samenhangen met hydrologische gebeurtenissen, weersomstandigheden of waterbeheermaatregelen. Door de ontwikkeling van de metingen tussen locaties te vergelijken, worden ruimtelijke verschillen binnen het systeem inzichtelijk en kunnen trends, afwijkingen en bijzondere gebeurtenissen beter worden geduid. De figuren bieden daarmee een waardevolle basis voor het beoordelen van de dynamiek en ontwikkeling van het IJsselmeerwatersysteem.
 
-```{r zoutbalans, echo=FALSE}
-imgs <- list.files(
-  "images/saliniteit",
-  pattern = "\\.png$",
-  full.names = TRUE
-)
 
-knitr::include_graphics(imgs)
+```{r zoutbalans, echo=FALSE}
+#  imgs <- list.files(
+#    "images/saliniteit",
+#    pattern = "\\.png$",
+#    full.names = TRUE
+# )
+# 
+# knitr::include_graphics(imgs)
+```
+
+#### IJsselmeer
+
+```{r 01-Zout-Andijk, echo=FALSE, fig.cap="Chloride Andijk"}
+knitr::include_graphics("images/saliniteit/WADAR_chloride_Andijk_20260824.png")
+```
+
+```{r 01-Zout-PWN, echo=FALSE, fig.cap="Chloride PWN"}
+knitr::include_graphics("images/saliniteit/carlijn_chloride_PWN_&_WRK_III_20260824.png")
+```
+
+```{r 02-Zout-Den-oever-IJsselmeer-binnenhaven, echo=FALSE, fig.cap="Chloride Den Oever binnenhaven"}
+knitr::include_graphics("images/saliniteit/WADAR_chloride_Den_Oever,_IJsselmeer_binnenhaven_20260824.png")
+```
+
+```{r 03-Zout-Den-oever-spuisluis-binnen, echo=FALSE, fig.cap="Chloride Den Oever spuisluis binnen"}
+knitr::include_graphics("images/saliniteit/WADAR_chloride_Den_Oever,_spuisluis,_binnen_20260824.png")
+```
+
+```{r 04-Zout-Den-oever-waddenzee, echo=FALSE, fig.cap="Chloride Den Oever voorhaven kolk"}
+knitr::include_graphics("images/saliniteit/WADAR_chloride_Den_Oever,_Waddenzee_voorhaven_kolk_20260824.png")
+```
+
+```{r 05-Zout-Den-oever-vaargeul, echo=FALSE, fig.cap="Chloride Den Oever Vaargeul"}
+knitr::include_graphics("images/saliniteit/WADAR_chloride_Den_Oever_IJsselmeer_Vaargeul_20260824.png")
+```
+
+```{r 06-Zout-Den-oever-stevinsluizen-zuid, echo=FALSE, fig.cap="Chloride Den Oever Stevinsluizen zuid"}
+knitr::include_graphics("images/saliniteit/WADAR_chloride_Den_Oever_Stevinsluizen_zuid_20260824.png")
+```
+
+```{r 07-Zout-Kornwerderzand-IJsselmeer-binnenhaven, echo=FALSE, fig.cap="Chloride Kornwerderzand binnenhaven"}
+knitr::include_graphics("images/saliniteit/WADAR_chloride_Kornwerderzand,_IJsselmeer_binnenhaven_20260824.png")
+```
+
+```{r 08-Zout-Kornwerderzand-Waddenzee, echo=FALSE, fig.cap="Chloride Kornwerderzand Waddenzee"}
+knitr::include_graphics("images/saliniteit/WADAR_chloride_Kornwerderzand,_Waddenzee_voorhaven_kolk_20260824.png")
+```
+
+```{r 09-Zout-Kornwerderzand-middelgronden, echo=FALSE, fig.cap="Chloride Kornwerderzand Middelgronden"}
+knitr::include_graphics("images/saliniteit/WADAR_chloride_Kornwerderzand_IJsselmeer_Middelgronden_20260824.png")
+```
+
+```{r 10-Zout-Kornwerderzand-spui, echo=FALSE, fig.cap="Chloride Kornwerderzand spui"}
+knitr::include_graphics("images/saliniteit/WADAR_chloride_Kornwerderzand_IJsselmeer_spui_20260824.png")
+```
+
+```{r 11-Zout-Kornwerderzand-vaargeul, echo=FALSE, fig.cap="Chloride Kornwerderzand Vaargeul"}
+knitr::include_graphics("images/saliniteit/WADAR_chloride_Kornwerderzand_IJsselmeer_vaargeul_20260824.png")
+```
+
+```{r 12-Zout-Kornwerderzand-spuihaven-zuid, echo=FALSE, fig.cap="Chloride Kornwerderzand spuihaven zuid"}
+knitr::include_graphics("images/saliniteit/WADAR_chloride_Kornwerderzand_Spuihaven_zuid_20260824.png")
+```
+
+```{r 13-Zout-Vrouwezand, echo=FALSE, fig.cap="Chloride Vrouwezand"}
+knitr::include_graphics("images/saliniteit/WADAR_chloride_Vrouwezand,_meetpaal_20260824.png")
+```
+
+```{r 14-Zout-gemaal-Lely, echo=FALSE, fig.cap="Chloride gemaal Lely"}
+knitr::include_graphics("images/saliniteit/carlijn_chloride_gemaal_Lely_(Hollands_Kroon_HHNK)_20260824.png")
+```
+
+##### Markermeer
+
+```{r 01-Zout-Blocq-van-Kuffeler-hoog, echo=FALSE, fig.cap="Chloride Blocq-van-Kuffeler-hoog"}
+knitr::include_graphics("images/saliniteit/carlijn_chloride_gemaal_Blocq_van_Kuffeler_(hoog)_20260824.png")
+```
+
+```{r 02-Zout-Blocq-van-Kuffeler-laag, echo=FALSE, fig.cap="Chloride Blocq-van-Kuffeler-laag"}
+knitr::include_graphics("images/saliniteit/carlijn_chloride_gemaal_Blocq_van_Kuffeler_(laag)_20260824.png")
+```
+
+```{r 03-Zout-gemaal-zeeburg-aanvoer, echo=FALSE, fig.cap="Chloride gemaal-zeeburg-aanvoer"}
+knitr::include_graphics("images/saliniteit/carlijn_chloride_gemaal_Zeeburg_aanvoer_(Amsterdam)_20260824.png")
+```
+
+```{r 04-Zout-gemaal-zeeburg-afvoer, echo=FALSE, fig.cap="Chloride gemaal-zeeburg-afvoer"}
+knitr::include_graphics("images/saliniteit/carlijn_chloride_gemaal_Zeeburg_afvoer_(Amsterdam)_20260824.png")
+```
+
+```{r 05-Zout-Oranjesluizen, echo=FALSE, fig.cap="Chloride Schellingwoudebrug"}
+knitr::include_graphics("images/saliniteit/WADAR_chloride_Amsterdam,_Schellingwouderbrug_20260824.png")
+```
+
+```{r 06-Zout-Schellingwoude, echo=FALSE, fig.cap="Chloride Oranjesluizen/Schellingerwoude"}
+knitr::include_graphics("images/saliniteit/carlijn_chloride_spui_Schellingwoude_20260824.png")
 ```
 
 ## Waterhoogte {#waterhoogte}
@@ -321,13 +351,13 @@ knitr::include_graphics(imgs)
 De onderstaande figuren tonen de ontwikkeling van de waterstanden op verschillende meetlocaties binnen het IJsselmeergebied. De metingen geven inzicht in zowel de dagelijkse variatie als de langjarige ontwikkeling van de waterhoogte. Schommelingen in waterstanden worden beïnvloed door meteorologische omstandigheden, rivierafvoer, windopzet en het operationele waterbeheer. Door de waterstanden tussen locaties te vergelijken worden verschillen binnen het systeem zichtbaar en kunnen periodes met extreem hoge of lage waterstanden worden geïdentificeerd. De gegevens vormen daarmee een belangrijke basis voor het begrijpen van de hydrodynamiek en het waterbeheer van het IJsselmeer.
 
 ```{r waterhoogte, echo=FALSE}
-imgs <- list.files(
-  "images/waterhoogte",
-  pattern = "\\.png$",
-  full.names = TRUE
-)
-
-knitr::include_graphics(imgs)
+# imgs <- list.files(
+#   "images/waterhoogte",
+#   pattern = "\\.png$",
+#   full.names = TRUE
+# )
+# 
+# knitr::include_graphics(imgs)
 ```
 
 ## Debiet {#debiet}
@@ -337,13 +367,13 @@ knitr::include_graphics(imgs)
 De onderstaande figuren tonen de ontwikkeling van de debieten op verschillende locaties binnen het IJsselmeergebied. De tijdreeksen geven inzicht in de variatie van de aan- en afvoer van water door de tijd en laten zowel de invloed van seizoenspatronen als kortdurende hydrologische gebeurtenissen zien. Met name op locaties zoals Den Oever en Krabbersgat zijn pieken en dalen zichtbaar die samenhangen met neerslag, rivierafvoer, waterbeheer en spuibeheer. Door de ontwikkelingen op verschillende locaties te vergelijken ontstaat een beter beeld van de waterverdeling binnen het systeem en de wijze waarop het IJsselmeer reageert op veranderende hydrologische omstandigheden.
 
 ```{r debiet, echo=FALSE}
-imgs <- list.files(
-  "images/debiet",
-  pattern = "\\.png$",
-  full.names = TRUE
-)
-
-knitr::include_graphics(imgs)
+# imgs <- list.files(
+#   "images/debiet",
+#   pattern = "\\.png$",
+#   full.names = TRUE
+# )
+# 
+# knitr::include_graphics(imgs)
 ```
 
 ## Inventaristatie van gedane ingrepen (toestand objecten)
