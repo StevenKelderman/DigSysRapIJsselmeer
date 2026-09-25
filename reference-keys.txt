@@ -1,5 +1,4 @@
 fig:voorplaat
-fig:kaartAbiotieklocaties
 fig:kaartDDLlocaties
 fig:01-Debiet-IJssel
 fig:02-Debiet-Lorentzsluizen
@@ -44,8 +43,8 @@ eq:geulvolume
 introductie
 achtergrond
 doel-digitale-systeemrapportage
-informatiebehoefte-en-indicatoren
-handleiding-voor-gebruik
+verwerkte-gegevens
+leeswijzer
 Waterkwaliteit
 afbakening-definitie-en-herkomst
 water
