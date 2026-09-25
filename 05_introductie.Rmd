@@ -1,153 +1,17 @@
 \newpage
 
-# Inleiding - Introduction {#introductie}
+# Inleiding {#introductie}
 
 !!! DIT IS EEN TESTVERSIE !!!
-
-Please click here for the [English version](#introduction) or scroll down.
 
 ## Achtergrond
 
-Deze Digitale Systeemrapportage (DSR) is opgezet als onderdeel van het project Natuurmonitoring Wadden - onderdeel Morfologie van Rijkswaterstaat. Dit valt vervolgens weer onder de [Basismonitoring Wadden](https://basismonitoringwadden.waddenzee.nl/), en heeft betrekking op de niet-levende (abiotische) kenmerken van de Waddenzee. Basismonitoring Wadden houdt de ontwikkelingen in het Waddengebied in de gaten, met de volgende hoofddoelen:.
-
-1.  inzicht geven in de toestand en trends in het Waddengebied voor beheerders en gebruikers;
-2.  het komen tot een effectieve en efficiënte systeemgerichte monitoring;
-3.  het toegankelijk maken van alle beschikbare informatie en monitoringgegevens over het Waddengebied, waardoor de gebruiker zicht heeft op het volledige Waddensysteem.
-
-Basismonitoring Wadden richt zich daarbij op de zogenaamde kernwaarden: Landschappelijke kwaliteiten; Natuurlijke Waddenzee Abiotisch (niet-levende natuur); Natuurlijke Waddenzee Biotisch (levende natuur); en Menselijk Medegebruik. Aan elk van deze kernwaarden, of thema's, zijn beleid- en beheerdoelen gekoppeld. Voor meer informatie hierover verwijzen we naar de [Ambitie van Basismonitoring Wadden](https://basismonitoringwadden.waddenzee.nl/fileadmin/inhoud/pdf/Ambitie_Basismonitoring_Wadden_obw_mrt_2018.pdf).
-
-Voor de abiotische (niet-levende) natuur van de Waddenzee geldt als belangrijke doelstelling:
-
-> *'een zo natuurlijk mogelijke ontwikkeling van waterbewegingen en hiermee gepaard gaande geomorfologische en bodemkundige processen.' - [Structuurvisie Waddenzee](https://www.noordzeeloket.nl/publish/pages/122066/brein-herziening-2021-structuurvisie-waddenzee-id-28.pdf)*
+Deze Digitale Systeemrapportage (DSR) is opgezet als onderdeel van het project Waterbeschikbaarheid. 
 
 ## Doel Digitale Systeemrapportage
 
-Het doel van de Digitale Systeemrapportage Wadden is om te komen tot actuele, transparante en consistente reeksen van indicatoren, en om deze op een toegankelijke manier te ontsluiten. De digitale rapportage maakt het bovendien mogelijk om de informatie gemakkelijk te actualiseren. Daarmee draagt het al direct bij aan het eerste en derde doel van Basismonitoring Wadden.
 
-Door het toegankelijk maken van de relevante informatie kunnen trends en ontwikkelingen snel worden opgespoord, en verder worden geanalyseerd. Dit draagt bij aan efficiënter en effectiever beheer, bijvoorbeeld bij het verklaren van waargenomen ontwikkelingen in de natuurdoelen, of invloed van menselijke activiteiten. Hierbij worden ook kennisleemtes en aanvullende monitoringsbehoeften geïdentificeerd, waardoor de DSR indirect bijdraagt aan het tweede doel van Basismonitoring Wadden: de systeemgerichte monitoring.
-
-De data die met de indicatoren worden weergegeven kunnen direct worden gedownload vanaf de pagina AppendiX \@ref(data).
-
-## Informatiebehoefte en indicatoren
-
-Indicatoren zijn meetbare (of uit metingen af te leiden) grootheden die een signaalfunctie hebben, en bijvoorbeeld informatie geven over de kwaliteit van iets. In deze systeemrapportage beperken we ons tot de informatiebehoefte die voorkomt uit de beleids- en beheerdoelen voor de abiotische natuur van de Waddenzee. Daarbij gaat het om alle abiotische kenmerken die invloed hebben op de natuurlijkheid van het Waddensysteem, zoals sedimentsamenstelling, troebelheid, temperatuur, zoutgehalte, etc. De benodigde data is deels afkomstig van ruimtelijke metingen (bijvoorbeeld bodemligging), en deels van meetstations en -locaties zoals weergegeven in figuur \@ref(fig:kaartAbiotieklocaties).
-
-Een uitzondering hierop vormt de Ecotopenkaart en de daar onder liggende kaartlagen van stroomsnelheden, golven, saliniteit een droogvalduur. Deze zijn niet direct gebaseerd op metingen maar op modelsimulaties over specifieke perioden. Hoewel deze kaarten dus eigenlijk niet thuishoren op de DSR, zijn ze toch opgenomen omdat ze voor veel gebruikers veel waardevolle, indicatieve ruimtelijk informatie bevatten. De gebruiker moet zich wel realiseren wat de beperkingen zijn, namelijk dat dit voor een specifiek doel gegnereerde modelresultaten zijn, die niet zomaar voor andere toepassingen of algemene conclusies geschikt zijn.  
-
-(ref:kaartAbiotieklocaties-label) Overzicht van meetstations en -locaties voor fysische waterkwaliteit (temperatuur, zwevend stof en saliniteit) en hydrodynamiek (golven, waterstanden) in het Waddengebied. Een groot deel van de in hoofdstuk \@ref(hydro) en \@ref(Waterkwaliteit) gepresenteerde parameters wordt op deze posities gemeten.
-
-```{r kaartAbiotieklocaties, cache=F, fig.cap = "(ref:kaartAbiotieklocaties-label)"}
-
-# mijnShape <- st_read(file.path(datadir, "ddl/metadata", paste0(mijnGebied, "_metadata.geojson")), quiet = T)
-mijnCatalogus <- read_delim(file = file.path(datadir, "ddl/metadata", paste0(mijnGebied, "_metadata.csv")), delim = ";")
-
-golfCatalogus <- mijnCatalogus  %>%
-  filter(
-    parameter_wat_omschrijving %in% c(
-      "Significante golfhoogte in het spectrale domein Oppervlaktewater golffrequentie tussen 30 en 500 mHz in cm",
-      "Significante golfhoogte in het spectrale domein Oppervlaktewater golffrequentie tussen 30 en 1000 mHz in cm",
-      "Gemiddelde golfrichting in het spectrale domein Oppervlaktewater golffrequentie tussen 30 en 500 mHz in graad",
-      "Golfperiode bepaald uit de spectrale momenten m0 en m2 Oppervlaktewater golffrequentie tussen 30 en 500 mHz in s",
-      "Golfperiode bepaald uit de spectrale momenten m0 en m2 Oppervlaktewater golffrequentie tussen 30 en 1000 mHz in s"
-    ),
-  ) %>%
-  filter(locatie.naam %in% 
-           c("Amelander zeegat, boei 11", "Amelander zeegat, boei 12", "Amelander zeegat, boei 21",
-             "Amelander zeegat, boei 22", "Amelander zeegat, boei 31", "Amelander zeegat, boei 32", 
-             "Amelander zeegat, boei 41", "Amelander zeegat, boei 42", "Amelander zeegat, boei 51", 
-             "Amelander zeegat, boei 52", "Amelander zeegat boei 61", "Amelander zeegat boei 62",
-             "Amelander Westgat platform", "Boschgat Zuid", "Eierlandse Gat",
-             "Lauwers Oost", "Nes", "Oude Westereems noord boei 1",
-             "Oude Westereems zuid boei 1", "Pieterburenwad 1", "Randzelgat noord", 
-             "Schiermonnikoog noord", "Schiermonnikoog Westgat", "Stortemelk boei 1", 
-             "Stortemelk Oost", "Uithuizerwad 1", "Westereems oost", 
-             "Westereems west", "Wierumerwad 1")
-  ) %>% 
-  mutate(groep = "golven")
+## Verwerkte gegevens
 
 
-waterhoogteCatalogus <- mijnCatalogus  %>%
-  filter(
-    parameter_wat_omschrijving %in% c(
-      "Waterhoogte Oppervlaktewater t.o.v. Normaal Amsterdams Peil in cm",
-      "Waterhoogte berekend Oppervlaktewater t.o.v. Normaal Amsterdams Peil in cm",
-      "Berekend Wateropzet Oppervlaktewater cm"
-    ),
-  ) %>%
-  filter(locatie.naam %in% 
-           c("Delfzijl", "Den Helder", "Eemshaven", "Harlingen", "Holwerd", "Huibertgat", "Lauwersoog",
-             "Nes", "Schiermonnikoog", "Terschelling Noordzee", "Texel Noordzee", "Uithuizerwad 1", "West-Terschelling", "Wierumergronden",
-             "Wierumerwad 1")
-  ) %>% 
-  mutate(groep = "waterhoogte")
-
-WQlocaties = c("Vliestroom", "Marsdiep noord", "Doove Balg west", "Dantziggat", "Boomkensdiep", "Terschelling 10 km uit de kust","Rottumerplaat 3 km uit de kust", "Huibertgat oost", "Bocht van Watum", "Groote Gat noord")
-
-WQcatalogus <- mijnCatalogus  %>%
-  dplyr::filter(locatie.naam %in% WQlocaties) %>%
-  dplyr::filter(parameter_wat_omschrijving %in% c(
-      "Temperatuur Oppervlaktewater oC",
-      "Saliniteit Oppervlaktewater",
-      "(massa)Concentratie Onopgeloste stoffen in Oppervlaktewater mg/l"  # This one is lacking now (june 2021)
-    ),
-  ) %>% 
-  mutate(groep = "fysische waterkwaliteit")
-
-plotCatalogus <- bind_rows(WQcatalogus, waterhoogteCatalogus, golfCatalogus) %>%
-  distinct(groep, x,y,coordinatenstelsel, locatie.naam, locatie.code) %>%
-  st_as_sf(coords = c("x", "y"), crs = 25831) %>% st_transform(4326)
-
-rm(WQcatalogus, waterhoogteCatalogus, golfCatalogus)
-
-pal = colorFactor("Dark2", levels = unique(plotCatalogus$groep))
-
-leaflet(data = plotCatalogus) %>%
-  addTiles('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png') %>% 
-  # addProviderTiles(providers$Esri.WorldTopoMap) %>%
-  addCircleMarkers(color = ~pal(groep), opacity = 1, radius = 3, fill = T, label = ~ locatie.naam, labelOptions = labelOptions(textsize = 12)) %>%
-  leaflet::addLegend(pal = pal, values = unique(plotCatalogus$groep), opacity = 1)
-```
-
-De fysische kenmerken van de Waddenzee zijn een waarde op zich. Zij worden hier beschouwd als losstaand van de ecologie of biologie. Abiotische indicatoren geven niet direct informatie over de biotische (levende) natuur, maar de biota hangen wel af van de abiotiek. Daarmee zijn deze indicatoren indirect van belang voor de biotische natuur.
-
-De informatiebehoefte is nergens formeel vastgelegd. De indicatoren in deze systeemrapportage zijn afkomstig uit een inventarisatie vanuit verschillende documenten, waarin aandacht is besteed aan indicatoren in relatie tot de doelstelling. Meer informatie over de indicatoren voor morfologie is terug te vinden in het [Analysedocument Morfologie](https://basismonitoringwadden.waddenzee.nl/fileadmin/inhoud/analysedoc/pdf/Morfologie_20191231_Analysedocument_Morfologie-concept_extern.pdf). De systeemrapportage wordt in consultatie met stakeholders en experts ontwikkeld. We volgen een iteratieve werkwijze, waarmee toegewerkt wordt naar een bruikbaar en hoogwaardig product voor belanghebbenden in het Waddengebied. Er wordt dankbaar gebruik gemaakt van de ervaringen van de Evaluatiemethodiek en de Eerstelijnsrapportages van de Westerschelde, en de [(digitale) systeemrapportages](https://www.testsysteemrapportage.nl/) die voor de zuidwestelijke delta (Grevelingen, Oosterschelde, Volkerak-Zoommeer) worden gemaakt. De systeemrapportage is nog niet compleet. Om aan te geven wat er naar verwachting nog toegevoegd gaat worden, dus hoe de systeemrapportage er uiteindelijk uit zal zien, zijn wel vast de koppen van de indicatoren toegevoegd in de inhoudsopgave. De uiteindelijke invulling kan hier nog van afwijken naar gelang beschikbaarheid van data, budget en urgentie. Wij streven ernaar deze rapportage zo volledig en bruikbaar mogelijk te houden.
-
-Het is ook mogelijk om in de toekomst de rapportage uit te breiden naar indicatoren die behoren bij de andere thema's van Basismonitoring, voor een optimale bundeling van alle relevante informatie van het Waddengebied.
-
-## Handleiding voor gebruik
-
-De systeemrapportage is bedoeld als een naslagwerk, waarin gericht en snel actuele informatie kan worden opgezocht. De nadruk ligt daarbij op de gegevens (figuren) zelf, en hoe deze geïnterpreteerd moeten worden. Dit wordt voorafgegaan door een korte uitleg waarom bepaalde indicatoren zijn opgenomen en andere niet, en wat de herkomst van de gegevens is. Deze systeemrapportage is nadrukkelijk niet bedoeld als een evaluatie van de toestand en trends van de abiotiek in de Waddenzee; daarvoor is verdere analyse noodzakelijk. Voor meer uitleg over hoe de indicatoren bepaald zijn kunt u doorklikken naar de bijlagen.
-
-Een overzicht van de volledige inhoud is te vinden in de inhoudsopgave links in uw scherm. Daar vind u ook de zoekfunctie, instellingen voor lettergrootte (ook te wijzigen met [CRTL +/-] in uw browser, en een knop voor het maken van een pdf van de actuele versie. De meeste figuren zijn interactief: de gebruiker kan in-en uitzoomen op relevante gebeiden of perioden, met de cursor datapunten bevragen, en een plot exporteren als figuur voor verder gebruik. Door op een figuur te klikken wordt deze groter. Door nogmaals op het figuur te klikken wordt deze weer kleiner. De werking is getest in Firefox (103.02) en beperkter in Chrome en Edge. De rapportage is niet getest op mobiele platforms (tablet, telefoon) en is daar ook niet voor bedoeld.
-
-## Introduction English {.unnumbered #introduction}
-
-!!! DIT IS EEN TESTVERSIE !!!
-
-### Basic Wadden Monitoring {.unnumbered}
-
-This Digital System Report (DSR) has been set up as part of the Nature Monitoring Wadden project - Morphology section of Rijkswaterstaat. This in turn falls under the [Basismonitoring Wadden](https://basismonitoringwadden.waddenzee.nl/), and covers the non-living (abiotic) features of the Wadden Sea. Basic Wadden Monitoring monitors developments in the Wadden area, with the following main objectives:
-
-1.  providing insight into the condition and trends in the Wadden Sea area for managers and users;
-2.  achieving effective and efficient system-based monitoring;
-3.  making all available information and monitoring data on the Wadden Sea area accessible, giving users a view of the entire Wadden Sea system.
-
-Basic Wadden Monitoring thereby focuses on the so-called core values: Landscape qualities; Natural Wadden Sea Abiotic (non-living nature); Natural Wadden Sea Biotic (living nature); and Human Co-use. Policy and management objectives are linked to each of these core values, or themes. For more information on these, see the [Ambition of Basic Wadden Monitoring](https://basismonitoringwadden.waddenzee.nl/fileadmin/inhoud/pdf/Ambitie_Basismonitoring_Wadden_obw_mrt_2018.pdf).
-
-For the abiotic (non-living) nature of the Wadden Sea, a key objective is:
-
-> *'the most natural development of water movements and associated geomorphological and seabed processes.' - [Structure Vision Wadden Sea](https://www.noordzeeloket.nl/publish/pages/122066/brein-herziening-2021-structuurvisie-waddenzee-id-28.pdf)*
-
-### Purpose Digital System Report {.unnumbered }
-
-The aim of the Digital System Report Wadden is to achieve up-to-date, transparent and consistent sets of indicators, and to make them accessible in an accessible way. The digital report also allows the information to be easily updated. Thus, it already directly contributes to the first and third goal of Basic Monitoring Wadden.
-
-By making the relevant information accessible, trends and developments can be quickly detected, and further analysed. This contributes to more efficient and effective management, for example in explaining observed developments in nature targets, or influence of human activities. In the process, knowledge gaps and additional monitoring needs are also identified, thus the DSR indirectly contributes to the second goal of Basic Wadden Monitoring: system-based monitoring.
-
-The data represented by the indicators can be downloaded directly from the Appendix \Aref(data) page.
-
-### Information needs and indicators {.unnumbered}
-
-Indicators are measurable (or derivable from measurements) quantities that have a signalling function, providing information about the quality of something, for example. In this system report, we limit ourselves to the information needs arising from the policy and management objectives for the abiotic nature of the Wadden Sea. This includes all abiotic characteristics that influence the naturalness of the Wadden system, such as sediment composition, turbidity, temperature, salinity, etc. The required data comes partly from spatial measurements (e.g. bottom location), and partly from monitoring stations and locations as shown in figure \@ref(fig:kaartAbiotieklocaties).
-
-An exception to this is the Ecotope Map and the map layers of current velocities, waves, salinity a dryfall duration used to create it. These are not based directly on measurements but on model simulations over specific periods. Thus, although these maps do not really belong on the DSR, they are included because they contain a lot of valuable, indicative spatial information for many users. However, the user should be aware of the limitations, namely that these are model results generated for a specific purpose, which are not simply suitable for other applications or general conclusions. 
+## Leeswijzer
