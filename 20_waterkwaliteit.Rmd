@@ -1,13 +1,11 @@
 \newpage
 
-# Water- en Zoutbalans {#Waterkwaliteit}
+# Historische gegevens (2018-2022) {#meetdata}
 
 ```{r setupWaterkwaliteit, include = FALSE}
 
 theme_wq = theme_bw()
 ```
-
-!!! DIT IS EEN TESTVERSIE !!!
 
 ```{r readWQData}
 # ddl\standard\WQ_TS_trendstations_allyears.csv
@@ -26,15 +24,8 @@ WQ_IJS <- read_delim(path_IJS, delim = ";", guess_max = 1000000, na = c("9999999
 
 ```
 
-## Afbakening, definitie en herkomst
+## Water {#water}
 
-!!! DIT IS EEN TESTVERSIE !!!
-
-**Belang**
-
-**Afbakening**
-
-**Databronnen**
 figuur \@ref(fig:kaartDDLlocaties)
 
 ```{r kaartDDLlocaties, cache=F, fig.cap = "Huidige locaties met MWTL metingen in de relevante delen van de Noordzee, de Waddenzee en het Eems-estuarium."}
@@ -72,9 +63,6 @@ leaflet::leaflet(WQlocations_IJS) %>%
   # hideGroup("KRW waterlichamen 2006")
 
 ```
-## Water {#water}
-
-!!! DIT IS EEN TESTVERSIE !!!
 
 ```{r 01-Debiet-IJssel, echo=FALSE, fig.cap="debiet IJssel gemeten bij Olst"}
 knitr::include_graphics("images/debiet/WADAR_debiet_olst_20260824.png")
@@ -100,12 +88,10 @@ knitr::include_graphics("images/debiet/WADAR_debiet_krabbersgat_ijsselmeer_20260
 knitr::include_graphics("images/debiet/carlijn_debiet_overig_20260824.png")
 ```
 
-#### Berging/Meerpeil
 ```{r 01-Berging-IJsselmeer, echo=FALSE, fig.cap="Berging IJsselmeer"}
 knitr::include_graphics("images/debiet/carlijn_debiet_Berging_IJsselmeer_20260824.png")
 ```
 
-#### Meteorologie
 ```{r 01-Neerslag, echo=FALSE, fig.cap="Neerslag op dagbasis IJsselmeer"}
 knitr::include_graphics("images/debiet/carlijn_debiet_Neerslag_20260824.png")
 ```
@@ -113,8 +99,6 @@ knitr::include_graphics("images/debiet/carlijn_debiet_Neerslag_20260824.png")
 ```{r 02-Verdamping, echo=FALSE, fig.cap="Verdamping op dagbasis IJsselmeer"}
 knitr::include_graphics("images/debiet/carlijn_debiet_Verdamping_20260824.png")
 ```
-
-#### Waterbalans
 
 ```{r 01-waterbalans-abs, echo=FALSE, fig.cap="Maandelijkse in- en uitstroom absoluut"}
 knitr::include_graphics("images/waterbalans/monthly_in_out_netto_flow.png")
@@ -125,8 +109,6 @@ knitr::include_graphics("images/waterbalans/monthly_in_out_percentage.png")
 ```
 
 ## Wind {#wind}
-
-!!! DIT IS EEN TESTVERSIE !!!
 
 De onderstaande figuren tonen de ontwikkeling van windsnelheid en windrichting op meetlocaties in en rond het IJsselmeergebied. Wind is een belangrijke sturende factor binnen het watersysteem en heeft invloed op onder andere waterstanden, golfopbouw, menging van de waterkolom en de verspreiding van stoffen. De tijdreeksen laten zowel seizoensgebonden patronen als kortdurende stormachtige gebeurtenissen zien. Door de ontwikkelingen door de tijd te volgen en verschillende locaties met elkaar te vergelijken, ontstaat inzicht in de ruimtelijke en temporele variatie van de windcondities en hun mogelijke invloed op het functioneren van het watersysteem.
 
@@ -154,12 +136,6 @@ cat(
 
 
 ## Zout {#zout}
-
-!!! DIT IS EEN TESTVERSIE !!!
-
-### MWTL-metingen
-
-De metingen (figuur \@ref(fig:jaargemiddeldeSal)) laten een seizoensfluctuatie van enkele ppt zien die gekoppeld is aan de seizoensfluctuatie in de zoetwaterafvoeren. De jaargemiddelde saliniteitswaarden laten fluctuaties zien zoals de dip rond 1995, maar langjarige trends zijn niet duidelijk zichtbaar. Daartoe wordt ook de afwijking van het jaargemiddelde ten opzichte van het langjarig gemiddelde uitgezet (figuur \@ref(fig:plotSaliniteitAnomalie)). Hierin is de dip rond 1995 duidelijker terug te zien, maar lijkt de saliniteit in de Wadden sinds 2003 ook licht toe te nemen. Vooral in het Eems-estuarium zijn de relatieve afwijkingen groot, tot een factor 5. In de Waddenzee zijn de afwijkingen verder in de bekkens, op locaties dichter bij de spuilocaties, zoals te verwachten ook groter dan op de Noordzee en nabij de zeegaten. De saliniteit lijkt de laatste jaren bij station Doove Balg toe nemen, wat overeenkomt met een afname in het spuidebiet bij Den Oever (zie \@ref(zoetwaterafvoeren)).
 
 ```{r jaargemiddeldeSal, fig.height=20, fig.width=10, fig.cap="Jaargemiddelde saliniteit in de Waddenzee. Maandgemiddelden (punten) en individuele metingen (kleinste punten) geven het bereik aan. Jaargemiddelde is alleen berekend bij meer dan 10 metingen per jaar. "}
 # 
@@ -256,7 +232,7 @@ De onderstaande figuren tonen de ontwikkeling van diverse hydrologische en water
 # knitr::include_graphics(imgs)
 ```
 
-#### IJsselmeer
+### IJsselmeer
 
 ```{r 01-Zout-Andijk, echo=FALSE, fig.cap="Chloride Andijk"}
 knitr::include_graphics("images/saliniteit/WADAR_chloride_Andijk_20260824.png")
@@ -318,7 +294,7 @@ knitr::include_graphics("images/saliniteit/WADAR_chloride_Vrouwezand_meetpaal_20
 knitr::include_graphics("images/saliniteit/carlijn_chloride_gemaal_Lely_Hollands_Kroon_HHNK_20260824.png")
 ```
 
-##### Markermeer
+#### Markermeer
 
 ```{r 01-Zout-Blocq-van-Kuffeler-hoog, echo=FALSE, fig.cap="Chloride Blocq-van-Kuffeler-hoog"}
 knitr::include_graphics("images/saliniteit/carlijn_chloride_gemaal_Blocq_van_Kuffeler_hoog_20260824.png")
@@ -342,38 +318,6 @@ knitr::include_graphics("images/saliniteit/WADAR_chloride_Amsterdam_Schellingwou
 
 ```{r 06-Zout-Schellingwoude, echo=FALSE, fig.cap="Chloride Oranjesluizen/Schellingerwoude"}
 knitr::include_graphics("images/saliniteit/carlijn_chloride_spui_Schellingwoude_20260824.png")
-```
-
-## Waterhoogte {#waterhoogte}
-
-!!! DIT IS EEN TESTVERSIE !!!
-
-De onderstaande figuren tonen de ontwikkeling van de waterstanden op verschillende meetlocaties binnen het IJsselmeergebied. De metingen geven inzicht in zowel de dagelijkse variatie als de langjarige ontwikkeling van de waterhoogte. Schommelingen in waterstanden worden beïnvloed door meteorologische omstandigheden, rivierafvoer, windopzet en het operationele waterbeheer. Door de waterstanden tussen locaties te vergelijken worden verschillen binnen het systeem zichtbaar en kunnen periodes met extreem hoge of lage waterstanden worden geïdentificeerd. De gegevens vormen daarmee een belangrijke basis voor het begrijpen van de hydrodynamiek en het waterbeheer van het IJsselmeer.
-
-```{r waterhoogte, echo=FALSE}
-# imgs <- list.files(
-#   "images/waterhoogte",
-#   pattern = "\\.png$",
-#   full.names = TRUE
-# )
-# 
-# knitr::include_graphics(imgs)
-```
-
-## Debiet {#debiet}
-
-!!! DIT IS EEN TESTVERSIE !!!
-
-De onderstaande figuren tonen de ontwikkeling van de debieten op verschillende locaties binnen het IJsselmeergebied. De tijdreeksen geven inzicht in de variatie van de aan- en afvoer van water door de tijd en laten zowel de invloed van seizoenspatronen als kortdurende hydrologische gebeurtenissen zien. Met name op locaties zoals Den Oever en Krabbersgat zijn pieken en dalen zichtbaar die samenhangen met neerslag, rivierafvoer, waterbeheer en spuibeheer. Door de ontwikkelingen op verschillende locaties te vergelijken ontstaat een beter beeld van de waterverdeling binnen het systeem en de wijze waarop het IJsselmeer reageert op veranderende hydrologische omstandigheden.
-
-```{r debiet, echo=FALSE}
-# imgs <- list.files(
-#   "images/debiet",
-#   pattern = "\\.png$",
-#   full.names = TRUE
-# )
-# 
-# knitr::include_graphics(imgs)
 ```
 
 ## Inventaristatie van gedane ingrepen (toestand objecten)
