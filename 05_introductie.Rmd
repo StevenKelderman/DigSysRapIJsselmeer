@@ -2,16 +2,24 @@
 
 # Inleiding {#introductie}
 
-!!! DIT IS EEN TESTVERSIE !!!
-
 ## Achtergrond
+Het risico op verzilting van de zoetwatervoorraad in het IJsselmeergebied vormt een groeiende bedreiging voor de zoetwatervoorziening. Inzicht in de bronnen, verspreiding en relevante processen is essentieel om tactisch[^1] en operationeel[^2] verzilting tegen te gaan. Er is momenteel onvoldoende overzicht bij de waterbeheerders van de zoutbalans (aanvoer en afvoer) en van de oorzaken van lokaal verhoogde zoutconcentraties.
 
-Deze Digitale Systeemrapportage (DSR) is opgezet als onderdeel van het project Waterbeschikbaarheid. 
+De wens van Rijkswaterstaat (RWS Midden-Nederland) is om de eerder opgedane kennis en inzichten te bundelen (“hoe werkt het systeem?”) en voor zover mogelijk te vertalen naar praktisch toepasbare stappen/richtlijnen (zowel “hoe kun je sturen” als “hoe werkt dat in de praktijk”), zodat de informatie snel gebruikt kan worden bij besluitvorming over (operationeel) beheer. 
+
+[^1]: Tactisch: het bepalen van de effecten van ingrepen in het systeem en maatregelen voor de komende jaren.
+[^2]: Operationeel: het optimaliseren van de aansturing van het waterbeheer voor de komende dagen/weken. 
 
 ## Doel Digitale Systeemrapportage
+Deze Digitale Systeemrapportage (DSR) is opgezet als onderdeel van het project Waterbeschikbaarheid (WBB) 02. Het doel van de DSR is om de bestaande kennis over verzilting en de verdeling van zout in het IJsselmeergebied inzichtelijk te maken, te ordenen, te interpreteren en toepasbaar te maken voor operationeel en tactisch waterbeheer. Bij de opzet is rekening gehouden met de mogelijkheid om de rapportage te actualiseren.
 
+Deze rapportage bevat uitsluitend bestaande kennis uit rapporten, memo’s en data-analyses. Er zijn geen nieuwe (model)analyses, simulaties of aanvullende studies uitgevoerd. Wel worden bestaande gegevens gevisualiseerd, geïnterpreteerd en geduid, maar deze analyse blijft beperkt van opzet.
+
+Naast het bundelen van systeemkennis was het doel om de effecten van ingrepen en de sturing van kunstwerken op verzilting inzichtelijk te maken. Hiervoor ontbreekt echter gedetailleerde informatie over het moment en de omstandigheden waarin maatregelen zijn ingezet en over de waargenomen effecten. Daardoor kunnen de effecten van maatregelen op basis van de beschikbare informatie niet in beeld worden gebracht en blijft dit onderdeel noodgedwongen algemeen en op hoofdlijnen.
 
 ## Verwerkte gegevens
 
-
 ## Leeswijzer
+Deze rapportage bestaat uit twee samenhangende delen: een dynamisch deel in Hoofdstuk 2 en een statisch deel in Hoofdstuk 3.
+
+Hoofdstuk 2 bevat meetgegevens over water, wind en zout in het IJsselmeergebied. Daarnaast geeft het hoofdstuk een overzicht van de ingrepen tijdens de droogteperioden van 2018 en 2022. Waar de beschikbare informatie dit toelaat, worden ook de relevante fysische processen en de effectiviteit van deze ingrepen beschouwd. Zodra nieuwe gegevens beschikbaar komen, kan dit deel periodiek worden geactualiseerd en kunnen extra periodes worden beschouwd. Hoofdstuk 3 beschrijft de werking van het watersysteem, de belangrijkste fysische processen, relevante bedreigingen en risico’s, en mogelijke beheermaatregelen en handelingsperspectieven. Dit deel vormt de inhoudelijke basis voor de interpretatie van de gegevens in het dynamische deel.
