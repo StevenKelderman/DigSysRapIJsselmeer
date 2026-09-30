@@ -59,8 +59,8 @@
 <script src="libs/Proj4Leaflet-1.0.1/proj4leaflet.js"></script>
 <link href="libs/rstudio_leaflet-1.3.1/rstudio_leaflet.css" rel="stylesheet" />
 <script src="libs/leaflet-binding-2.2.3/leaflet.js"></script>
-<link href="libs/font-awesome-6.7.2/css/all.min.css" rel="stylesheet" />
-<link href="libs/font-awesome-6.7.2/css/v4-shims.min.css" rel="stylesheet" />
+<script src="libs/leaflet-providers-2.0.0/leaflet-providers_2.0.0.js"></script>
+<script src="libs/leaflet-providers-plugin-2.2.3/leaflet-providers-plugin.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 
 <style>
@@ -143,11 +143,7 @@ div.csl-indent {
 <li><a href="./index.html">Digitale Systeemrapportage Wadden</a></li>
 
 <li class="divider"></li>
-<li><a href="index.html#section" id="toc-section"></a>
-<ul>
-<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Nederlands</a></li>
-<li class="chapter" data-level="" data-path="index.html"><a href="index.html#english"><i class="fa fa-check"></i>English</a></li>
-</ul></li>
+<li><a href="index.html#section" id="toc-section"></a></li>
 <li class="chapter" data-level="1" data-path="introductie.html"><a href="introductie.html"><i class="fa fa-check"></i><b>1</b> Inleiding</a>
 <ul>
 <li class="chapter" data-level="1.1" data-path="introductie.html"><a href="introductie.html#achtergrond"><i class="fa fa-check"></i><b>1.1</b> Achtergrond</a></li>
@@ -155,86 +151,47 @@ div.csl-indent {
 <li class="chapter" data-level="1.3" data-path="introductie.html"><a href="introductie.html#verwerkte-gegevens"><i class="fa fa-check"></i><b>1.3</b> Verwerkte gegevens</a></li>
 <li class="chapter" data-level="1.4" data-path="introductie.html"><a href="introductie.html#leeswijzer"><i class="fa fa-check"></i><b>1.4</b> Leeswijzer</a></li>
 </ul></li>
-<li class="chapter" data-level="2" data-path="Waterkwaliteit.html"><a href="Waterkwaliteit.html"><i class="fa fa-check"></i><b>2</b> Water- en Zoutbalans</a>
+<li class="chapter" data-level="2" data-path="meetdata.html"><a href="meetdata.html"><i class="fa fa-check"></i><b>2</b> Historische gegevens (2018-2022)</a>
 <ul>
-<li class="chapter" data-level="2.1" data-path="Waterkwaliteit.html"><a href="Waterkwaliteit.html#afbakening-definitie-en-herkomst"><i class="fa fa-check"></i><b>2.1</b> Afbakening, definitie en herkomst</a></li>
-<li class="chapter" data-level="2.2" data-path="Waterkwaliteit.html"><a href="Waterkwaliteit.html#water"><i class="fa fa-check"></i><b>2.2</b> Water</a></li>
-<li class="chapter" data-level="2.3" data-path="Waterkwaliteit.html"><a href="Waterkwaliteit.html#wind"><i class="fa fa-check"></i><b>2.3</b> Wind</a></li>
-<li class="chapter" data-level="2.4" data-path="Waterkwaliteit.html"><a href="Waterkwaliteit.html#zout"><i class="fa fa-check"></i><b>2.4</b> Zout</a>
+<li class="chapter" data-level="2.1" data-path="meetdata.html"><a href="meetdata.html#water"><i class="fa fa-check"></i><b>2.1</b> Water</a></li>
+<li class="chapter" data-level="2.2" data-path="meetdata.html"><a href="meetdata.html#wind"><i class="fa fa-check"></i><b>2.2</b> Wind</a></li>
+<li class="chapter" data-level="2.3" data-path="meetdata.html"><a href="meetdata.html#zout"><i class="fa fa-check"></i><b>2.3</b> Zout</a>
 <ul>
-<li class="chapter" data-level="2.4.1" data-path="Waterkwaliteit.html"><a href="Waterkwaliteit.html#mwtl-metingen"><i class="fa fa-check"></i><b>2.4.1</b> MWTL-metingen</a></li>
+<li class="chapter" data-level="2.3.1" data-path="meetdata.html"><a href="meetdata.html#ijsselmeer"><i class="fa fa-check"></i><b>2.3.1</b> IJsselmeer</a></li>
+<li class="chapter" data-level="2.3.2" data-path="meetdata.html"><a href="meetdata.html#markermeer"><i class="fa fa-check"></i><b>2.3.2</b> Markermeer</a></li>
 </ul></li>
-<li class="chapter" data-level="2.5" data-path="Waterkwaliteit.html"><a href="Waterkwaliteit.html#waterhoogte"><i class="fa fa-check"></i><b>2.5</b> Waterhoogte</a></li>
-<li class="chapter" data-level="2.6" data-path="Waterkwaliteit.html"><a href="Waterkwaliteit.html#debiet"><i class="fa fa-check"></i><b>2.6</b> Debiet</a></li>
-<li class="chapter" data-level="2.7" data-path="Waterkwaliteit.html"><a href="Waterkwaliteit.html#inventaristatie-van-gedane-ingrepen-toestand-objecten"><i class="fa fa-check"></i><b>2.7</b> Inventaristatie van gedane ingrepen (toestand objecten)</a></li>
-<li class="chapter" data-level="2.8" data-path="Waterkwaliteit.html"><a href="Waterkwaliteit.html#beschouwing-van-fysische-processen-en-effectiviteit-ingrepen"><i class="fa fa-check"></i><b>2.8</b> Beschouwing van fysische processen en effectiviteit ingrepen</a></li>
-<li class="chapter" data-level="2.9" data-path="Waterkwaliteit.html"><a href="Waterkwaliteit.html#conclusies"><i class="fa fa-check"></i><b>2.9</b> Conclusies</a></li>
-<li class="chapter" data-level="2.10" data-path="Waterkwaliteit.html"><a href="Waterkwaliteit.html#interactieve-figuur"><i class="fa fa-check"></i><b>2.10</b> Interactieve figuur</a></li>
-</ul></li>
-<li class="chapter" data-level="3" data-path="systeemanalyse.html"><a href="systeemanalyse.html"><i class="fa fa-check"></i><b>3</b> Systeemanalyse</a>
+<li class="chapter" data-level="2.4" data-path="meetdata.html"><a href="meetdata.html#inventaristatie-van-gedane-ingrepen-toestand-objecten"><i class="fa fa-check"></i><b>2.4</b> Inventaristatie van gedane ingrepen (toestand objecten)</a>
 <ul>
-<li class="chapter" data-level="3.1" data-path="systeemanalyse.html"><a href="systeemanalyse.html#systeembeschrijving"><i class="fa fa-check"></i><b>3.1</b> Systeembeschrijving</a></li>
+<li class="chapter" data-level="2.4.1" data-path="meetdata.html"><a href="meetdata.html#zomer-2018"><i class="fa fa-check"></i><b>2.4.1</b> Zomer 2018</a></li>
+<li class="chapter" data-level="2.4.2" data-path="meetdata.html"><a href="meetdata.html#zomer-2022"><i class="fa fa-check"></i><b>2.4.2</b> Zomer 2022</a></li>
+</ul></li>
+<li class="chapter" data-level="2.5" data-path="meetdata.html"><a href="meetdata.html#beschouwing-van-fysische-processen-en-effectiviteit-ingrepen"><i class="fa fa-check"></i><b>2.5</b> Beschouwing van fysische processen en effectiviteit ingrepen</a>
+<ul>
+<li class="chapter" data-level="2.5.1" data-path="meetdata.html"><a href="meetdata.html#zomer-2018-1"><i class="fa fa-check"></i><b>2.5.1</b> Zomer 2018</a></li>
+<li class="chapter" data-level="2.5.2" data-path="meetdata.html"><a href="meetdata.html#zomer-2022-1"><i class="fa fa-check"></i><b>2.5.2</b> Zomer 2022</a></li>
+</ul></li>
+<li class="chapter" data-level="2.6" data-path="meetdata.html"><a href="meetdata.html#conclusies"><i class="fa fa-check"></i><b>2.6</b> Conclusies</a></li>
+<li class="chapter" data-level="2.7" data-path="meetdata.html"><a href="meetdata.html#interactieve-figuur"><i class="fa fa-check"></i><b>2.7</b> Interactieve figuur</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="systeemanalyse.html"><a href="systeemanalyse.html"><i class="fa fa-check"></i><b>3</b> Systeembeschrijving, processen en beheermaatregelen</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="systeemanalyse.html"><a href="systeemanalyse.html#systeembeschrijving"><i class="fa fa-check"></i><b>3.1</b> Systeembeschrijving</a>
+<ul>
+<li class="chapter" data-level="3.1.1" data-path="systeemanalyse.html"><a href="systeemanalyse.html#ijsselmeergebied"><i class="fa fa-check"></i><b>3.1.1</b> IJsselmeergebied</a></li>
+<li class="chapter" data-level="3.1.2" data-path="systeemanalyse.html"><a href="systeemanalyse.html#functies"><i class="fa fa-check"></i><b>3.1.2</b> Functies</a></li>
+<li class="chapter" data-level="3.1.3" data-path="systeemanalyse.html"><a href="systeemanalyse.html#peilbeheer"><i class="fa fa-check"></i><b>3.1.3</b> Peilbeheer</a></li>
+<li class="chapter" data-level="3.1.4" data-path="systeemanalyse.html"><a href="systeemanalyse.html#bodemligging"><i class="fa fa-check"></i><b>3.1.4</b> Bodemligging</a></li>
+<li class="chapter" data-level="3.1.5" data-path="systeemanalyse.html"><a href="systeemanalyse.html#water-aan--en-afvoer"><i class="fa fa-check"></i><b>3.1.5</b> Water aan- en afvoer</a></li>
+<li class="chapter" data-level="3.1.6" data-path="systeemanalyse.html"><a href="systeemanalyse.html#zoutbeheer"><i class="fa fa-check"></i><b>3.1.6</b> Zoutbeheer</a></li>
+<li class="chapter" data-level="3.1.7" data-path="systeemanalyse.html"><a href="systeemanalyse.html#water--en-zoutbalans"><i class="fa fa-check"></i><b>3.1.7</b> Water- en zoutbalans</a></li>
+</ul></li>
 <li class="chapter" data-level="3.2" data-path="systeemanalyse.html"><a href="systeemanalyse.html#belangrijkste-fysische-processen"><i class="fa fa-check"></i><b>3.2</b> Belangrijkste fysische processen</a></li>
 <li class="chapter" data-level="3.3" data-path="systeemanalyse.html"><a href="systeemanalyse.html#bedreigingen-en-risicos"><i class="fa fa-check"></i><b>3.3</b> Bedreigingen en risico’s</a></li>
 <li class="chapter" data-level="3.4" data-path="systeemanalyse.html"><a href="systeemanalyse.html#maatregelen-en-handelingsperspectieven"><i class="fa fa-check"></i><b>3.4</b> Maatregelen en handelingsperspectieven</a></li>
 </ul></li>
 <li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
 <li class="appendix"><span><b>Appendix</b></span></li>
-<li class="chapter" data-level="A" data-path="data.html"><a href="data.html"><i class="fa fa-check"></i><b>A</b> Overzicht gebruikte data</a>
-<ul>
-<li class="chapter" data-level="A.1" data-path="data.html"><a href="data.html#Appzeespiegelstijging"><i class="fa fa-check"></i><b>A.1</b> Zeespiegelstijging</a></li>
-<li class="chapter" data-level="A.2" data-path="data.html"><a href="data.html#Appwaterstanden"><i class="fa fa-check"></i><b>A.2</b> Waterstanden</a>
-<ul>
-<li class="chapter" data-level="A.2.1" data-path="data.html"><a href="data.html#brondata"><i class="fa fa-check"></i><b>A.2.1</b> Brondata</a></li>
-<li class="chapter" data-level="A.2.2" data-path="data.html"><a href="data.html#ghw-glw-en-getijslag"><i class="fa fa-check"></i><b>A.2.2</b> GHW, GLW en getijslag</a></li>
-<li class="chapter" data-level="A.2.3" data-path="data.html"><a href="data.html#getijcomponentenmethode"><i class="fa fa-check"></i><b>A.2.3</b> Getijcomponenten en -asymmetrie</a></li>
-<li class="chapter" data-level="A.2.4" data-path="data.html"><a href="data.html#gemiddeld-laag-laag-water-gllw-en-gemiddeld-hoog-hoog-water-ghhw"><i class="fa fa-check"></i><b>A.2.4</b> Gemiddeld laag laag water (GLLW) en gemiddeld hoog hoog water (GHHW)</a></li>
-<li class="chapter" data-level="A.2.5" data-path="data.html"><a href="data.html#stormopzet-en-stormvloedhoogte"><i class="fa fa-check"></i><b>A.2.5</b> Stormopzet en stormvloedhoogte</a></li>
-</ul></li>
-<li class="chapter" data-level="A.3" data-path="data.html"><a href="data.html#Appgolfhoogte"><i class="fa fa-check"></i><b>A.3</b> Golven</a>
-<ul>
-<li class="chapter" data-level="A.3.1" data-path="data.html"><a href="data.html#brondata-1"><i class="fa fa-check"></i><b>A.3.1</b> Brondata</a></li>
-<li class="chapter" data-level="A.3.2" data-path="data.html"><a href="data.html#anomalie-van-de-maandgemiddelde-golfhoogte"><i class="fa fa-check"></i><b>A.3.2</b> Anomalie van de maandgemiddelde golfhoogte</a></li>
-</ul></li>
-<li class="chapter" data-level="A.4" data-path="data.html"><a href="data.html#Appzoetwaterafvoer"><i class="fa fa-check"></i><b>A.4</b> Zoetwaterafvoeren</a>
-<ul>
-<li class="chapter" data-level="A.4.1" data-path="data.html"><a href="data.html#brondata-2"><i class="fa fa-check"></i><b>A.4.1</b> Brondata</a></li>
-<li class="chapter" data-level="A.4.2" data-path="data.html"><a href="data.html#bewerking-van-afvoeren"><i class="fa fa-check"></i><b>A.4.2</b> Bewerking van afvoeren</a></li>
-</ul></li>
-<li class="chapter" data-level="A.5" data-path="data.html"><a href="data.html#Appwind"><i class="fa fa-check"></i><b>A.5</b> Wind</a>
-<ul>
-<li class="chapter" data-level="A.5.1" data-path="data.html"><a href="data.html#brondata-3"><i class="fa fa-check"></i><b>A.5.1</b> Brondata</a></li>
-<li class="chapter" data-level="A.5.2" data-path="data.html"><a href="data.html#windsterkte-en-windrichting"><i class="fa fa-check"></i><b>A.5.2</b> Windsterkte en windrichting</a></li>
-</ul></li>
-<li class="chapter" data-level="A.6" data-path="data.html"><a href="data.html#Appwaterkwaliteit"><i class="fa fa-check"></i><b>A.6</b> Waterkwaliteit</a>
-<ul>
-<li class="chapter" data-level="A.6.1" data-path="data.html"><a href="data.html#brondata-4"><i class="fa fa-check"></i><b>A.6.1</b> Brondata</a></li>
-<li class="chapter" data-level="A.6.2" data-path="data.html"><a href="data.html#gemiddelde-watertemperatuur-maand-jaar-en-zomerwinter"><i class="fa fa-check"></i><b>A.6.2</b> Gemiddelde watertemperatuur (maand, jaar en zomer/winter)</a></li>
-<li class="chapter" data-level="A.6.3" data-path="data.html"><a href="data.html#gemiddelde-saliniteit-maand-jaar-en-anomalie"><i class="fa fa-check"></i><b>A.6.3</b> Gemiddelde saliniteit (maand, jaar) en anomalie</a></li>
-<li class="chapter" data-level="A.6.4" data-path="data.html"><a href="data.html#gemiddelde-zwevende-stof-gehalte-maand-jaar-en-anomalie"><i class="fa fa-check"></i><b>A.6.4</b> Gemiddelde zwevende stof gehalte (maand, jaar) en anomalie</a></li>
-</ul></li>
-<li class="chapter" data-level="A.7" data-path="data.html"><a href="data.html#Appmorfologie"><i class="fa fa-check"></i><b>A.7</b> Morfologie</a>
-<ul>
-<li class="chapter" data-level="A.7.1" data-path="data.html"><a href="data.html#brondata-bodemligging"><i class="fa fa-check"></i><b>A.7.1</b> Brondata bodemligging</a></li>
-<li class="chapter" data-level="A.7.2" data-path="data.html"><a href="data.html#additionele-arealenvisualisatie"><i class="fa fa-check"></i><b>A.7.2</b> Additionele arealenvisualisatie</a></li>
-</ul></li>
-<li class="chapter" data-level="A.8" data-path="data.html"><a href="data.html#Appbodemkwaliteit"><i class="fa fa-check"></i><b>A.8</b> Brondata bodemslibgehalte</a>
-<ul>
-<li class="chapter" data-level="A.8.1" data-path="data.html"><a href="data.html#brondata-afbakening-kombergingsgebieden"><i class="fa fa-check"></i><b>A.8.1</b> Brondata afbakening kombergingsgebieden</a></li>
-<li class="chapter" data-level="A.8.2" data-path="data.html"><a href="data.html#hypsometrische-curves"><i class="fa fa-check"></i><b>A.8.2</b> Hypsometrische curves</a></li>
-<li class="chapter" data-level="A.8.3" data-path="data.html"><a href="data.html#ruimtelijk-dekkende-waterstanden"><i class="fa fa-check"></i><b>A.8.3</b> Ruimtelijk dekkende waterstanden</a></li>
-<li class="chapter" data-level="A.8.4" data-path="data.html"><a href="data.html#plaathoogte-en--volume"><i class="fa fa-check"></i><b>A.8.4</b> Plaathoogte en -volume</a></li>
-<li class="chapter" data-level="A.8.5" data-path="data.html"><a href="data.html#geuldiepte-en--volume"><i class="fa fa-check"></i><b>A.8.5</b> Geuldiepte en -volume</a></li>
-<li class="chapter" data-level="A.8.6" data-path="data.html"><a href="data.html#lengte-van-de-laagwaterlijn"><i class="fa fa-check"></i><b>A.8.6</b> Lengte van de laagwaterlijn</a></li>
-</ul></li>
-<li class="chapter" data-level="A.9" data-path="data.html"><a href="data.html#overzicht-alle-brondata"><i class="fa fa-check"></i><b>A.9</b> Overzicht alle brondata</a></li>
-</ul></li>
-<li class="chapter" data-level="B" data-path="meetdichtheidmatrices.html"><a href="meetdichtheidmatrices.html"><i class="fa fa-check"></i><b>B</b> Meetdichtheidmatrices</a>
-<ul>
-<li class="chapter" data-level="B.1" data-path="meetdichtheidmatrices.html"><a href="meetdichtheidmatrices.html#versiebeheer-en-kwaliteitscontrole"><i class="fa fa-check"></i><b>B.1</b> Versiebeheer en kwaliteitscontrole</a></li>
-<li class="chapter" data-level="B.2" data-path="meetdichtheidmatrices.html"><a href="meetdichtheidmatrices.html#zelf-aan-de-slag"><i class="fa fa-check"></i><b>B.2</b> Zelf aan de slag</a></li>
-<li class="chapter" data-level="B.3" data-path="meetdichtheidmatrices.html"><a href="meetdichtheidmatrices.html#gebruikte-software-en-packages"><i class="fa fa-check"></i><b>B.3</b> Gebruikte software en packages</a></li>
-</ul></li>
+<li class="chapter" data-level="A" data-path="data.html"><a href="data.html"><i class="fa fa-check"></i><b>A</b> Overzicht gebruikte data</a></li>
 <li class="divider"></li>
 <li><a href="https://bookdown.org/yihui/bookdown/" target="blank">Published with bookdown</a></li>
 
@@ -275,6 +232,14 @@ div.csl-indent {
 </html>
 <div id="references" class="section level1 unnumbered hasAnchor">
 <h1>References<a href="references.html#references" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<p>Deltares (2024). Wilbert Verbruggen, Maria Georgiou, Noor ten Harmsen van der Beek en Arnout Bijlsma. Ontwikkeling zesde-generatie 3D IJsselmeer model; Modelbouw, validatie. Deltares rapport 11210333-007-ZWS-0002, 19 december 2024.</p>
+<p>Deltares (2025a). Otto Weiler, Nino Zuiderwijk en Arnout Bijlsma. ‘KP-ZSS Systeemverkenningen Zoetwater; Oprekmogelijkheden door maatregelen op spui- en schutsluizen.’ Deltares rapport 11210315-004-BGS-0001, 9 april 2025.</p>
+<p>Deltares (2025b). Ruurd Noordhuis en Menno Genseberger. Natuur, peilbeheer en klimaatverandering in het IJsselmeergebied; Bouwsteen Tweede herijking Deltaprogramma IJsselmeergebied. Deltares rapport 11211551-002-ZWS-0001, 23 september 2025.</p>
+<p>Deltares (2026a). Wilbert Verbruggen, Reimer de Graaff en Meinard Tiessen. ‘Zoutverspreiding IJsselmeer t.g.v. stroomstoring 1 maart 2026; Resultaten hindcast simulatie 1 maart – 26 maart 2026. Deltares presentatie 11212806-008-HAF-0002, 4 juni 2026.</p>
+<p>Deltares (2026b). Wilbert Verbruggen. SITO-PS 2026 WBB02: Spuiadvies Afsluitdijk. Rapport nog ontwikkeling. Verwachte oplevering eind 2026.</p>
+<p>Hydrologic (2021). ‘Actualisatie Waterverdeling IJsselmeergebied: Kwantificering en toelichting watervraagtabellen’. Rapport Hydrologic P1176, oktober 2021.</p>
+<p>Rijkswaterstaat (2020). Yann Friocourt. ‘Nieuwe inzichten naar aanleiding van de verzilting van het IJsselmeer in 2018 en actualisatie van de posten van de water- en zoutbalans van het meer’. Rijkswaterstaat rapport (voorlopig), 20 maart 2020.</p>
+<p>Rijkswaterstaat (2021). Infographic Verzilting IJsselmeer en Markermeer. Versie 01, mei 2021.</p>
 <div id="refs">
 
 </div>
@@ -284,6 +249,19 @@ div.csl-indent {
 
 
 
+<!-- # knitr::opts_chunk$set( -->
+<!-- #  message = FALSE, -->
+<!-- #  warning = FALSE, -->
+<!-- #  echo = FALSE, -->
+<!-- #  out.width = "100%" -->
+<!-- # ) -->
+<!-- #  -->
+<!-- # theme_hy <- theme_bw() -->
+<!-- #  -->
+<!-- # alt_theme_hy <- theme_tufte() + theme(axis.line=element_line()) #+ -->
+<!-- #     # scale_x_continuous(limits=c(10,35)) + scale_y_continuous(limits=c(0,400)) -->
+<!-- # ``` -->
+</div>
             </section>
 
           </div>
@@ -348,20 +326,6 @@ gitbook.start({
 });
 </script>
 
-<!-- dynamically load mathjax for compatibility with self-contained -->
-<script>
-  (function () {
-    var script = document.createElement("script");
-    script.type = "text/javascript";
-    var src = "true";
-    if (src === "" || src === "true") src = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/latest.js?config=TeX-MML-AM_CHTML";
-    if (location.protocol !== "file:")
-      if (/^https?:/.test(src))
-        src = src.replace(/^https?:/, '');
-    script.src = src;
-    document.getElementsByTagName("head")[0].appendChild(script);
-  })();
-</script>
 </body>
 
 </html>

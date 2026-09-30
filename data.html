@@ -29,7 +29,7 @@
   
   
 <link rel="prev" href="references.html"/>
-<link rel="next" href="meetdichtheidmatrices.html"/>
+
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -59,8 +59,8 @@
 <script src="libs/Proj4Leaflet-1.0.1/proj4leaflet.js"></script>
 <link href="libs/rstudio_leaflet-1.3.1/rstudio_leaflet.css" rel="stylesheet" />
 <script src="libs/leaflet-binding-2.2.3/leaflet.js"></script>
-<link href="libs/font-awesome-6.7.2/css/all.min.css" rel="stylesheet" />
-<link href="libs/font-awesome-6.7.2/css/v4-shims.min.css" rel="stylesheet" />
+<script src="libs/leaflet-providers-2.0.0/leaflet-providers_2.0.0.js"></script>
+<script src="libs/leaflet-providers-plugin-2.2.3/leaflet-providers-plugin.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 
 <style>
@@ -143,11 +143,7 @@ div.csl-indent {
 <li><a href="./index.html">Digitale Systeemrapportage Wadden</a></li>
 
 <li class="divider"></li>
-<li><a href="index.html#section" id="toc-section"></a>
-<ul>
-<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Nederlands</a></li>
-<li class="chapter" data-level="" data-path="index.html"><a href="index.html#english"><i class="fa fa-check"></i>English</a></li>
-</ul></li>
+<li><a href="index.html#section" id="toc-section"></a></li>
 <li class="chapter" data-level="1" data-path="introductie.html"><a href="introductie.html"><i class="fa fa-check"></i><b>1</b> Inleiding</a>
 <ul>
 <li class="chapter" data-level="1.1" data-path="introductie.html"><a href="introductie.html#achtergrond"><i class="fa fa-check"></i><b>1.1</b> Achtergrond</a></li>
@@ -155,86 +151,47 @@ div.csl-indent {
 <li class="chapter" data-level="1.3" data-path="introductie.html"><a href="introductie.html#verwerkte-gegevens"><i class="fa fa-check"></i><b>1.3</b> Verwerkte gegevens</a></li>
 <li class="chapter" data-level="1.4" data-path="introductie.html"><a href="introductie.html#leeswijzer"><i class="fa fa-check"></i><b>1.4</b> Leeswijzer</a></li>
 </ul></li>
-<li class="chapter" data-level="2" data-path="Waterkwaliteit.html"><a href="Waterkwaliteit.html"><i class="fa fa-check"></i><b>2</b> Water- en Zoutbalans</a>
+<li class="chapter" data-level="2" data-path="meetdata.html"><a href="meetdata.html"><i class="fa fa-check"></i><b>2</b> Historische gegevens (2018-2022)</a>
 <ul>
-<li class="chapter" data-level="2.1" data-path="Waterkwaliteit.html"><a href="Waterkwaliteit.html#afbakening-definitie-en-herkomst"><i class="fa fa-check"></i><b>2.1</b> Afbakening, definitie en herkomst</a></li>
-<li class="chapter" data-level="2.2" data-path="Waterkwaliteit.html"><a href="Waterkwaliteit.html#water"><i class="fa fa-check"></i><b>2.2</b> Water</a></li>
-<li class="chapter" data-level="2.3" data-path="Waterkwaliteit.html"><a href="Waterkwaliteit.html#wind"><i class="fa fa-check"></i><b>2.3</b> Wind</a></li>
-<li class="chapter" data-level="2.4" data-path="Waterkwaliteit.html"><a href="Waterkwaliteit.html#zout"><i class="fa fa-check"></i><b>2.4</b> Zout</a>
+<li class="chapter" data-level="2.1" data-path="meetdata.html"><a href="meetdata.html#water"><i class="fa fa-check"></i><b>2.1</b> Water</a></li>
+<li class="chapter" data-level="2.2" data-path="meetdata.html"><a href="meetdata.html#wind"><i class="fa fa-check"></i><b>2.2</b> Wind</a></li>
+<li class="chapter" data-level="2.3" data-path="meetdata.html"><a href="meetdata.html#zout"><i class="fa fa-check"></i><b>2.3</b> Zout</a>
 <ul>
-<li class="chapter" data-level="2.4.1" data-path="Waterkwaliteit.html"><a href="Waterkwaliteit.html#mwtl-metingen"><i class="fa fa-check"></i><b>2.4.1</b> MWTL-metingen</a></li>
+<li class="chapter" data-level="2.3.1" data-path="meetdata.html"><a href="meetdata.html#ijsselmeer"><i class="fa fa-check"></i><b>2.3.1</b> IJsselmeer</a></li>
+<li class="chapter" data-level="2.3.2" data-path="meetdata.html"><a href="meetdata.html#markermeer"><i class="fa fa-check"></i><b>2.3.2</b> Markermeer</a></li>
 </ul></li>
-<li class="chapter" data-level="2.5" data-path="Waterkwaliteit.html"><a href="Waterkwaliteit.html#waterhoogte"><i class="fa fa-check"></i><b>2.5</b> Waterhoogte</a></li>
-<li class="chapter" data-level="2.6" data-path="Waterkwaliteit.html"><a href="Waterkwaliteit.html#debiet"><i class="fa fa-check"></i><b>2.6</b> Debiet</a></li>
-<li class="chapter" data-level="2.7" data-path="Waterkwaliteit.html"><a href="Waterkwaliteit.html#inventaristatie-van-gedane-ingrepen-toestand-objecten"><i class="fa fa-check"></i><b>2.7</b> Inventaristatie van gedane ingrepen (toestand objecten)</a></li>
-<li class="chapter" data-level="2.8" data-path="Waterkwaliteit.html"><a href="Waterkwaliteit.html#beschouwing-van-fysische-processen-en-effectiviteit-ingrepen"><i class="fa fa-check"></i><b>2.8</b> Beschouwing van fysische processen en effectiviteit ingrepen</a></li>
-<li class="chapter" data-level="2.9" data-path="Waterkwaliteit.html"><a href="Waterkwaliteit.html#conclusies"><i class="fa fa-check"></i><b>2.9</b> Conclusies</a></li>
-<li class="chapter" data-level="2.10" data-path="Waterkwaliteit.html"><a href="Waterkwaliteit.html#interactieve-figuur"><i class="fa fa-check"></i><b>2.10</b> Interactieve figuur</a></li>
-</ul></li>
-<li class="chapter" data-level="3" data-path="systeemanalyse.html"><a href="systeemanalyse.html"><i class="fa fa-check"></i><b>3</b> Systeemanalyse</a>
+<li class="chapter" data-level="2.4" data-path="meetdata.html"><a href="meetdata.html#inventaristatie-van-gedane-ingrepen-toestand-objecten"><i class="fa fa-check"></i><b>2.4</b> Inventaristatie van gedane ingrepen (toestand objecten)</a>
 <ul>
-<li class="chapter" data-level="3.1" data-path="systeemanalyse.html"><a href="systeemanalyse.html#systeembeschrijving"><i class="fa fa-check"></i><b>3.1</b> Systeembeschrijving</a></li>
+<li class="chapter" data-level="2.4.1" data-path="meetdata.html"><a href="meetdata.html#zomer-2018"><i class="fa fa-check"></i><b>2.4.1</b> Zomer 2018</a></li>
+<li class="chapter" data-level="2.4.2" data-path="meetdata.html"><a href="meetdata.html#zomer-2022"><i class="fa fa-check"></i><b>2.4.2</b> Zomer 2022</a></li>
+</ul></li>
+<li class="chapter" data-level="2.5" data-path="meetdata.html"><a href="meetdata.html#beschouwing-van-fysische-processen-en-effectiviteit-ingrepen"><i class="fa fa-check"></i><b>2.5</b> Beschouwing van fysische processen en effectiviteit ingrepen</a>
+<ul>
+<li class="chapter" data-level="2.5.1" data-path="meetdata.html"><a href="meetdata.html#zomer-2018-1"><i class="fa fa-check"></i><b>2.5.1</b> Zomer 2018</a></li>
+<li class="chapter" data-level="2.5.2" data-path="meetdata.html"><a href="meetdata.html#zomer-2022-1"><i class="fa fa-check"></i><b>2.5.2</b> Zomer 2022</a></li>
+</ul></li>
+<li class="chapter" data-level="2.6" data-path="meetdata.html"><a href="meetdata.html#conclusies"><i class="fa fa-check"></i><b>2.6</b> Conclusies</a></li>
+<li class="chapter" data-level="2.7" data-path="meetdata.html"><a href="meetdata.html#interactieve-figuur"><i class="fa fa-check"></i><b>2.7</b> Interactieve figuur</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="systeemanalyse.html"><a href="systeemanalyse.html"><i class="fa fa-check"></i><b>3</b> Systeembeschrijving, processen en beheermaatregelen</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="systeemanalyse.html"><a href="systeemanalyse.html#systeembeschrijving"><i class="fa fa-check"></i><b>3.1</b> Systeembeschrijving</a>
+<ul>
+<li class="chapter" data-level="3.1.1" data-path="systeemanalyse.html"><a href="systeemanalyse.html#ijsselmeergebied"><i class="fa fa-check"></i><b>3.1.1</b> IJsselmeergebied</a></li>
+<li class="chapter" data-level="3.1.2" data-path="systeemanalyse.html"><a href="systeemanalyse.html#functies"><i class="fa fa-check"></i><b>3.1.2</b> Functies</a></li>
+<li class="chapter" data-level="3.1.3" data-path="systeemanalyse.html"><a href="systeemanalyse.html#peilbeheer"><i class="fa fa-check"></i><b>3.1.3</b> Peilbeheer</a></li>
+<li class="chapter" data-level="3.1.4" data-path="systeemanalyse.html"><a href="systeemanalyse.html#bodemligging"><i class="fa fa-check"></i><b>3.1.4</b> Bodemligging</a></li>
+<li class="chapter" data-level="3.1.5" data-path="systeemanalyse.html"><a href="systeemanalyse.html#water-aan--en-afvoer"><i class="fa fa-check"></i><b>3.1.5</b> Water aan- en afvoer</a></li>
+<li class="chapter" data-level="3.1.6" data-path="systeemanalyse.html"><a href="systeemanalyse.html#zoutbeheer"><i class="fa fa-check"></i><b>3.1.6</b> Zoutbeheer</a></li>
+<li class="chapter" data-level="3.1.7" data-path="systeemanalyse.html"><a href="systeemanalyse.html#water--en-zoutbalans"><i class="fa fa-check"></i><b>3.1.7</b> Water- en zoutbalans</a></li>
+</ul></li>
 <li class="chapter" data-level="3.2" data-path="systeemanalyse.html"><a href="systeemanalyse.html#belangrijkste-fysische-processen"><i class="fa fa-check"></i><b>3.2</b> Belangrijkste fysische processen</a></li>
 <li class="chapter" data-level="3.3" data-path="systeemanalyse.html"><a href="systeemanalyse.html#bedreigingen-en-risicos"><i class="fa fa-check"></i><b>3.3</b> Bedreigingen en risico’s</a></li>
 <li class="chapter" data-level="3.4" data-path="systeemanalyse.html"><a href="systeemanalyse.html#maatregelen-en-handelingsperspectieven"><i class="fa fa-check"></i><b>3.4</b> Maatregelen en handelingsperspectieven</a></li>
 </ul></li>
 <li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
 <li class="appendix"><span><b>Appendix</b></span></li>
-<li class="chapter" data-level="A" data-path="data.html"><a href="data.html"><i class="fa fa-check"></i><b>A</b> Overzicht gebruikte data</a>
-<ul>
-<li class="chapter" data-level="A.1" data-path="data.html"><a href="data.html#Appzeespiegelstijging"><i class="fa fa-check"></i><b>A.1</b> Zeespiegelstijging</a></li>
-<li class="chapter" data-level="A.2" data-path="data.html"><a href="data.html#Appwaterstanden"><i class="fa fa-check"></i><b>A.2</b> Waterstanden</a>
-<ul>
-<li class="chapter" data-level="A.2.1" data-path="data.html"><a href="data.html#brondata"><i class="fa fa-check"></i><b>A.2.1</b> Brondata</a></li>
-<li class="chapter" data-level="A.2.2" data-path="data.html"><a href="data.html#ghw-glw-en-getijslag"><i class="fa fa-check"></i><b>A.2.2</b> GHW, GLW en getijslag</a></li>
-<li class="chapter" data-level="A.2.3" data-path="data.html"><a href="data.html#getijcomponentenmethode"><i class="fa fa-check"></i><b>A.2.3</b> Getijcomponenten en -asymmetrie</a></li>
-<li class="chapter" data-level="A.2.4" data-path="data.html"><a href="data.html#gemiddeld-laag-laag-water-gllw-en-gemiddeld-hoog-hoog-water-ghhw"><i class="fa fa-check"></i><b>A.2.4</b> Gemiddeld laag laag water (GLLW) en gemiddeld hoog hoog water (GHHW)</a></li>
-<li class="chapter" data-level="A.2.5" data-path="data.html"><a href="data.html#stormopzet-en-stormvloedhoogte"><i class="fa fa-check"></i><b>A.2.5</b> Stormopzet en stormvloedhoogte</a></li>
-</ul></li>
-<li class="chapter" data-level="A.3" data-path="data.html"><a href="data.html#Appgolfhoogte"><i class="fa fa-check"></i><b>A.3</b> Golven</a>
-<ul>
-<li class="chapter" data-level="A.3.1" data-path="data.html"><a href="data.html#brondata-1"><i class="fa fa-check"></i><b>A.3.1</b> Brondata</a></li>
-<li class="chapter" data-level="A.3.2" data-path="data.html"><a href="data.html#anomalie-van-de-maandgemiddelde-golfhoogte"><i class="fa fa-check"></i><b>A.3.2</b> Anomalie van de maandgemiddelde golfhoogte</a></li>
-</ul></li>
-<li class="chapter" data-level="A.4" data-path="data.html"><a href="data.html#Appzoetwaterafvoer"><i class="fa fa-check"></i><b>A.4</b> Zoetwaterafvoeren</a>
-<ul>
-<li class="chapter" data-level="A.4.1" data-path="data.html"><a href="data.html#brondata-2"><i class="fa fa-check"></i><b>A.4.1</b> Brondata</a></li>
-<li class="chapter" data-level="A.4.2" data-path="data.html"><a href="data.html#bewerking-van-afvoeren"><i class="fa fa-check"></i><b>A.4.2</b> Bewerking van afvoeren</a></li>
-</ul></li>
-<li class="chapter" data-level="A.5" data-path="data.html"><a href="data.html#Appwind"><i class="fa fa-check"></i><b>A.5</b> Wind</a>
-<ul>
-<li class="chapter" data-level="A.5.1" data-path="data.html"><a href="data.html#brondata-3"><i class="fa fa-check"></i><b>A.5.1</b> Brondata</a></li>
-<li class="chapter" data-level="A.5.2" data-path="data.html"><a href="data.html#windsterkte-en-windrichting"><i class="fa fa-check"></i><b>A.5.2</b> Windsterkte en windrichting</a></li>
-</ul></li>
-<li class="chapter" data-level="A.6" data-path="data.html"><a href="data.html#Appwaterkwaliteit"><i class="fa fa-check"></i><b>A.6</b> Waterkwaliteit</a>
-<ul>
-<li class="chapter" data-level="A.6.1" data-path="data.html"><a href="data.html#brondata-4"><i class="fa fa-check"></i><b>A.6.1</b> Brondata</a></li>
-<li class="chapter" data-level="A.6.2" data-path="data.html"><a href="data.html#gemiddelde-watertemperatuur-maand-jaar-en-zomerwinter"><i class="fa fa-check"></i><b>A.6.2</b> Gemiddelde watertemperatuur (maand, jaar en zomer/winter)</a></li>
-<li class="chapter" data-level="A.6.3" data-path="data.html"><a href="data.html#gemiddelde-saliniteit-maand-jaar-en-anomalie"><i class="fa fa-check"></i><b>A.6.3</b> Gemiddelde saliniteit (maand, jaar) en anomalie</a></li>
-<li class="chapter" data-level="A.6.4" data-path="data.html"><a href="data.html#gemiddelde-zwevende-stof-gehalte-maand-jaar-en-anomalie"><i class="fa fa-check"></i><b>A.6.4</b> Gemiddelde zwevende stof gehalte (maand, jaar) en anomalie</a></li>
-</ul></li>
-<li class="chapter" data-level="A.7" data-path="data.html"><a href="data.html#Appmorfologie"><i class="fa fa-check"></i><b>A.7</b> Morfologie</a>
-<ul>
-<li class="chapter" data-level="A.7.1" data-path="data.html"><a href="data.html#brondata-bodemligging"><i class="fa fa-check"></i><b>A.7.1</b> Brondata bodemligging</a></li>
-<li class="chapter" data-level="A.7.2" data-path="data.html"><a href="data.html#additionele-arealenvisualisatie"><i class="fa fa-check"></i><b>A.7.2</b> Additionele arealenvisualisatie</a></li>
-</ul></li>
-<li class="chapter" data-level="A.8" data-path="data.html"><a href="data.html#Appbodemkwaliteit"><i class="fa fa-check"></i><b>A.8</b> Brondata bodemslibgehalte</a>
-<ul>
-<li class="chapter" data-level="A.8.1" data-path="data.html"><a href="data.html#brondata-afbakening-kombergingsgebieden"><i class="fa fa-check"></i><b>A.8.1</b> Brondata afbakening kombergingsgebieden</a></li>
-<li class="chapter" data-level="A.8.2" data-path="data.html"><a href="data.html#hypsometrische-curves"><i class="fa fa-check"></i><b>A.8.2</b> Hypsometrische curves</a></li>
-<li class="chapter" data-level="A.8.3" data-path="data.html"><a href="data.html#ruimtelijk-dekkende-waterstanden"><i class="fa fa-check"></i><b>A.8.3</b> Ruimtelijk dekkende waterstanden</a></li>
-<li class="chapter" data-level="A.8.4" data-path="data.html"><a href="data.html#plaathoogte-en--volume"><i class="fa fa-check"></i><b>A.8.4</b> Plaathoogte en -volume</a></li>
-<li class="chapter" data-level="A.8.5" data-path="data.html"><a href="data.html#geuldiepte-en--volume"><i class="fa fa-check"></i><b>A.8.5</b> Geuldiepte en -volume</a></li>
-<li class="chapter" data-level="A.8.6" data-path="data.html"><a href="data.html#lengte-van-de-laagwaterlijn"><i class="fa fa-check"></i><b>A.8.6</b> Lengte van de laagwaterlijn</a></li>
-</ul></li>
-<li class="chapter" data-level="A.9" data-path="data.html"><a href="data.html#overzicht-alle-brondata"><i class="fa fa-check"></i><b>A.9</b> Overzicht alle brondata</a></li>
-</ul></li>
-<li class="chapter" data-level="B" data-path="meetdichtheidmatrices.html"><a href="meetdichtheidmatrices.html"><i class="fa fa-check"></i><b>B</b> Meetdichtheidmatrices</a>
-<ul>
-<li class="chapter" data-level="B.1" data-path="meetdichtheidmatrices.html"><a href="meetdichtheidmatrices.html#versiebeheer-en-kwaliteitscontrole"><i class="fa fa-check"></i><b>B.1</b> Versiebeheer en kwaliteitscontrole</a></li>
-<li class="chapter" data-level="B.2" data-path="meetdichtheidmatrices.html"><a href="meetdichtheidmatrices.html#zelf-aan-de-slag"><i class="fa fa-check"></i><b>B.2</b> Zelf aan de slag</a></li>
-<li class="chapter" data-level="B.3" data-path="meetdichtheidmatrices.html"><a href="meetdichtheidmatrices.html#gebruikte-software-en-packages"><i class="fa fa-check"></i><b>B.3</b> Gebruikte software en packages</a></li>
-</ul></li>
+<li class="chapter" data-level="A" data-path="data.html"><a href="data.html"><i class="fa fa-check"></i><b>A</b> Overzicht gebruikte data</a></li>
 <li class="divider"></li>
 <li><a href="https://bookdown.org/yihui/bookdown/" target="blank">Published with bookdown</a></li>
 
@@ -275,411 +232,384 @@ div.csl-indent {
 </html>
 <div id="data" class="section level1 hasAnchor" number="4">
 <h1><span class="header-section-number">A</span> Overzicht gebruikte data<a href="data.html#data" class="anchor-section" aria-label="Anchor link to header"></a></h1>
-<div id="Appzeespiegelstijging" class="section level2 hasAnchor" number="4.1">
-<h2><span class="header-section-number">A.1</span> Zeespiegelstijging<a href="data.html#Appzeespiegelstijging" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<p>In de DSR Waddenzee is de jaargemiddelde waterstand voor de zes hoofdstations langs de Nederlandse kust overgenomen uit de Zeespiegelmonitor. In deze studie is de stijging van de zeespiegel nauwkeurig onderzocht en berekend. De berekening en aanvullende en interactieve figuren kunnen worden ingezien via de <a href="https://nbviewer.jupyter.org/github/openearth/sealevel/blob/master/notebooks/dutch-sea-level-monitor.ipynb">Jupyter Notebook Zeespiegelmonitorberekening</a>.</p>
-<a href="https://raw.githubusercontent.com/openearth/sealevel/master/data/deltares/results/dutch-sea-level-monitor-export-stations-2021-11-26.csv">
-<button class="btn btn-primary"><i class="fa fa-save"></i> Jaargemiddelde zeespiegel hoofdstations als csv</button>
-</a>
-</div>
-<div id="Appwaterstanden" class="section level2 hasAnchor" number="4.2">
-<h2><span class="header-section-number">A.2</span> Waterstanden<a href="data.html#Appwaterstanden" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<div id="brondata" class="section level3 hasAnchor" number="4.2.1">
-<h3><span class="header-section-number">A.2.1</span> Brondata<a href="data.html#brondata" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p>Voor de beschikbare stations in de Waddenzee en aangrenzende delen van de Noordzee worden de tijdseries van zowel de gemeten als de berekende waterstand (astronomische waterstand) ingelezen via de <a href="https://rijkswaterstaat.github.io/wm-ws-dl/#introduction">webservice van de Data Distributie Laag</a> van Rijkswaterstaat. Merk op dat er een aantal stations missen in de Waddenzee, zoals vermeld in paragraaf <a href="#ontsluiting"><strong>??</strong></a>.</p>
-<p>De recente waterstandsmetingen, vanaf 1984, hebben een tijdstap van 10 minuten op alle stations. Voor 1984 is met een lagere frequentie gemeten, met een tijdstap van 1 uur, en voor 1966 is dit zelfs een tijdstap van 3 uur, zie figuur <a href="data.html#fig:tijdstap">A.1</a>). Voor deze lagere frequenties is de hieronder beschreven methode voor het afleiden van de waterstanden te onnauwkeurig. Voor die periode beschikt RWS wel over een dataset van hoog- en laagwaterstanden, die hiervoor kunnen worden gebruikt. Daarvan kan dan het jaarlijkse gemiddelde worden bepaald. Deze data zijn momenteel nog niet online beschikbaar.</p>
+<!-- ## Zeespiegelstijging {#Appzeespiegelstijging} -->
+<!-- In de DSR Waddenzee is de jaargemiddelde waterstand voor de zes hoofdstations langs de Nederlandse kust overgenomen uit de Zeespiegelmonitor. In deze studie is de stijging van de zeespiegel nauwkeurig onderzocht en berekend. De berekening en aanvullende en interactieve figuren kunnen worden ingezien via de [Jupyter Notebook Zeespiegelmonitorberekening](https://nbviewer.jupyter.org/github/openearth/sealevel/blob/master/notebooks/dutch-sea-level-monitor.ipynb). -->
+<!-- ```{r} -->
+<!-- downloadthis::download_link( -->
+<!--   link = "https://raw.githubusercontent.com/openearth/sealevel/master/data/deltares/results/dutch-sea-level-monitor-export-stations-2021-11-26.csv", -->
+<!--   button_label = "Jaargemiddelde zeespiegel hoofdstations als csv", -->
+<!--   button_type = "primary", -->
+<!--   has_icon = TRUE, -->
+<!--   icon = "fa fa-save", -->
+<!--   self_contained = TRUE -->
+<!-- ) -->
+<!-- ``` -->
+<!-- ## Waterstanden {#Appwaterstanden} -->
+<!-- ### Brondata -->
+<!-- Voor de beschikbare stations in de Waddenzee en aangrenzende delen van de Noordzee worden de tijdseries van zowel de gemeten als de berekende waterstand (astronomische waterstand) ingelezen via de [webservice van de Data Distributie Laag](https://rijkswaterstaat.github.io/wm-ws-dl/#introduction) van Rijkswaterstaat. Merk op dat er een aantal stations missen in de Waddenzee, zoals vermeld in paragraaf \@ref(ontsluiting). -->
+<!-- De recente waterstandsmetingen, vanaf 1984, hebben een tijdstap van 10 minuten op alle stations. Voor 1984 is met een lagere frequentie gemeten, met een tijdstap van 1 uur, en voor 1966 is dit zelfs een tijdstap van 3 uur, zie figuur \@ref(fig:tijdstap)). Voor deze lagere frequenties is de hieronder beschreven methode voor het afleiden van de waterstanden te onnauwkeurig. Voor die periode beschikt RWS wel over een dataset van hoog- en laagwaterstanden, die hiervoor kunnen worden gebruikt. Daarvan kan dan het jaarlijkse gemiddelde worden bepaald. Deze data zijn momenteel nog niet online beschikbaar. -->
+<!-- (ref:tijdstapCaption) Gebruikte tijdstap in de dataset voor alle stations. Vanaf 1984 is voor alle stations data op elke 10 minuten beschikbaar. Tussen 1966 en 1984 (variërend per station), is dit een tijdstap van een uur. In de jaren voor 1966 is dit zelfs 3 uur. -->
+<!-- ```{r tijdstap, out.width="80%", fig.cap= "(ref:tijdstapCaption)"  } -->
+<!-- knitr::include_graphics("images/tsTimestep.png") -->
+<!-- ``` -->
+<!-- De getijcomponenten zijn berekend op basis van de waterstationsmeetseries, zoals ontsloten via [Open Earth Data](https://publicwiki.deltares.nl/display/OET/Dataset+documentation+MWTL). -->
+<!-- ### GHW, GLW en getijslag -->
+<!-- De jaargemiddelde hoog- en laagwaters (GHW en GLW) zijn bepaald door in de tijdseries van gemeten waterstanden te zoeken naar het maximum en minimum per getijcyclus, met een onderlinge afstand van minimaal 4 uur. In figuur \@ref(fig:hooglaagvoorbeeld2) is daarvan een voorbeeld te zien. Vervolgens wordt hiervan het jaargemiddelde bepaald. -->
+<!-- De jaargemiddelde getijslag wordt berekend door het verschil tussen het jaargemiddelde GHW en GLW. -->
+<!-- ```{r} -->
+<!-- downloadthis::download_link( -->
+<!--   link = file.path(ThreddsDataPath, mijnGebied, "RWS", "standard", paste0("extremaHLLL", "yearlyaveragesCopy.csv")), -->
+<!--   button_label = "Download jaargemiddelde GHW en GLW als .csv", -->
+<!--   button_type = "primary", -->
+<!--   has_icon = TRUE, -->
+<!--   icon = "fa fa-save", -->
+<!--   self_contained = TRUE -->
+<!-- ) -->
+<!-- ``` -->
+<!-- Om trends te kunnen bepalen is vervolgens een lineaire trendlijn toegevoegd die varieert met de 18,6-jarige cyclus. Doordat de frequentie van de 18,6-jarige cyclus bekend is en de tijdserie voldoende lang, kan de software zelf de amplitude en de fase van de 18,6-jarige cyclus fitten. -->
+<!-- ```{r loadWaterhoogteData2} -->
+<!-- library(httr) -->
+<!-- path = file.path(datadir, "ddl", "standard", paste0("waterhoogte", "Delfzijl", "2021-08-05", ".Rdata")) -->
+<!-- tmp <- tempfile(fileext = ".RData") -->
+<!-- GET(path, write_disk(tmp, overwrite = TRUE)) -->
+<!-- load(tmp) -->
+<!-- assign("Delfzijl", x1); rm(x1) -->
+<!-- df.extrema <- read_delim(file.path(datadir, "ddl", "standard", paste0("extremaHLLL", "2021-08-04", ".csv")), delim = ";") -->
+<!-- ``` -->
+<!-- ```{r hooglaagvoorbeeld2, fig.width=8, fig.height=4, fig.cap= "Gemeten waterstand en hoog- (rood) en laagwater (groen) voor eind maart 2018 (inclusief overgang naar zomertijd van 24 op 25 maart), zoals berekend voor de hele tijdserie." } -->
+<!-- minplottime = ymd("2018-03-23") -->
+<!-- maxplottime = ymd("2018-03-27") -->
+<!-- Delfzijl %>% -->
+<!--   filter(tijdstip > minplottime, tijdstip < maxplottime) %>% -->
+<!--   ggplot() + -->
+<!--   geom_point(aes(tijdstip, numeriekewaarde)) + -->
+<!--   geom_point(data = df.extrema %>% filter(locatie.naam == "Delfzijl") %>% filter(time > minplottime, time < maxplottime), aes(time, h, fill = HL), size = 5, shape = 21, color = "white") + -->
+<!--   theme_hy + -->
+<!--   theme(legend.position = "bottom") -->
+<!-- ``` -->
+<!-- ### Getijcomponenten en -asymmetrie {#getijcomponentenmethode} -->
+<!-- Op basis van de gemeten waterstanden wordt met het python package 'hatyan' de amplitude en fase van de verschillende getijcomponenten bepaald. Op basis van deze amplitudes en fases kan de amplitudeverhouding M~4~/M~2~ en het faseverschil ($2 \phi M_{2} - \phi M_{4}$) worden berekend [https://github.com/Deltares/hatyan](https://github.com/Deltares/hatyan).  Voor uitgebreide documentatie wordt verwezen naar [de gebruikershandleiding](https://github.com/Deltares/hatyan/blob/main/docs/11205257-013-DSC-0006_v1.0-Gebruikershandleiding%20hatyan.pdf). -->
+<!-- Getijcomponenten zijn berekend per station en jaar, en kunnen gedownload worden vanaf [watersysteemdata.deltares.nl](https://watersysteemdata.deltares.nl/thredds/catalog/watersysteemdata/Wadden/ddl/calculated/TA_filtersurge/catalog.html). -->
+<!-- ### Gemiddeld laag laag water (GLLW) en gemiddeld hoog hoog water (GHHW) {} -->
+<!-- GLLW en GHHW worden berekend als de maandminima en -maxima van het berekend getij per station. Het berekend getij wordt bepaald uit de getijcomponenten, zie sectie \@ref(getijcomponentenmethode). -->
+<!-- ```{r} -->
+<!-- downloadthis::download_link( -->
+<!--   link = "http://watersysteemdata.deltares.nl/thredds/fileServer/watersysteemdata/Wadden/ddl/calculated/tidal_indicators/GHHWS_10min.csv", -->
+<!--   button_label = "Download GHHW als .csv", -->
+<!--   button_type = "primary", -->
+<!--   has_icon = TRUE, -->
+<!--   icon = "fa fa-save", -->
+<!--   self_contained = TRUE -->
+<!-- ) -->
+<!-- ``` -->
+<!-- ```{r} -->
+<!-- downloadthis::download_link( -->
+<!--   link = "http://watersysteemdata.deltares.nl/thredds/fileServer/watersysteemdata/Wadden/ddl/calculated/tidal_indicators/GLLWS_10min.csv", -->
+<!--   button_label = "Download GLLW als .csv", -->
+<!--   button_type = "primary", -->
+<!--   has_icon = TRUE, -->
+<!--   icon = "fa fa-save", -->
+<!--   self_contained = TRUE -->
+<!-- ) -->
+<!-- ``` -->
+<!-- ### Stormopzet en stormvloedhoogte -->
+<!-- De stormopzet (en -afzet) wordt berekend als de gemeten waterstand, verminderd met de astronomische waterstand (het getij). In de systeemrapportage worden de 99,5-percentiel per jaar en het maximum per jaar gebruikt als maat voor storm. -->
+<!-- Voor de stormvloedhoogte gebruiken we het 99,5-percentiel per jaar van de gemeten waterstand (dus inclusief het getij). -->
+<!-- De astronomische waterstand is berekend per station en jaar, en kan gedownload worden vanaf [watersysteemdata.deltares.nl](https://watersysteemdata.deltares.nl/thredds/catalog/watersysteemdata/Wadden/ddl/calculated/waterstand_berekend_m/catalog.html). -->
+<!-- ## Golven {#Appgolfhoogte} -->
+<!-- ### Brondata -->
+<!-- De significante golfhoogte, golfperiode (Tm02) en golfrichting worden rechtstreeks ingelezen uit de Data DistributieLaag. De ingelezen set die gebruikt is voor deze rapportage is beschikbaar via onderstaande downloadknop: -->
+<!-- ```{r} -->
+<!-- downloadthis::download_link( -->
+<!--   link = "http://watersysteemdata.deltares.nl/thredds/fileServer/watersysteemdata/Wadden/ddl/standard/golven2021-07-08.csv", -->
+<!--   button_label = "Download golfdata als .csv", -->
+<!--   button_type = "primary", -->
+<!--   has_icon = TRUE, -->
+<!--   icon = "fa fa-save", -->
+<!--   self_contained = TRUE -->
+<!-- ) -->
+<!-- ``` -->
+<!-- ### Anomalie van de maandgemiddelde golfhoogte -->
+<!-- Als maat voor de seizoensfluctuatie van de golfhoogte wordt de afwijking (anomalie) van de maandgemiddelde golfhoogte ten opzichte van het langjarige gemiddelde gebruikt. -->
+<!-- De anomalie is berekend aan de hand van de volgende stappen: -->
+<!-- 1)  Incomplete jaren verwijderen. -->
+<!-- 1)  Langjarig gemiddelde voor elk station berekenen als gemiddelde van alle maandgemiddelden. -->
+<!-- 1)  De afwijking per station en maand berekenen als het verschil tussen maandgemiddelde en langjarig gemiddelde. -->
+<!-- 1)  De afwijking uitzetten tegen de maand in het jaar, en voor alle jaren in een figuur. De kleurenschaal toont het onderscheid tussen de jaren. -->
+<!-- ## Zoetwaterafvoeren {#Appzoetwaterafvoer} -->
+<!-- ### Brondata -->
+<!-- De daggemiddelde waarden van de drie grote afvoeren vanaf Rijkswateren (Den Oever, Kornwerderzand en Lauwersoog) zijn opgevraagd via Servicedesk Data van RWS. De 10-minuutwaarden bevatten veel gaten in de tijdreeksen en zijn daarom niet gebruikt. -->
+<!-- Afvoeren van de Eems en Leda zijn opgevraagd bij NLWKN en toegevoegd aan de [Datahuis Wadden Geoserver](https://datahuiswadden.openearth.nl/geoserver/web/wicket/bookmarkable/org.geoserver.web.demo.MapPreviewPage?1&filter=false). De data kunnen ook via onderstaande links direct worden gedownloadt als csv. Om niet ongewild grote datasets te downloaden is deze nu nog beperkt tot de eerste 50 records. Wanneer alle data gewenst zijn, moet "&maxFeatures=50" verwijderd worden uit de URL: -->
+<!-- Voor de polderafvoeren van de waterschappen zijn gegevens opgevraagd bij het desbetreffende waterschap en voor deze rapportage beschikbaar gemaakt via de [Datahuis Wadden Geoserver](https://datahuiswadden.openearth.nl/geoserver/web/wicket/bookmarkable/org.geoserver.web.demo.MapPreviewPage?1&filter=false). Directe links naar de afvoerdata staan hieronder. -->
+<!-- **Rijkswaterstaat** -->
+<!-- De etmaalgemiddelde afvoeren die in deze rapportage zijn gebruikt zijn opgevraagd bij de servicedesk data van Rijkswaterstaat. Deze gegevens zijn lokaal opgeslagen als bevroren versie voor deze rapportage en te downloaden via onderstaande link. -->
+<!-- ```{r} -->
+<!-- downloadthis::download_link( -->
+<!--   link = "https://datahuiswadden.openearth.nl/geoserver/zoetwaterafvoeren/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=zoetwaterafvoeren%3Aafvoeren_rijkswateren&outputFormat=csv", -->
+<!--   button_label = "Etmaalgemiddelde afvoeren IJsselmeer en Lauwersmeer als csv", -->
+<!--   button_type = "primary", -->
+<!--   has_icon = TRUE, -->
+<!--   icon = "fa fa-save", -->
+<!--   self_contained = TRUE -->
+<!-- ) -->
+<!-- ``` -->
+<!-- **NLWKN (Eems en Leda) ** -->
+<!-- ```{r} -->
+<!-- downloadthis::download_link( -->
+<!--   link = "https://datahuiswadden.openearth.nl/geoserver/zoetwaterafvoeren/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=zoetwaterafvoeren%3Aems_discharge_bewerkt&outputFormat=csv", -->
+<!--   button_label = "Eems afvoer als csv", -->
+<!--   button_type = "primary", -->
+<!--   has_icon = TRUE, -->
+<!--   icon = "fa fa-save", -->
+<!--   self_contained = TRUE -->
+<!-- ) -->
+<!-- ``` -->
+<!-- ```{r} -->
+<!-- downloadthis::download_link( -->
+<!--   link = "https://datahuiswadden.openearth.nl/geoserver/zoetwaterafvoeren/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=zoetwaterafvoeren%3Aleda_discharge_bewerkt&outputFormat=csv", -->
+<!--   button_label = "Leda afvoer als csv", -->
+<!--   button_type = "primary", -->
+<!--   has_icon = TRUE, -->
+<!--   icon = "fa fa-save", -->
+<!--   self_contained = TRUE -->
+<!-- ) -->
+<!-- ``` -->
+<!-- ```{r kaartHydrologischeStationsNLWKN, out.width="70%", fig.cap="Overzichtskaart van hydrologische meetstations in het stroomgebied van de Eems en West-Duitse Waddenzee."} -->
+<!-- invisible(file.copy(file.path(datadir, "NLWKN", "afvoeren", "raw", "2022_07_06_Discharges Ems.jpg"), "images/2022_07_06_Discharges Ems.jpg", overwrite = T)) -->
+<!-- knitr::include_graphics(path = file.path("images/2022_07_06_Discharges Ems.jpg")) -->
+<!-- ``` -->
+<!-- **Waterschappen** -->
+<!-- ```{r} -->
+<!-- downloadthis::download_link( -->
+<!--   link = "https://datahuiswadden.openearth.nl/geoserver/zoetwaterafvoeren/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=zoetwaterafvoeren%3Afriesland&outputFormat=csv", -->
+<!--   button_label = "Wetterskip Friesland afvoeren als csv", -->
+<!--   button_type = "primary", -->
+<!--   has_icon = TRUE, -->
+<!--   icon = "fa fa-save", -->
+<!--   self_contained = TRUE -->
+<!-- ) -->
+<!-- ``` -->
+<!-- ```{r} -->
+<!-- downloadthis::download_link( -->
+<!--   link = "https://datahuiswadden.openearth.nl/geoserver/zoetwaterafvoeren/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=zoetwaterafvoeren%3Anoorderzijlvest&outputFormat=csv", -->
+<!--   button_label = "Noorderzijlvest afvoeren als csv", -->
+<!--   button_type = "primary", -->
+<!--   has_icon = TRUE, -->
+<!--   icon = "fa fa-save", -->
+<!--   self_contained = TRUE -->
+<!-- ) -->
+<!-- ``` -->
+<!-- ```{r} -->
+<!-- downloadthis::download_link( -->
+<!--   link = "https://datahuiswadden.openearth.nl/geoserver/zoetwaterafvoeren/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=zoetwaterafvoeren%3Ahunzeenaas_daggemiddelden&outputFormat=csv", -->
+<!--   button_label = "Hunze en Aa's daggemiddelden afvoeren als csv", -->
+<!--   button_type = "primary", -->
+<!--   has_icon = TRUE, -->
+<!--   icon = "fa fa-save", -->
+<!--   self_contained = TRUE -->
+<!-- ) -->
+<!-- ``` -->
+<!-- ```{r} -->
+<!-- downloadthis::download_link( -->
+<!--   link = "https://datahuiswadden.openearth.nl/geoserver/zoetwaterafvoeren/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=zoetwaterafvoeren%3Ahhnk_daggemiddelden&outputFormat=csv", -->
+<!--   button_label = "HHNK daggemiddelden afvoeren als csv", -->
+<!--   button_type = "primary", -->
+<!--   has_icon = TRUE, -->
+<!--   icon = "fa fa-save", -->
+<!--   self_contained = TRUE -->
+<!-- ) -->
+<!-- ``` -->
+<!-- ### Bewerking van afvoeren -->
+<!-- In de systeemrapportage worden de daggemiddelde, maandgemiddelde en jaargemiddelde afvoeren weergegeven. -->
+<!-- Daarnaast wordt voor de grotere afvoeren ook de gemiddelde zomerafvoer en de gemiddelde winterafvoer berekend. Voor de zomer wordt daarbij gemiddeld over de periode 1 april tot en met 30 september. En voor de winter wordt gemiddeld over de periode van 1 oktober tot en met 31 maart. -->
+<!-- ## Wind {#Appwind} -->
+<!-- ```{r readMeteodata2, eval=F} -->
+<!-- dtwind <- data.table::fread(file.path(datadir, "KNMI", "raw", "uurgegevenswind.csv")) -->
+<!-- # paste(unique(dtwind$station), collapse = ", ") -->
+<!-- ``` -->
+<!-- ### Brondata -->
+<!-- De data betreffen de [KNMI uurgegevens](https://www.knmi.nl/nederland-nu/klimatologie/uurgegevens) voor de vier stations De Kooy, Lauwersoog, Hoorn Terschelling, Vlieland. -->
+<!-- ### Windsterkte en windrichting -->
+<!-- Als indicatoren voor de windsterkte worden de windrozen per station van de volledige tijdreeks en het jaarlijkse 25, 50, 75 en 95 percentiel van de windsnelheid weergegeven. -->
+<!-- Voor het bepalen van de periodes met hoge windsterkte wordt gekeken naar het aantal achtereenvolgende uren dat de windsnelheid boven een bepaalde grenswaarde komt. In de systeemrapportage worden de grenswaardes >10,8 m/s (Beaufort 6) en >13,9 m/s (Beaufort 7) gebruikt. Dit aantal uren wordt uitgezet in de tijd voor alle windrichtingen en uitgesplitst per kwadrant. Daarnaast wordt ook het aantal uren gesommeerd per jaar weergegeven met onderverdeling per kwadrant, zodat de jaren onderling beter vergeleken kunnen worden. -->
+<!-- ```{r} -->
+<!-- downloadthis::download_link( -->
+<!--   link = "http://watersysteemdata.deltares.nl/thredds/fileServer/watersysteemdata/Wadden/KNMI/raw/uurgegevenswind.csv", -->
+<!--   button_label = "Gebruikte uurgegevens wind als csv", -->
+<!--   button_type = "primary", -->
+<!--   has_icon = TRUE, -->
+<!--   icon = "fa fa-save", -->
+<!--   self_contained = TRUE -->
+<!-- ) -->
+<!-- ``` -->
+<!-- ## Waterkwaliteit {#Appwaterkwaliteit} -->
+<!-- ### Brondata -->
+<!-- MWTL metingen van Rijkswaterstaat worden beschikbaar gemaakt via [Waterinfo](https://waterinfo.rws.nl/) en zijn ook direct via een webservice te downloaden uit de Datadistributielaag (DDL) ([documentatie webservice](https://www.rijkswaterstaat.nl/rws/opendata/DistributielaagWebservices-SUM-2v7.pdf)). -->
+<!-- Zwevend stof was tijdens de samenstelling van dit rapport niet beschikbaar uit de DDL, en is daarom apart opgevraagd bij de servicedesk data van RWS. Voor het kunnen combineren van deze data met andere waterkwaliteitsdata is een aparte nabewerking nodig (mapping). -->
+<!-- ```{r} -->
+<!-- downloadthis::download_link( -->
+<!--   file.path("http://watersysteemdata.deltares.nl/thredds/fileServer/watersysteemdata/Wadden", "RWS", "standard", "ZS_all.csv"), -->
+<!--   button_label = "Zwevend stofgegevens als csv", -->
+<!--   button_type = "primary", -->
+<!--   has_icon = TRUE, -->
+<!--   icon = "fa fa-save", -->
+<!--   self_contained = TRUE -->
+<!-- ) -->
+<!-- ``` -->
+<!-- ### Gemiddelde watertemperatuur (maand, jaar en zomer/winter) -->
+<!-- Omdat de MWTL metingen een andere opnamefrequentie in de zomer en de winter hebben, is het van belang eerst de 'maandgemiddelden' te bepalen, en deze vervolgens te middelen per jaar. Anders worden de jaargemiddelden beïnvloed door de hogere meetfrequentie in de zomer. (Het woord 'maandgemiddelden' staat tussen aanhalingstekens, omdat er in de winterperiode vaak maar 1 meting per maand is.) -->
+<!-- De seizoensgemiddelden zijn alleen berekend en weergegeven als er minimaal 5 metingen in het seizoen beschikbaar waren. Het zomerseizoen wordt gerekend vanaf 1 april t/m 30 september, en het winterseizoen vanaf 1 oktober t/m 31 maart. -->
+<!-- Zomer- en wintergemiddelden zijn berekend om te zien of er trends in de seizoenen zitten die bij jaargemiddelden weg worden gemiddeld. -->
+<!-- ### Gemiddelde saliniteit (maand, jaar) en anomalie -->
+<!-- Omdat de MWTL metingen een andere opnamefrequentie in de zomer en de winter hebben, is het van belang eerst de 'maandgemiddelden' te bepalen, en deze vervolgens te middelen per jaar. Anders worden de jaargemiddelden beinvloed door de hogere meetfrequentie in de zomer. (Het woord 'maandgemiddelden' staat tussen aanhalingstekens, omdat er in de winterperiode vaak maar 1 meting per maand is.) -->
+<!-- Het jaargemiddelde is alleen berekend bij meer dan 10 metingen per jaar. -->
+<!-- De anomalie van de saliniteit is de afwijking van de maandgemiddelde saliniteit ten opzichte van het langjarig gemiddelde. De anomalie is berekend aan de hand van de volgende stappen: -->
+<!-- 1)  Incomplete jaren verwijderen. -->
+<!-- 1)  Langjarig gemiddelde voor elk station berekenen als gemiddelde van alle maandgemiddelden. -->
+<!-- 1)  De afwijking per station en maand berekenen als het verschil tussen maandgemiddelde en langjarig gemiddelde. -->
+<!-- 1)  De afwijking uitzetten tegen de tijd. -->
+<!-- ```{r} -->
+<!-- downloadthis::download_link( -->
+<!--   file.path("http://watersysteemdata.deltares.nl/thredds/fileServer/watersysteemdata/Wadden", "ddl", "standard", "WQ_TS_trendstations_allyears.csv"), -->
+<!--   button_label = "Temperatuur en saliniteitgegevens als csv", -->
+<!--   button_type = "primary", -->
+<!--   has_icon = TRUE, -->
+<!--   icon = "fa fa-save", -->
+<!--   self_contained = TRUE -->
+<!-- ) -->
+<!-- ``` -->
+<!-- ### Gemiddelde zwevende stof gehalte (maand, jaar) en anomalie -->
+<!-- Omdat de MWTL metingen een andere opnamefrequentie in de zomer en de winter hebben, is het van belang eerst de 'maandgemiddelden' te bepalen, en deze vervolgens te middelen per jaar. Anders worden de jaargemiddelden beinvloed door de hogere meetfrequentie in de zomer. (Het woord 'maandgemiddelden' staat tussen aanhalingstekens, omdat er in de winterperiode vaak maar 1 meting per maand is.) -->
+<!-- Voor zwevende stof is de anomalie, de afwijking ten opzichte van het langjarig gemiddelde, berekend voor alle jaren en maanden. Bovendien is deze data log-getransformeerd. De stappen voor de afleiding zijn: -->
+<!-- 1)  Incomplete jaren verwijderen. -->
+<!-- 1)  Alle meetwaarden log (e-basis) transformeren. -->
+<!-- 1)  Langjarig gemiddelde berekenen voor elk station als gemiddelde van alle maandgemiddelden. -->
+<!-- 1)  De afwijking berekenen per station per maand, als het verschil tussen maandgemiddelde en langjarig gemiddelde. -->
+<!-- 1)  De afwijking uitzetten tegen de tijd, zowel voor de gehele meetperiode als per maand. De kleurenschaal geeft de absolute waarde van de zwevend stofconcentratie aan. Bij het figuur met de gehele meetperiode achter elkaar is een lijn toegevoegd op basis van het 13-maanden (dus minstens 1 jaar) lopend gemiddelde. -->
+<!-- ## Morfologie {#Appmorfologie} -->
+<!-- ### Brondata bodemligging -->
+<!-- De verschillende bodemkaarten van de Waddenzee zijn een samenslag van lodingen en hoogtemetingen over de verschillende kombergingsgebieden waarvan er jaarlijks één bemeten wordt. Zo is elke 6 jaar door Rijkswaterstaat een kaart van de volledige Waddenzee geconstrueerd, op basis van de kaarten van deelgebieden over die periode. Deze zogenaamde vaklodingen zijn opgehaald van de [Open Earth Dataserver](https://opendap.deltares.nl/thredds/catalog/opendap/rijkswaterstaat/vaklodingen_new/catalog.html). De database bevat de vaklodingen data in 20x20 m resolutie. De vaklodingen zijn een combinatie van lodingen van de diepe delen aangevuld met LiDAR opnames van platen en waterpassingen/RTK-DGPS van de hoge delen zoals kwelders. Voor meer informatie over deze metingen verwijzen we naar de desbetreffende webpagina van [Rijkswaterstaat](https://waterinfo-extra.rws.nl/monitoring/morfologie/). -->
+<!-- De eerste volledige kaart dateert van 1991, met data over de periode 1985-1991. Let wel, deze kennen missende punten en vooral de kwelders en ondiepe gebieden langs de eilandkusten zijn niet volledig. De serie bodems vanaf 1985 zijn begin 2024 door Deltares opnieuw gecombineerd, aangevuld en gecorrigeerd en ontsloten via Datahuis Wadden. Voor de bodems vóór 1985 geldt dat de lodingen minder systematisch plaats vonden en ontsloten werden, waardoor de samengestelde bodems minder duidelijk terug te voeren zijn op een bepaalde periode. De tabel hieronder geeft een overzicht van de gebiedsdekkende kaarten vanuit de volledige vaklodingencycli en de onderliggende jaren van de afzonderlijke zeegaten. -->
+<!-- ```{r vaklodingcyclus} -->
+<!-- pad <- file.path(datadir, "DSR_samenvattingVaklodingen.csv") -->
+<!-- VaklodingTable <- read_csv2(pad) -->
+<!-- VaklodingTable %>% -->
+<!--   knitr::kable(caption = "Vaklodingcyclus van Rijkswaterstaat") -->
+<!-- ``` -->
+<!-- <!-- Er is gewerkt met 1 polygoon van het Friesche Zeegat, dat wil zeggen dat voor alle jaren met hetzelfde polygoon is gerekend om de begrenzing van het bekken te bepalen. Daarnaast is er alleen data gebruikt van de cellen (20x20m tegels) die in alle opnamejaren data bevatten. Dit voorkomt dat afwijkingen ontstaan die het gevolg zijn van verschillende ruimtelijke dekking van de data. De getoonde veranderingen zijn daarmee puur het gevolg van veranderingen van de morfologie voor het geanalyseerde gebied. -->
+<p>–&gt;</p>
+<!-- De visualisatie van de bodemligging van de Waddenzee is interactief beschikbaar gemaakt voor deze Digitale Systeemrapportage. De interactiveit wordt beschikbaar gemaakt met behulp van een r shiny app, die in de rapportage getoond wordt. De bathymetrie wordt hier gepresenteerd als een laag bovenop een Openstreetmap achtergrondkaart. De bathymetrielaag bevat gestapelde zgn. "tiles" van vaklodingen tussen de jaren die gekozen zijn met de slider. De bodemligging kan met en zonder "Hillshading" worden bekeken. -->
+<!-- De oorspronkelijke data is gemeten en opgeleverd door RWS voor elk jaar^[https://waterinfo-extra.rws.nl/monitoring/morfologie/#h53b817e6-e5cd-49d1-873c-9a0f85d8e416], en opgeslagen op een thredds server van Deltares als netcdf^[https://opendap.deltares.nl/thredds/catalog/opendap/rijkswaterstaat/vaklodingen_new/catalog.html]. Van elke netcdf is één tiff file per jaar gemaakt door een script^[https://github.com/openearth/eo-bathymetry/blob/master/notebooks/Vaklodingen2EE.ipynb] en in een Google Cloud storage (gs) map gevat. Hierna is van gs een Google Earth Engine (gee) Image Collection van vaklodingen data gemaakt. De r shiny app gebruikt een API service^[https://github.com/openearth/hydro-engine-service/blob/master/hydroengine_service/main.py] die de Image Collection leest, op basis van de gegeven input data. -->
+<!-- Voor het berekenen van morfologische indicatoren zijn de vaklodingen als rasters (tiff) samengesteld voor elk jaar voor de hele Waddenzee. De rasters bestaan uit data van het betreffende jaar, gecombineerd met data van alle voorgaande jaren, waarbij alleen de meest recente waarde per pixel gebruikt wordt. Nadeel is dat sommige delen van een raster oudere waarden kunnen bevatten. Het voordeel is dat er voor elk jaar een gebiedsdekkend raster voorhanden is. -->
+<!-- ### Additionele arealenvisualisatie -->
+<!-- ```{r arealen_nieuw, fig.cap = "Arealen voor verschillende diepteklassen met nieuwe bathymetrie en diepteklassen gerelateerd aan GHW en GLW (preliminair)."} -->
+<!-- knitr::include_url("https://deltares.shinyapps.io/plot_arealen/", height = "600px") -->
+<!-- ``` -->
+<!-- ## Brondata bodemslibgehalte {#Appbodemkwaliteit} -->
+<!-- Er zijn verschillende historische kaarten met het bodemslibgehalte beschikbaar (Lely ~1890, De Glopper ~1960, Sedimentatlas ~1989, SIBES/SUBES sinds 2008/2019). -->
+<!-- De sedimentatlas is digitaal beschikbaar en geeft een volledig dekkende kaart van de bodemsamenstelling in de Waddenzee inclusief het Eems estuarium. Deze data is getoond in deze digitale systeemrapportage en beschikbaar in [OpenEarthData](https://opendap.deltares.nl/thredds/catalog/opendap/rijkswaterstaat/sedimentatlas_waddenzee/catalog.html). -->
+<!-- Sinds 2008 zijn door het NIOZ monsters gestoken van het intergetijdengebied en is ook de korrelgrootteverdeling bepaald. Deze data wordt aangeduid met SIBES. De data is niet vrij beschikbaar en daarom vooralsnog niet opgenomen in deze rapportage. -->
+<!-- In ongeveer 2019 is de SIBES dataset gecomplementeerd met data van monsters die zijn genomen in de diepe delen van de Waddenzee, waarmee een ruimtelijk volledig dekkende kaart van de Waddenzee kan worden gemaakt. De data uit de diepe delen worden aangeduid met SUBES. Ook deze data is (nog) niet vrij beschikbaar. -->
+<!-- ### Brondata afbakening kombergingsgebieden -->
+<!-- Voor de opdeling in kombergingen zijn polygonen van de [Wageningen Marine Research Geoserver]("https://opengeodata.wmr.wur.nl/geoserver/WS3shp/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=WS3shp%3Aws3_tidalbasins&outputFormat=application/json") gebruikt. -->
+<!-- ### Hypsometrische curves -->
+<!-- Hypsometrische curves worden bepaald voor subgebieden (kombergingsgebieden) door de oppervlakte per diepte uit te zetten tegen de diepte. -->
+<!-- ### Ruimtelijk dekkende waterstanden -->
+<!-- Voor de bepaling van bepaalde morfologische karakteristieken is het ook belangrijk om een ruimtelijk dekkend beeld te hebben van de waterstanden in het bekken. De gemeten waterstanden geven alleen informatie van de waterstanden op de stations (zie paragraaf \@ref(Appwaterstanden)). -->
+<!-- Om van de gemeten waterstand een ruimtelijk dekkende waterspiegel te reconstrueren, moet rekening worden gehouden met de getijvoortplanting. Numerieke modellen die de waterstanden berekenen, hebben moeite om laagwaterstanden goed te reproduceren bij een acceptabele horizontale celresolutie. Dit komt doordat in een numeriek model de bodem wordt geschematiseerd naar grotere gebieden (rekencellen), waardoor de kleinere geultjes en prielen niet in het rekenrooster zijn opgenomen. Deze geultjes hebben een belangrijke functie in de drainage van de intergetijdengebieden, en daarmee ook op de laagwaterstand in die gebieden. -->
+<!-- Voor de (morfologische) zonering van de ondiepe gebieden is er voor gekozen om in eerste instantie uit te gaan van vaste begrenzingen van de hoogteklasses. Daarmee worden niet de veranderingen in getijslag door de tijd of over het gebied meegenomen. Dit betekent dat verandering in arealen alleen worden veroorzaakt door veranderingen in de bodemligging, en niet door een verandering in getijvoortplanting. Een indeling aan de hand van dergelijke begrenzingen geeft weliswaar niet het exacte intergetijdengebied weer, maar levert wel een bruikbare proxy hiervoor. Bovendien geven de vaste waterstandsgrenzen inzicht in veranderingen louter als gevolg van bodemveranderingen, en niet als gevolg van veranderingen in de waterstanden. Voor het systeembegrip is dit een voordeel. -->
+<!-- Om nauwkeuriger inzicht te krijgen in de areaalveranderingen van verschillende morfologische eenheden van de kombergingsgebieden, kan de hypsometrische curve worden onderverdeeld in vier verschillende diepteklassen. Omdat hierbij wordt gerekend met vaste begrenzingen van de diepteklassen, en veranderingen in getijslag door de tijd of over het gebied niet worden meegenomen, worden de (ondiepere) klassen aangeduid met 'proxy'. -->
+<!-- We onderscheiden de volgende 4 klassen: -->
+<!-- 1)  Geul ($z < -5 m$) -->
+<!-- 1)  Proxy subgetijdengebied ( $-5 m < z < -1 m$) -->
+<!-- 1)  Proxy intergetijdengebied ( $-1 < z < 1 m$) -->
+<!-- 1)  Proxy supragetijdengebied ($z > 1 m$) -->
+<!-- Waar z de verticale coordinaat t.o.v. NAP betekent. -->
+<!-- ### Plaathoogte en -volume -->
+<!-- Voor de berekening van de plaathoogte wordt het volume boven de NAP -1 m grens berekend, en gedeeld door de oppervlakte. -->
+<!-- In formulevorm: -->
+<!-- \begin{equation} -->
+<!--   \text{Plaathoogte} = \frac{\sum_i(h_i \cdot A_i)}{\sum_i A_i} \text{  if } h\geq -1 -->
+<!--   (\#eq:plaathoogte) -->
+<!-- \end{equation} -->
+<!-- waarin: -->
+<!-- *   A = oppervlakte van 1 rasterpixel (400 $m^2$) -->
+<!-- *   h = hoogtewaarde van een pixel -->
+<!-- *   i = de index van de pixels in het raster -->
+<!-- Voor het plaatvolume wordt het volume boven de NAP -1 m grens berekend: -->
+<!-- \begin{equation} -->
+<!--   \text{Plaatvolume} = \sum_i(h_i \cdot A_i) \text{  if } h\geq -1 -->
+<!--   (\#eq:plaatvolume) -->
+<!-- \end{equation} -->
+<!-- ### Geuldiepte en -volume -->
+<!-- Voor de berekening van de geuldiepte wordt het volume onder de NAP -5 m grens berekend, en gedeeld door de oppervlakte. In formulevorm: -->
+<!-- \begin{equation} -->
+<!--   \text{Geuldiepte} = \frac{\sum_i(h_i \cdot A_i)}{\sum_i A_i} \text{  if } h\leq -5 -->
+<!--   (\#eq:geuldiepte) -->
+<!-- \end{equation} -->
+<!-- waarin: -->
+<!-- *   A = oppervlakte van 1 rasterpixel (400 $m^2$) -->
+<!-- *   h = hoogtewaarde van een pixel -->
+<!-- *   i = de index van de pixels in het raster -->
+<!-- Voor het geulvolume wordt het volume onder de NAP -5 m grens berekend: -->
+<!-- \begin{equation} -->
+<!--   \text{Geulvolume} = \sum_i(h_i \cdot A_i) \text{  if } h\leq -5 -->
+<!--   (\#eq:geulvolume) -->
+<!-- \end{equation} -->
+<!-- ### Lengte van de laagwaterlijn -->
+<!-- Voor de berekening van de lengte van de laagwaterlijn is in eerste instantie de totale lengte berekend van de -1 m NAP contourlijnen binnen elk bekken. -->
+<!-- ```{r} -->
+<!-- downloadthis::download_link( -->
+<!--   file.path("http://watersysteemdata.deltares.nl/thredds/fileServer/watersysteemdata/Wadden/RWS/bathymetrie/products/laagwaterlijnlengte.csv"), -->
+<!--   button_label = "Laagwaterlijnlengte als csv", -->
+<!--   button_type = "primary", -->
+<!--   has_icon = TRUE, -->
+<!--   icon = "fa fa-save", -->
+<!--   self_contained = TRUE -->
+<!-- ) -->
+<!-- ``` -->
+<!-- ## Overzicht alle brondata -->
+<!-- ```{r dataoverzich2t} -->
+<!-- # code om dataoverzicht in nette tabel weer te geven. -->
+<!-- # dataoverzicht <- read_excel(file.path(projectDataPath, "wadden", "dataoverzicht.xlsx")) -->
+<!-- # write_delim(dataoverzicht, file.path(projectDataPath, "wadden", "dataoverzicht.csv"), delim = ";") -->
+<!-- dataoverzicht <- read_delim(file.path(datadir, "dataoverzicht.csv"), delim = ";") %>% -->
+<!--   knitr::kable(caption = "Overzicht van alle gebruikte data") -->
+<!-- ``` -->
+<!-- # Meetdichtheidmatrices -->
+<!-- ## Versiebeheer en kwaliteitscontrole -->
+<!-- De R-code waaruit deze digitale systeemrapportage is gemaakt (tekst, scripts en figuren) wordt bewaard op SVN onder versiebeheer (https://repos.deltares.nl/repos/DigSysRapWadden/). Daar is precies te herleiden wanneer en door wie aan een bepaalde indicator is gewerkt, en welke bewerkingen op brondata zijn gedaan. -->
+<!-- Om dat overzicht toegankelijker te maken en eventuele fouten sneller te kunnen verhelpen is onderstaande tabel toegevoegd. Deze tabel laat ook zien voor welke indicatoren de resultaten (waarden, kaarten, grafieken) en bijbehorende teksten gecontroleerd zijn, en door wie. Let wel: deze kwaliteitscontrole is beperkt en gericht op de voor de DSR gedane bewerkingen, omdat de DSR voornamelijk data uit andere bronnen ontsluit, en er noodzakelijkerwijs vanuit gegaan wordt dat daar reeds kwaliteitscontrole heeft plaatsgevonden. Deze tabel is alleen ingevuld voor de indicatoren die recent toegevoegd of wezenlijk veranderd zijn. -->
+<!-- ```{r} -->
+<!-- # reviewTable <- readxl::read_excel("P:/11202493--systeemrap-grevelingen/1_data/Wadden/DSR_reviewtabel.xlsx") -->
+<!-- # write_delim(reviewTable, file.path("P:/11202493--systeemrap-grevelingen/1_data/Wadden/DSR_reviewtabel.csv"), delim = ";") -->
+<!-- reviewTable <- read_delim(file.path(datadir, "DSR_reviewtabel.csv"), delim = ";") -->
+<!-- reviewTable %>% -->
+<!--   knitr::kable() -->
+<!-- ``` -->
+<!-- ## Zelf aan de slag -->
+<!-- Wil je de code achter de digitale systeemrapportage downloaden en aanpassen voor eigen gebruik? Neem contact op met jasper.dijkstra -at- deltares.nl voor toegang tot de DSR. Vraag vervolgens een Open Earth account aan. Via het programma Tortoise kan je een lokale kopie op je computer zetten om verder te bewerken. Op de [publicwiki van Deltares](https://publicwiki.deltares.nl/display/OET/TortoiseSVN) lees je hoe je een Open Earth account kunt aanvragen en een lokale kopie op je computer kunt zetten. -->
+<!-- Waarschijnlijk wordt deze systeemrapportage gemigreerd naar een Github code, waarmee de toegang tot de broncode eenvoudiger wordt. -->
+<!-- ## Gebruikte software en packages -->
+<!-- ```{r} -->
+<!-- pander::pander(sessionInfo(), RNG = TRUE, locale = FALSE) -->
+<!-- ``` -->
 
-<div class="figure"><span style="display:block;" id="fig:tijdstap"></span>
-<img src="images/tsTimestep.png" alt="Gebruikte tijdstap in de dataset voor alle stations. Vanaf 1984 is voor alle stations data op elke 10 minuten beschikbaar. Tussen 1966 en 1984 (variërend per station), is dit een tijdstap van een uur. In de jaren voor 1966 is dit zelfs 3 uur." width="80%" />
-<p class="caption">
-Figuur A.1: Gebruikte tijdstap in de dataset voor alle stations. Vanaf 1984 is voor alle stations data op elke 10 minuten beschikbaar. Tussen 1966 en 1984 (variërend per station), is dit een tijdstap van een uur. In de jaren voor 1966 is dit zelfs 3 uur.
-</p>
 </div>
-<p>De getijcomponenten zijn berekend op basis van de waterstationsmeetseries, zoals ontsloten via <a href="https://publicwiki.deltares.nl/display/OET/Dataset+documentation+MWTL">Open Earth Data</a>.</p>
-</div>
-<div id="ghw-glw-en-getijslag" class="section level3 hasAnchor" number="4.2.2">
-<h3><span class="header-section-number">A.2.2</span> GHW, GLW en getijslag<a href="data.html#ghw-glw-en-getijslag" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p>De jaargemiddelde hoog- en laagwaters (GHW en GLW) zijn bepaald door in de tijdseries van gemeten waterstanden te zoeken naar het maximum en minimum per getijcyclus, met een onderlinge afstand van minimaal 4 uur. In figuur <a href="data.html#fig:hooglaagvoorbeeld2">A.2</a> is daarvan een voorbeeld te zien. Vervolgens wordt hiervan het jaargemiddelde bepaald.
-De jaargemiddelde getijslag wordt berekend door het verschil tussen het jaargemiddelde GHW en GLW.</p>
-<a href="https://watersysteemdata.deltares.nl/thredds/fileServer/watersysteemdata/Wadden/RWS/standard/extremaHLLLyearlyaveragesCopy.csv">
-<button class="btn btn-primary"><i class="fa fa-save"></i> Download jaargemiddelde GHW en GLW als .csv</button>
-</a>
-<p>Om trends te kunnen bepalen is vervolgens een lineaire trendlijn toegevoegd die varieert met de 18,6-jarige cyclus. Doordat de frequentie van de 18,6-jarige cyclus bekend is en de tijdserie voldoende lang, kan de software zelf de amplitude en de fase van de 18,6-jarige cyclus fitten.</p>
-<pre><code>#&gt; Response [https://watersysteemdata.deltares.nl/thredds/fileServer/watersysteemdata/Wadden/ddl/standard/waterhoogteDelfzijl2021-08-05.Rdata]
-#&gt;   Date: 2026-09-25 11:34
-#&gt;   Status: 200
-#&gt;   Content-Type: application/octet-stream
-#&gt;   Size: 10.8 MB
-#&gt; &lt;ON DISK&gt;  /tmp/RtmpwHowAU/file39385b043c0c.RData</code></pre>
-<div class="figure"><span style="display:block;" id="fig:hooglaagvoorbeeld2"></span>
-<img src="_main_files/figure-html/hooglaagvoorbeeld2-1.png" alt="Gemeten waterstand en hoog- (rood) en laagwater (groen) voor eind maart 2018 (inclusief overgang naar zomertijd van 24 op 25 maart), zoals berekend voor de hele tijdserie." width="100%" />
-<p class="caption">
-Figuur A.2: Gemeten waterstand en hoog- (rood) en laagwater (groen) voor eind maart 2018 (inclusief overgang naar zomertijd van 24 op 25 maart), zoals berekend voor de hele tijdserie.
-</p>
-</div>
-</div>
-<div id="getijcomponentenmethode" class="section level3 hasAnchor" number="4.2.3">
-<h3><span class="header-section-number">A.2.3</span> Getijcomponenten en -asymmetrie<a href="data.html#getijcomponentenmethode" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p>Op basis van de gemeten waterstanden wordt met het python package ‘hatyan’ de amplitude en fase van de verschillende getijcomponenten bepaald. Op basis van deze amplitudes en fases kan de amplitudeverhouding M<sub>4</sub>/M<sub>2</sub> en het faseverschil (<span class="math inline">\(2 \phi M_{2} - \phi M_{4}\)</span>) worden berekend <a href="https://github.com/Deltares/hatyan">https://github.com/Deltares/hatyan</a>. Voor uitgebreide documentatie wordt verwezen naar <a href="https://github.com/Deltares/hatyan/blob/main/docs/11205257-013-DSC-0006_v1.0-Gebruikershandleiding%20hatyan.pdf">de gebruikershandleiding</a>.</p>
-<p>Getijcomponenten zijn berekend per station en jaar, en kunnen gedownload worden vanaf <a href="https://watersysteemdata.deltares.nl/thredds/catalog/watersysteemdata/Wadden/ddl/calculated/TA_filtersurge/catalog.html">watersysteemdata.deltares.nl</a>.</p>
-</div>
-<div id="gemiddeld-laag-laag-water-gllw-en-gemiddeld-hoog-hoog-water-ghhw" class="section level3 hasAnchor" number="4.2.4">
-<h3><span class="header-section-number">A.2.4</span> Gemiddeld laag laag water (GLLW) en gemiddeld hoog hoog water (GHHW)<a href="data.html#gemiddeld-laag-laag-water-gllw-en-gemiddeld-hoog-hoog-water-ghhw" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p>GLLW en GHHW worden berekend als de maandminima en -maxima van het berekend getij per station. Het berekend getij wordt bepaald uit de getijcomponenten, zie sectie <a href="data.html#getijcomponentenmethode">A.2.3</a>.</p>
-<a href="http://watersysteemdata.deltares.nl/thredds/fileServer/watersysteemdata/Wadden/ddl/calculated/tidal_indicators/GHHWS_10min.csv">
-<button class="btn btn-primary"><i class="fa fa-save"></i> Download GHHW als .csv</button>
-</a>
-<a href="http://watersysteemdata.deltares.nl/thredds/fileServer/watersysteemdata/Wadden/ddl/calculated/tidal_indicators/GLLWS_10min.csv">
-<button class="btn btn-primary"><i class="fa fa-save"></i> Download GLLW als .csv</button>
-</a>
-</div>
-<div id="stormopzet-en-stormvloedhoogte" class="section level3 hasAnchor" number="4.2.5">
-<h3><span class="header-section-number">A.2.5</span> Stormopzet en stormvloedhoogte<a href="data.html#stormopzet-en-stormvloedhoogte" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p>De stormopzet (en -afzet) wordt berekend als de gemeten waterstand, verminderd met de astronomische waterstand (het getij). In de systeemrapportage worden de 99,5-percentiel per jaar en het maximum per jaar gebruikt als maat voor storm.</p>
-<p>Voor de stormvloedhoogte gebruiken we het 99,5-percentiel per jaar van de gemeten waterstand (dus inclusief het getij).</p>
-<p>De astronomische waterstand is berekend per station en jaar, en kan gedownload worden vanaf <a href="https://watersysteemdata.deltares.nl/thredds/catalog/watersysteemdata/Wadden/ddl/calculated/waterstand_berekend_m/catalog.html">watersysteemdata.deltares.nl</a>.</p>
-</div>
-</div>
-<div id="Appgolfhoogte" class="section level2 hasAnchor" number="4.3">
-<h2><span class="header-section-number">A.3</span> Golven<a href="data.html#Appgolfhoogte" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<div id="brondata-1" class="section level3 hasAnchor" number="4.3.1">
-<h3><span class="header-section-number">A.3.1</span> Brondata<a href="data.html#brondata-1" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p>De significante golfhoogte, golfperiode (Tm02) en golfrichting worden rechtstreeks ingelezen uit de Data DistributieLaag. De ingelezen set die gebruikt is voor deze rapportage is beschikbaar via onderstaande downloadknop:</p>
-<a href="http://watersysteemdata.deltares.nl/thredds/fileServer/watersysteemdata/Wadden/ddl/standard/golven2021-07-08.csv">
-<button class="btn btn-primary"><i class="fa fa-save"></i> Download golfdata als .csv</button>
-</a>
-</div>
-<div id="anomalie-van-de-maandgemiddelde-golfhoogte" class="section level3 hasAnchor" number="4.3.2">
-<h3><span class="header-section-number">A.3.2</span> Anomalie van de maandgemiddelde golfhoogte<a href="data.html#anomalie-van-de-maandgemiddelde-golfhoogte" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p>Als maat voor de seizoensfluctuatie van de golfhoogte wordt de afwijking (anomalie) van de maandgemiddelde golfhoogte ten opzichte van het langjarige gemiddelde gebruikt.</p>
-<p>De anomalie is berekend aan de hand van de volgende stappen:</p>
-<ol style="list-style-type: decimal">
-<li><p>Incomplete jaren verwijderen.</p></li>
-<li><p>Langjarig gemiddelde voor elk station berekenen als gemiddelde van alle maandgemiddelden.</p></li>
-<li><p>De afwijking per station en maand berekenen als het verschil tussen maandgemiddelde en langjarig gemiddelde.</p></li>
-<li><p>De afwijking uitzetten tegen de maand in het jaar, en voor alle jaren in een figuur. De kleurenschaal toont het onderscheid tussen de jaren.</p></li>
-</ol>
-</div>
-</div>
-<div id="Appzoetwaterafvoer" class="section level2 hasAnchor" number="4.4">
-<h2><span class="header-section-number">A.4</span> Zoetwaterafvoeren<a href="data.html#Appzoetwaterafvoer" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<div id="brondata-2" class="section level3 hasAnchor" number="4.4.1">
-<h3><span class="header-section-number">A.4.1</span> Brondata<a href="data.html#brondata-2" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p>De daggemiddelde waarden van de drie grote afvoeren vanaf Rijkswateren (Den Oever, Kornwerderzand en Lauwersoog) zijn opgevraagd via Servicedesk Data van RWS. De 10-minuutwaarden bevatten veel gaten in de tijdreeksen en zijn daarom niet gebruikt.</p>
-<p>Afvoeren van de Eems en Leda zijn opgevraagd bij NLWKN en toegevoegd aan de <a href="https://datahuiswadden.openearth.nl/geoserver/web/wicket/bookmarkable/org.geoserver.web.demo.MapPreviewPage?1&amp;filter=false">Datahuis Wadden Geoserver</a>. De data kunnen ook via onderstaande links direct worden gedownloadt als csv. Om niet ongewild grote datasets te downloaden is deze nu nog beperkt tot de eerste 50 records. Wanneer alle data gewenst zijn, moet “&amp;maxFeatures=50” verwijderd worden uit de URL:</p>
-<p>Voor de polderafvoeren van de waterschappen zijn gegevens opgevraagd bij het desbetreffende waterschap en voor deze rapportage beschikbaar gemaakt via de <a href="https://datahuiswadden.openearth.nl/geoserver/web/wicket/bookmarkable/org.geoserver.web.demo.MapPreviewPage?1&amp;filter=false">Datahuis Wadden Geoserver</a>. Directe links naar de afvoerdata staan hieronder.</p>
-<p><strong>Rijkswaterstaat</strong></p>
-<p>De etmaalgemiddelde afvoeren die in deze rapportage zijn gebruikt zijn opgevraagd bij de servicedesk data van Rijkswaterstaat. Deze gegevens zijn lokaal opgeslagen als bevroren versie voor deze rapportage en te downloaden via onderstaande link.</p>
-<a href="https://datahuiswadden.openearth.nl/geoserver/zoetwaterafvoeren/ows?service=WFS&amp;version=1.0.0&amp;request=GetFeature&amp;typeName=zoetwaterafvoeren%3Aafvoeren_rijkswateren&amp;outputFormat=csv">
-<button class="btn btn-primary"><i class="fa fa-save"></i> Etmaalgemiddelde afvoeren IJsselmeer en Lauwersmeer als csv</button>
-</a>
-<p><strong>NLWKN (Eems en Leda) </strong></p>
-<a href="https://datahuiswadden.openearth.nl/geoserver/zoetwaterafvoeren/ows?service=WFS&amp;version=1.0.0&amp;request=GetFeature&amp;typeName=zoetwaterafvoeren%3Aems_discharge_bewerkt&amp;outputFormat=csv">
-<button class="btn btn-primary"><i class="fa fa-save"></i> Eems afvoer als csv</button>
-</a>
-<a href="https://datahuiswadden.openearth.nl/geoserver/zoetwaterafvoeren/ows?service=WFS&amp;version=1.0.0&amp;request=GetFeature&amp;typeName=zoetwaterafvoeren%3Aleda_discharge_bewerkt&amp;outputFormat=csv">
-<button class="btn btn-primary"><i class="fa fa-save"></i> Leda afvoer als csv</button>
-</a>
-<div class="figure"><span style="display:block;" id="fig:kaartHydrologischeStationsNLWKN"></span>
-<img src="images/2022_07_06_Discharges%20Ems.jpg" alt="Overzichtskaart van hydrologische meetstations in het stroomgebied van de Eems en West-Duitse Waddenzee." width="70%" />
-<p class="caption">
-Figuur A.3: Overzichtskaart van hydrologische meetstations in het stroomgebied van de Eems en West-Duitse Waddenzee.
-</p>
-</div>
-<p><strong>Waterschappen</strong></p>
-<a href="https://datahuiswadden.openearth.nl/geoserver/zoetwaterafvoeren/ows?service=WFS&amp;version=1.0.0&amp;request=GetFeature&amp;typeName=zoetwaterafvoeren%3Afriesland&amp;outputFormat=csv">
-<button class="btn btn-primary"><i class="fa fa-save"></i> Wetterskip Friesland afvoeren als csv</button>
-</a>
-<a href="https://datahuiswadden.openearth.nl/geoserver/zoetwaterafvoeren/ows?service=WFS&amp;version=1.0.0&amp;request=GetFeature&amp;typeName=zoetwaterafvoeren%3Anoorderzijlvest&amp;outputFormat=csv">
-<button class="btn btn-primary"><i class="fa fa-save"></i> Noorderzijlvest afvoeren als csv</button>
-</a>
-<a href="https://datahuiswadden.openearth.nl/geoserver/zoetwaterafvoeren/ows?service=WFS&amp;version=1.0.0&amp;request=GetFeature&amp;typeName=zoetwaterafvoeren%3Ahunzeenaas_daggemiddelden&amp;outputFormat=csv">
-<button class="btn btn-primary"><i class="fa fa-save"></i> Hunze en Aa's daggemiddelden afvoeren als csv</button>
-</a>
-<a href="https://datahuiswadden.openearth.nl/geoserver/zoetwaterafvoeren/ows?service=WFS&amp;version=1.0.0&amp;request=GetFeature&amp;typeName=zoetwaterafvoeren%3Ahhnk_daggemiddelden&amp;outputFormat=csv">
-<button class="btn btn-primary"><i class="fa fa-save"></i> HHNK daggemiddelden afvoeren als csv</button>
-</a>
-</div>
-<div id="bewerking-van-afvoeren" class="section level3 hasAnchor" number="4.4.2">
-<h3><span class="header-section-number">A.4.2</span> Bewerking van afvoeren<a href="data.html#bewerking-van-afvoeren" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p>In de systeemrapportage worden de daggemiddelde, maandgemiddelde en jaargemiddelde afvoeren weergegeven.</p>
-<p>Daarnaast wordt voor de grotere afvoeren ook de gemiddelde zomerafvoer en de gemiddelde winterafvoer berekend. Voor de zomer wordt daarbij gemiddeld over de periode 1 april tot en met 30 september. En voor de winter wordt gemiddeld over de periode van 1 oktober tot en met 31 maart.</p>
-</div>
-</div>
-<div id="Appwind" class="section level2 hasAnchor" number="4.5">
-<h2><span class="header-section-number">A.5</span> Wind<a href="data.html#Appwind" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<div id="brondata-3" class="section level3 hasAnchor" number="4.5.1">
-<h3><span class="header-section-number">A.5.1</span> Brondata<a href="data.html#brondata-3" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p>De data betreffen de <a href="https://www.knmi.nl/nederland-nu/klimatologie/uurgegevens">KNMI uurgegevens</a> voor de vier stations De Kooy, Lauwersoog, Hoorn Terschelling, Vlieland.</p>
-</div>
-<div id="windsterkte-en-windrichting" class="section level3 hasAnchor" number="4.5.2">
-<h3><span class="header-section-number">A.5.2</span> Windsterkte en windrichting<a href="data.html#windsterkte-en-windrichting" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p>Als indicatoren voor de windsterkte worden de windrozen per station van de volledige tijdreeks en het jaarlijkse 25, 50, 75 en 95 percentiel van de windsnelheid weergegeven.</p>
-<p>Voor het bepalen van de periodes met hoge windsterkte wordt gekeken naar het aantal achtereenvolgende uren dat de windsnelheid boven een bepaalde grenswaarde komt. In de systeemrapportage worden de grenswaardes &gt;10,8 m/s (Beaufort 6) en &gt;13,9 m/s (Beaufort 7) gebruikt. Dit aantal uren wordt uitgezet in de tijd voor alle windrichtingen en uitgesplitst per kwadrant. Daarnaast wordt ook het aantal uren gesommeerd per jaar weergegeven met onderverdeling per kwadrant, zodat de jaren onderling beter vergeleken kunnen worden.</p>
-<a href="http://watersysteemdata.deltares.nl/thredds/fileServer/watersysteemdata/Wadden/KNMI/raw/uurgegevenswind.csv">
-<button class="btn btn-primary"><i class="fa fa-save"></i> Gebruikte uurgegevens wind als csv</button>
-</a>
-</div>
-</div>
-<div id="Appwaterkwaliteit" class="section level2 hasAnchor" number="4.6">
-<h2><span class="header-section-number">A.6</span> Waterkwaliteit<a href="data.html#Appwaterkwaliteit" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<div id="brondata-4" class="section level3 hasAnchor" number="4.6.1">
-<h3><span class="header-section-number">A.6.1</span> Brondata<a href="data.html#brondata-4" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p>MWTL metingen van Rijkswaterstaat worden beschikbaar gemaakt via <a href="https://waterinfo.rws.nl/">Waterinfo</a> en zijn ook direct via een webservice te downloaden uit de Datadistributielaag (DDL) (<a href="https://www.rijkswaterstaat.nl/rws/opendata/DistributielaagWebservices-SUM-2v7.pdf">documentatie webservice</a>).</p>
-<p>Zwevend stof was tijdens de samenstelling van dit rapport niet beschikbaar uit de DDL, en is daarom apart opgevraagd bij de servicedesk data van RWS. Voor het kunnen combineren van deze data met andere waterkwaliteitsdata is een aparte nabewerking nodig (mapping).</p>
-<a href="http://watersysteemdata.deltares.nl/thredds/fileServer/watersysteemdata/Wadden/RWS/standard/ZS_all.csv">
-<button class="btn btn-primary"><i class="fa fa-save"></i> Zwevend stofgegevens als csv</button>
-</a>
-</div>
-<div id="gemiddelde-watertemperatuur-maand-jaar-en-zomerwinter" class="section level3 hasAnchor" number="4.6.2">
-<h3><span class="header-section-number">A.6.2</span> Gemiddelde watertemperatuur (maand, jaar en zomer/winter)<a href="data.html#gemiddelde-watertemperatuur-maand-jaar-en-zomerwinter" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p>Omdat de MWTL metingen een andere opnamefrequentie in de zomer en de winter hebben, is het van belang eerst de ‘maandgemiddelden’ te bepalen, en deze vervolgens te middelen per jaar. Anders worden de jaargemiddelden beïnvloed door de hogere meetfrequentie in de zomer. (Het woord ‘maandgemiddelden’ staat tussen aanhalingstekens, omdat er in de winterperiode vaak maar 1 meting per maand is.)</p>
-<p>De seizoensgemiddelden zijn alleen berekend en weergegeven als er minimaal 5 metingen in het seizoen beschikbaar waren. Het zomerseizoen wordt gerekend vanaf 1 april t/m 30 september, en het winterseizoen vanaf 1 oktober t/m 31 maart.</p>
-<p>Zomer- en wintergemiddelden zijn berekend om te zien of er trends in de seizoenen zitten die bij jaargemiddelden weg worden gemiddeld.</p>
-</div>
-<div id="gemiddelde-saliniteit-maand-jaar-en-anomalie" class="section level3 hasAnchor" number="4.6.3">
-<h3><span class="header-section-number">A.6.3</span> Gemiddelde saliniteit (maand, jaar) en anomalie<a href="data.html#gemiddelde-saliniteit-maand-jaar-en-anomalie" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p>Omdat de MWTL metingen een andere opnamefrequentie in de zomer en de winter hebben, is het van belang eerst de ‘maandgemiddelden’ te bepalen, en deze vervolgens te middelen per jaar. Anders worden de jaargemiddelden beinvloed door de hogere meetfrequentie in de zomer. (Het woord ‘maandgemiddelden’ staat tussen aanhalingstekens, omdat er in de winterperiode vaak maar 1 meting per maand is.)</p>
-<p>Het jaargemiddelde is alleen berekend bij meer dan 10 metingen per jaar.</p>
-<p>De anomalie van de saliniteit is de afwijking van de maandgemiddelde saliniteit ten opzichte van het langjarig gemiddelde. De anomalie is berekend aan de hand van de volgende stappen:</p>
-<ol style="list-style-type: decimal">
-<li><p>Incomplete jaren verwijderen.</p></li>
-<li><p>Langjarig gemiddelde voor elk station berekenen als gemiddelde van alle maandgemiddelden.</p></li>
-<li><p>De afwijking per station en maand berekenen als het verschil tussen maandgemiddelde en langjarig gemiddelde.</p></li>
-<li><p>De afwijking uitzetten tegen de tijd.</p></li>
-</ol>
-<a href="http://watersysteemdata.deltares.nl/thredds/fileServer/watersysteemdata/Wadden/ddl/standard/WQ_TS_trendstations_allyears.csv">
-<button class="btn btn-primary"><i class="fa fa-save"></i> Temperatuur en saliniteitgegevens als csv</button>
-</a>
-</div>
-<div id="gemiddelde-zwevende-stof-gehalte-maand-jaar-en-anomalie" class="section level3 hasAnchor" number="4.6.4">
-<h3><span class="header-section-number">A.6.4</span> Gemiddelde zwevende stof gehalte (maand, jaar) en anomalie<a href="data.html#gemiddelde-zwevende-stof-gehalte-maand-jaar-en-anomalie" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p>Omdat de MWTL metingen een andere opnamefrequentie in de zomer en de winter hebben, is het van belang eerst de ‘maandgemiddelden’ te bepalen, en deze vervolgens te middelen per jaar. Anders worden de jaargemiddelden beinvloed door de hogere meetfrequentie in de zomer. (Het woord ‘maandgemiddelden’ staat tussen aanhalingstekens, omdat er in de winterperiode vaak maar 1 meting per maand is.)</p>
-<p>Voor zwevende stof is de anomalie, de afwijking ten opzichte van het langjarig gemiddelde, berekend voor alle jaren en maanden. Bovendien is deze data log-getransformeerd. De stappen voor de afleiding zijn:</p>
-<ol style="list-style-type: decimal">
-<li><p>Incomplete jaren verwijderen.</p></li>
-<li><p>Alle meetwaarden log (e-basis) transformeren.</p></li>
-<li><p>Langjarig gemiddelde berekenen voor elk station als gemiddelde van alle maandgemiddelden.</p></li>
-<li><p>De afwijking berekenen per station per maand, als het verschil tussen maandgemiddelde en langjarig gemiddelde.</p></li>
-<li><p>De afwijking uitzetten tegen de tijd, zowel voor de gehele meetperiode als per maand. De kleurenschaal geeft de absolute waarde van de zwevend stofconcentratie aan. Bij het figuur met de gehele meetperiode achter elkaar is een lijn toegevoegd op basis van het 13-maanden (dus minstens 1 jaar) lopend gemiddelde.</p></li>
-</ol>
-</div>
-</div>
-<div id="Appmorfologie" class="section level2 hasAnchor" number="4.7">
-<h2><span class="header-section-number">A.7</span> Morfologie<a href="data.html#Appmorfologie" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<div id="brondata-bodemligging" class="section level3 hasAnchor" number="4.7.1">
-<h3><span class="header-section-number">A.7.1</span> Brondata bodemligging<a href="data.html#brondata-bodemligging" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p>De verschillende bodemkaarten van de Waddenzee zijn een samenslag van lodingen en hoogtemetingen over de verschillende kombergingsgebieden waarvan er jaarlijks één bemeten wordt. Zo is elke 6 jaar door Rijkswaterstaat een kaart van de volledige Waddenzee geconstrueerd, op basis van de kaarten van deelgebieden over die periode. Deze zogenaamde vaklodingen zijn opgehaald van de <a href="https://opendap.deltares.nl/thredds/catalog/opendap/rijkswaterstaat/vaklodingen_new/catalog.html">Open Earth Dataserver</a>. De database bevat de vaklodingen data in 20x20 m resolutie. De vaklodingen zijn een combinatie van lodingen van de diepe delen aangevuld met LiDAR opnames van platen en waterpassingen/RTK-DGPS van de hoge delen zoals kwelders. Voor meer informatie over deze metingen verwijzen we naar de desbetreffende webpagina van <a href="https://waterinfo-extra.rws.nl/monitoring/morfologie/">Rijkswaterstaat</a>.
-De eerste volledige kaart dateert van 1991, met data over de periode 1985-1991. Let wel, deze kennen missende punten en vooral de kwelders en ondiepe gebieden langs de eilandkusten zijn niet volledig. De serie bodems vanaf 1985 zijn begin 2024 door Deltares opnieuw gecombineerd, aangevuld en gecorrigeerd en ontsloten via Datahuis Wadden. Voor de bodems vóór 1985 geldt dat de lodingen minder systematisch plaats vonden en ontsloten werden, waardoor de samengestelde bodems minder duidelijk terug te voeren zijn op een bepaalde periode. De tabel hieronder geeft een overzicht van de gebiedsdekkende kaarten vanuit de volledige vaklodingencycli en de onderliggende jaren van de afzonderlijke zeegaten.</p>
-<table>
-<caption><span id="tab:vaklodingcyclus">Tabel A.1: </span>Vaklodingcyclus van Rijkswaterstaat</caption>
-<colgroup>
-<col width="31%" />
-<col width="10%" />
-<col width="9%" />
-<col width="5%" />
-<col width="8%" />
-<col width="12%" />
-<col width="14%" />
-<col width="10%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th align="left">Cyclus</th>
-<th align="left">Marsdiep</th>
-<th align="right">Eierland</th>
-<th align="right">Vlie</th>
-<th align="right">Ameland</th>
-<th align="left">Friesche ZG</th>
-<th align="right">Groninger Wad</th>
-<th align="left">ED</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left">Cyclus 1- WadGrid 1985-1991</td>
-<td align="left">1985-1988</td>
-<td align="right">1987</td>
-<td align="right">1988</td>
-<td align="right">1989</td>
-<td align="left">1987</td>
-<td align="right">1989</td>
-<td align="left">1990</td>
-</tr>
-<tr class="even">
-<td align="left">Cyclus 2- WadGrid 1991-1997</td>
-<td align="left">1991</td>
-<td align="right">1993</td>
-<td align="right">1992</td>
-<td align="right">1993</td>
-<td align="left">1994</td>
-<td align="right">1995</td>
-<td align="left">1996-1997</td>
-</tr>
-<tr class="odd">
-<td align="left">Cyclus 3- WadGrid 1997-2002</td>
-<td align="left">1997</td>
-<td align="right">1999</td>
-<td align="right">1998</td>
-<td align="right">1999</td>
-<td align="left">2000</td>
-<td align="right">2001</td>
-<td align="left">2002</td>
-</tr>
-<tr class="even">
-<td align="left">Cyclus 4- WadGrid 2003-2008</td>
-<td align="left">2003</td>
-<td align="right">2005</td>
-<td align="right">2004</td>
-<td align="right">2005</td>
-<td align="left">2006</td>
-<td align="right">2007</td>
-<td align="left">2008</td>
-</tr>
-<tr class="odd">
-<td align="left">Cyclus 5- WadGrid 2009-2014</td>
-<td align="left">2009</td>
-<td align="right">2011</td>
-<td align="right">2010</td>
-<td align="right">2011</td>
-<td align="left">2012</td>
-<td align="right">2013</td>
-<td align="left">2014</td>
-</tr>
-<tr class="even">
-<td align="left">Cyclus 6- WadGrid 2015-2020</td>
-<td align="left">2015</td>
-<td align="right">2017</td>
-<td align="right">2016</td>
-<td align="right">2017</td>
-<td align="left">2018-2019</td>
-<td align="right">2019</td>
-<td align="left">2020</td>
-</tr>
-<tr class="odd">
-<td align="left">Cyclus 7- WadGrid 2021-present</td>
-<td align="left">2021</td>
-<td align="right">2023</td>
-<td align="right">2022</td>
-<td align="right">2023</td>
-<td align="left">2024</td>
-<td align="right">2025</td>
-<td align="left">NA</td>
-</tr>
-</tbody>
-</table>
-<!-- Er is gewerkt met 1 polygoon van het Friesche Zeegat, dat wil zeggen dat voor alle jaren met hetzelfde polygoon is gerekend om de begrenzing van het bekken te bepalen. Daarnaast is er alleen data gebruikt van de cellen (20x20m tegels) die in alle opnamejaren data bevatten. Dit voorkomt dat afwijkingen ontstaan die het gevolg zijn van verschillende ruimtelijke dekking van de data. De getoonde veranderingen zijn daarmee puur het gevolg van veranderingen van de morfologie voor het geanalyseerde gebied. -->
-<p>De visualisatie van de bodemligging van de Waddenzee is interactief beschikbaar gemaakt voor deze Digitale Systeemrapportage. De interactiveit wordt beschikbaar gemaakt met behulp van een r shiny app, die in de rapportage getoond wordt. De bathymetrie wordt hier gepresenteerd als een laag bovenop een Openstreetmap achtergrondkaart. De bathymetrielaag bevat gestapelde zgn. “tiles” van vaklodingen tussen de jaren die gekozen zijn met de slider. De bodemligging kan met en zonder “Hillshading” worden bekeken.</p>
-<p>De oorspronkelijke data is gemeten en opgeleverd door RWS voor elk jaar<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a>, en opgeslagen op een thredds server van Deltares als netcdf<a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a>. Van elke netcdf is één tiff file per jaar gemaakt door een script<a href="#fn3" class="footnote-ref" id="fnref3"><sup>3</sup></a> en in een Google Cloud storage (gs) map gevat. Hierna is van gs een Google Earth Engine (gee) Image Collection van vaklodingen data gemaakt. De r shiny app gebruikt een API service<a href="#fn4" class="footnote-ref" id="fnref4"><sup>4</sup></a> die de Image Collection leest, op basis van de gegeven input data.</p>
-<p>Voor het berekenen van morfologische indicatoren zijn de vaklodingen als rasters (tiff) samengesteld voor elk jaar voor de hele Waddenzee. De rasters bestaan uit data van het betreffende jaar, gecombineerd met data van alle voorgaande jaren, waarbij alleen de meest recente waarde per pixel gebruikt wordt. Nadeel is dat sommige delen van een raster oudere waarden kunnen bevatten. Het voordeel is dat er voor elk jaar een gebiedsdekkend raster voorhanden is.</p>
-</div>
-<div id="additionele-arealenvisualisatie" class="section level3 hasAnchor" number="4.7.2">
-<h3><span class="header-section-number">A.7.2</span> Additionele arealenvisualisatie<a href="data.html#additionele-arealenvisualisatie" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<div class="figure">
-<iframe src="https://deltares.shinyapps.io/plot_arealen/" width="100%" height="600px" data-external="1">
-</iframe>
-<p class="caption">
-(#fig:arealen_nieuw)Arealen voor verschillende diepteklassen met nieuwe bathymetrie en diepteklassen gerelateerd aan GHW en GLW (preliminair).
-</p>
-</div>
-</div>
-</div>
-<div id="Appbodemkwaliteit" class="section level2 hasAnchor" number="4.8">
-<h2><span class="header-section-number">A.8</span> Brondata bodemslibgehalte<a href="data.html#Appbodemkwaliteit" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<p>Er zijn verschillende historische kaarten met het bodemslibgehalte beschikbaar (Lely ~1890, De Glopper ~1960, Sedimentatlas ~1989, SIBES/SUBES sinds 2008/2019).</p>
-<p>De sedimentatlas is digitaal beschikbaar en geeft een volledig dekkende kaart van de bodemsamenstelling in de Waddenzee inclusief het Eems estuarium. Deze data is getoond in deze digitale systeemrapportage en beschikbaar in <a href="https://opendap.deltares.nl/thredds/catalog/opendap/rijkswaterstaat/sedimentatlas_waddenzee/catalog.html">OpenEarthData</a>.</p>
-<p>Sinds 2008 zijn door het NIOZ monsters gestoken van het intergetijdengebied en is ook de korrelgrootteverdeling bepaald. Deze data wordt aangeduid met SIBES. De data is niet vrij beschikbaar en daarom vooralsnog niet opgenomen in deze rapportage.</p>
-<p>In ongeveer 2019 is de SIBES dataset gecomplementeerd met data van monsters die zijn genomen in de diepe delen van de Waddenzee, waarmee een ruimtelijk volledig dekkende kaart van de Waddenzee kan worden gemaakt. De data uit de diepe delen worden aangeduid met SUBES. Ook deze data is (nog) niet vrij beschikbaar.</p>
-<div id="brondata-afbakening-kombergingsgebieden" class="section level3 hasAnchor" number="4.8.1">
-<h3><span class="header-section-number">A.8.1</span> Brondata afbakening kombergingsgebieden<a href="data.html#brondata-afbakening-kombergingsgebieden" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p>Voor de opdeling in kombergingen zijn polygonen van de <a href="%22https://opengeodata.wmr.wur.nl/geoserver/WS3shp/ows?service=WFS&amp;version=1.0.0&amp;request=GetFeature&amp;typeName=WS3shp%3Aws3_tidalbasins&amp;outputFormat=application/json%22">Wageningen Marine Research Geoserver</a> gebruikt.</p>
-</div>
-<div id="hypsometrische-curves" class="section level3 hasAnchor" number="4.8.2">
-<h3><span class="header-section-number">A.8.2</span> Hypsometrische curves<a href="data.html#hypsometrische-curves" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p>Hypsometrische curves worden bepaald voor subgebieden (kombergingsgebieden) door de oppervlakte per diepte uit te zetten tegen de diepte.</p>
-</div>
-<div id="ruimtelijk-dekkende-waterstanden" class="section level3 hasAnchor" number="4.8.3">
-<h3><span class="header-section-number">A.8.3</span> Ruimtelijk dekkende waterstanden<a href="data.html#ruimtelijk-dekkende-waterstanden" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p>Voor de bepaling van bepaalde morfologische karakteristieken is het ook belangrijk om een ruimtelijk dekkend beeld te hebben van de waterstanden in het bekken. De gemeten waterstanden geven alleen informatie van de waterstanden op de stations (zie paragraaf <a href="data.html#Appwaterstanden">A.2</a>).</p>
-<p>Om van de gemeten waterstand een ruimtelijk dekkende waterspiegel te reconstrueren, moet rekening worden gehouden met de getijvoortplanting. Numerieke modellen die de waterstanden berekenen, hebben moeite om laagwaterstanden goed te reproduceren bij een acceptabele horizontale celresolutie. Dit komt doordat in een numeriek model de bodem wordt geschematiseerd naar grotere gebieden (rekencellen), waardoor de kleinere geultjes en prielen niet in het rekenrooster zijn opgenomen. Deze geultjes hebben een belangrijke functie in de drainage van de intergetijdengebieden, en daarmee ook op de laagwaterstand in die gebieden.</p>
-<p>Voor de (morfologische) zonering van de ondiepe gebieden is er voor gekozen om in eerste instantie uit te gaan van vaste begrenzingen van de hoogteklasses. Daarmee worden niet de veranderingen in getijslag door de tijd of over het gebied meegenomen. Dit betekent dat verandering in arealen alleen worden veroorzaakt door veranderingen in de bodemligging, en niet door een verandering in getijvoortplanting. Een indeling aan de hand van dergelijke begrenzingen geeft weliswaar niet het exacte intergetijdengebied weer, maar levert wel een bruikbare proxy hiervoor. Bovendien geven de vaste waterstandsgrenzen inzicht in veranderingen louter als gevolg van bodemveranderingen, en niet als gevolg van veranderingen in de waterstanden. Voor het systeembegrip is dit een voordeel.</p>
-<p>Om nauwkeuriger inzicht te krijgen in de areaalveranderingen van verschillende morfologische eenheden van de kombergingsgebieden, kan de hypsometrische curve worden onderverdeeld in vier verschillende diepteklassen. Omdat hierbij wordt gerekend met vaste begrenzingen van de diepteklassen, en veranderingen in getijslag door de tijd of over het gebied niet worden meegenomen, worden de (ondiepere) klassen aangeduid met ‘proxy’.</p>
-<p>We onderscheiden de volgende 4 klassen:</p>
-<ol style="list-style-type: decimal">
-<li><p>Geul (<span class="math inline">\(z &lt; -5 m\)</span>)</p></li>
-<li><p>Proxy subgetijdengebied ( <span class="math inline">\(-5 m &lt; z &lt; -1 m\)</span>)</p></li>
-<li><p>Proxy intergetijdengebied ( <span class="math inline">\(-1 &lt; z &lt; 1 m\)</span>)</p></li>
-<li><p>Proxy supragetijdengebied (<span class="math inline">\(z &gt; 1 m\)</span>)</p></li>
-</ol>
-<p>Waar z de verticale coordinaat t.o.v. NAP betekent.</p>
-</div>
-<div id="plaathoogte-en--volume" class="section level3 hasAnchor" number="4.8.4">
-<h3><span class="header-section-number">A.8.4</span> Plaathoogte en -volume<a href="data.html#plaathoogte-en--volume" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p>Voor de berekening van de plaathoogte wordt het volume boven de NAP -1 m grens berekend, en gedeeld door de oppervlakte.
-In formulevorm:</p>
-<p><span class="math display" id="eq:plaathoogte">\[\begin{equation}
-  \text{Plaathoogte} = \frac{\sum_i(h_i \cdot A_i)}{\sum_i A_i} \text{  if } h\geq -1
-  \tag{A.1}
-\end{equation}\]</span></p>
-<p>waarin:</p>
-<ul>
-<li>A = oppervlakte van 1 rasterpixel (400 <span class="math inline">\(m^2\)</span>)</li>
-<li>h = hoogtewaarde van een pixel</li>
-<li>i = de index van de pixels in het raster</li>
-</ul>
-<p>Voor het plaatvolume wordt het volume boven de NAP -1 m grens berekend:</p>
-<p><span class="math display" id="eq:plaatvolume">\[\begin{equation}
-  \text{Plaatvolume} = \sum_i(h_i \cdot A_i) \text{  if } h\geq -1
-  \tag{A.2}
-\end{equation}\]</span></p>
-</div>
-<div id="geuldiepte-en--volume" class="section level3 hasAnchor" number="4.8.5">
-<h3><span class="header-section-number">A.8.5</span> Geuldiepte en -volume<a href="data.html#geuldiepte-en--volume" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p>Voor de berekening van de geuldiepte wordt het volume onder de NAP -5 m grens berekend, en gedeeld door de oppervlakte. In formulevorm:</p>
-<p><span class="math display" id="eq:geuldiepte">\[\begin{equation}
-  \text{Geuldiepte} = \frac{\sum_i(h_i \cdot A_i)}{\sum_i A_i} \text{  if } h\leq -5
-  \tag{A.3}
-\end{equation}\]</span></p>
-<p>waarin:</p>
-<ul>
-<li>A = oppervlakte van 1 rasterpixel (400 <span class="math inline">\(m^2\)</span>)</li>
-<li>h = hoogtewaarde van een pixel</li>
-<li>i = de index van de pixels in het raster</li>
-</ul>
-<p>Voor het geulvolume wordt het volume onder de NAP -5 m grens berekend:</p>
-<p><span class="math display" id="eq:geulvolume">\[\begin{equation}
-  \text{Geulvolume} = \sum_i(h_i \cdot A_i) \text{  if } h\leq -5
-  \tag{A.4}
-\end{equation}\]</span></p>
-</div>
-<div id="lengte-van-de-laagwaterlijn" class="section level3 hasAnchor" number="4.8.6">
-<h3><span class="header-section-number">A.8.6</span> Lengte van de laagwaterlijn<a href="data.html#lengte-van-de-laagwaterlijn" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p>Voor de berekening van de lengte van de laagwaterlijn is in eerste instantie de totale lengte berekend van de -1 m NAP contourlijnen binnen elk bekken.</p>
-<a href="http://watersysteemdata.deltares.nl/thredds/fileServer/watersysteemdata/Wadden/RWS/bathymetrie/products/laagwaterlijnlengte.csv">
-<button class="btn btn-primary"><i class="fa fa-save"></i> Laagwaterlijnlengte als csv</button>
-</a>
-</div>
-</div>
-<div id="overzicht-alle-brondata" class="section level2 hasAnchor" number="4.9">
-<h2><span class="header-section-number">A.9</span> Overzicht alle brondata<a href="data.html#overzicht-alle-brondata" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-</div>
-</div>
-<div class="footnotes">
-<hr />
-<ol start="1">
-<li id="fn1"><p><a href="https://waterinfo-extra.rws.nl/monitoring/morfologie/#h53b817e6-e5cd-49d1-873c-9a0f85d8e416" class="uri">https://waterinfo-extra.rws.nl/monitoring/morfologie/#h53b817e6-e5cd-49d1-873c-9a0f85d8e416</a><a href="data.html#fnref1" class="footnote-back">↩︎</a></p></li>
-<li id="fn2"><p><a href="https://opendap.deltares.nl/thredds/catalog/opendap/rijkswaterstaat/vaklodingen_new/catalog.html" class="uri">https://opendap.deltares.nl/thredds/catalog/opendap/rijkswaterstaat/vaklodingen_new/catalog.html</a><a href="data.html#fnref2" class="footnote-back">↩︎</a></p></li>
-<li id="fn3"><p><a href="https://github.com/openearth/eo-bathymetry/blob/master/notebooks/Vaklodingen2EE.ipynb" class="uri">https://github.com/openearth/eo-bathymetry/blob/master/notebooks/Vaklodingen2EE.ipynb</a><a href="data.html#fnref3" class="footnote-back">↩︎</a></p></li>
-<li id="fn4"><p><a href="https://github.com/openearth/hydro-engine-service/blob/master/hydroengine_service/main.py" class="uri">https://github.com/openearth/hydro-engine-service/blob/master/hydroengine_service/main.py</a><a href="data.html#fnref4" class="footnote-back">↩︎</a></p></li>
-</ol>
-</div>
+
+
+
+
+
+
+
             </section>
 
           </div>
         </div>
       </div>
-<a href="references.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="meetdichtheidmatrices.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="references.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
@@ -737,20 +667,6 @@ gitbook.start({
 });
 </script>
 
-<!-- dynamically load mathjax for compatibility with self-contained -->
-<script>
-  (function () {
-    var script = document.createElement("script");
-    script.type = "text/javascript";
-    var src = "true";
-    if (src === "" || src === "true") src = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/latest.js?config=TeX-MML-AM_CHTML";
-    if (location.protocol !== "file:")
-      if (/^https?:/.test(src))
-        src = src.replace(/^https?:/, '');
-    script.src = src;
-    document.getElementsByTagName("head")[0].appendChild(script);
-  })();
-</script>
 </body>
 
 </html>
