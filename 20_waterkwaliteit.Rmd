@@ -28,7 +28,7 @@ WQ_IJS <- read_delim(path_IJS, delim = ";", guess_max = 1000000, na = c("9999999
 
 figuur \@ref(fig:kaartDDLlocaties)
 
-```{r kaartDDLlocaties, cache=F, fig.cap = "Huidige locaties met MWTL metingen in de relevante delen van de Noordzee, de Waddenzee en het Eems-estuarium."}
+```{r kaartDDLlocaties, cache=F, fig.cap = "Huidige locaties met metingen ."}
 
 plotlocaties = c("Vliestroom", "Marsdiep noord", "Doove Balg west", "Dantziggat", "Boomkensdiep", "Terschelling 10 km uit de kust","Rottumerplaat 3 km uit de kust", "Huibertgat oost", "Bocht van Watum", "Groote Gat noord")
 
@@ -52,7 +52,10 @@ WQlocations_IJS <- WQ_IJS %>%
   distinct(naam, X, Y,) %>% st_as_sf(coords = c("X", "Y"), crs = 4326)
 
 leaflet::leaflet(WQlocations_IJS) %>%
-  leaflet::addTiles(group = "OSM") %>%
+  leaflet::addProviderTiles(
+  providers$Esri.WorldGrayCanvas,
+  group = "Basemap"
+  ) %>%
   # addProviderTiles(providers$Esri.WorldTopoMap, group = "Esri.WorldTopoMap") %>%
   # addProviderTiles(providers$Esri.WorldImagery, group = "Esri.WorldImagery") %>%
   # leaflet::addProviderTiles("OpenSeaMap", group = "OpenSeaMap") %>%

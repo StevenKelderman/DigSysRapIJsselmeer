@@ -13,7 +13,7 @@ Dit hoofdstuk beschrijft het IJsselmeergebied, de belangrijkste fysische process
 ### IJsselmeergebied
 Het IJsselmeergebied is het grootste zoetwaterreservoir van Nederland en vervult een belangrijke functie binnen het nationale waterbeheer. Het gebied bestaat uit het IJsselmeer, het Markermeer en de Randmeren (zie Figuur \@ref(fig:overzichtskaart)). Deze rapportage richt zich primair op de verzilting van het IJsselmeer en voor zover kennis en data bekend is, wordt het Markermeer ook meegenomen.
 
-```{r overzichtskaart, echo=FALSE, fig.cap="Overzichtskaart IJsselmeergebied."}
+```{r overzichtskaart, echo=FALSE, out.width="60%", fig.cap="Overzichtskaart IJsselmeergebied."}
 knitr::include_graphics("images/overzichtskaart.png")
 ```
 
@@ -59,14 +59,14 @@ Aan het einde van de zomer wordt het peil verlaagd, zodat in de winter meer ruim
 
 Ook voor het Markermeer gelden seizoensafhankelijke streefpeilen. In de zomer zijn deze gelijk aan die van het IJsselmeer. In de winter liggen de streefpeilen vrijwel op hetzelfde niveau, maar is de bandbreedte kleiner.
 
-```{r streefpeilen, echo=FALSE, fig.cap="Weergave van streefpeilen en bandbreedtes uit het peilbesluit van 2018 voor IJsselmeer en Markermeer. Bron: Deltares, 2025b"}
+```{r streefpeilen, echo=FALSE, out.width="60%", fig.cap="Weergave van streefpeilen en bandbreedtes uit het peilbesluit van 2018 voor IJsselmeer en Markermeer. Bron: Deltares, 2025b"}
 knitr::include_graphics("images/streefpeilen.png")
 ```
 
 ### Bodemligging
 Figuur \@ref(fig:bodemligging) toont de bodemligging van het IJsselmeer en een deel van het Markermeer. De bodem van het IJsselmeer bestaat uit een relatief vlakke bodem met een gemiddelde diepte van circa 4 tot 5 meter, afgewisseld door diepere oude getijdegeulen, vaargeulen en lokale erosiekuilen nabij de spuisluizen op de Afsluitdijk. 
 
-```{r bodemligging, echo=FALSE, fig.cap="Kaart van de bodemligging van het IJsselmeer. Bron: Rijkswaterstaat (2020)."}
+```{r bodemligging, echo=FALSE, out.width="60%", fig.cap="Kaart van de bodemligging van het IJsselmeer. Bron: Rijkswaterstaat (2020)."}
 knitr::include_graphics("images/bodemligging.png")
 ```
 
@@ -99,25 +99,25 @@ De Waterbalans voor het IJsselmeer is voor een karakteristieke zomerperiode afge
 
 De totale watervraag wordt in de zomer voor een groot deel bepaald door de regionale watervraag (Hydrologic, 2021), maar ook een substantieel deel is nodig voor het tegengaan van verzilting (Spuien door Afsluitdijk). Hoeveel precies gespuid moet worden is nog onzeker, en verder onderzoek (Deltares, 2026) zal inzicht geven in wat de meest effectieve spuistrategie kan zijn om verzilting tegen te gaan. Tot slot is verdamping en de watervraag vanuit het Markermeer ook substantieel.
 
-```{r watervraag, echo=FALSE, fig.cap="Watervraag IJsselmeer in (droge) zomer."}
+```{r watervraag, echo=FALSE, out.width="60%", fig.cap="Watervraag IJsselmeer in (droge) zomer."}
 knitr::include_graphics("images/watervraag.png")
 ```
 
 Het wateraanbod is tijdens een zomerperiode beperkt. Deze wordt gedomineerd door de aanvoer vanaf de IJssel (hier aangenomen op 130 m<sup>3</sup>/s). Doordat neerslag beperkt is, en ook vanaf het Zwarte Water geen toevoer naar het IJsselmeer is er sprake van een aanzienlijk watertekort (orde grootte 135 m<sup>3</sup>/s) welke moet worden opgevangen door het laten uitzakken van het meerpeil.
 
-```{r wateraanbod, echo=FALSE, fig.cap="Wateraanbod IJsselmeer in (droge) zomer."}
+```{r wateraanbod, echo=FALSE, out.width="60%", fig.cap="Wateraanbod IJsselmeer in (droge) zomer."}
 knitr::include_graphics("images/wateraanbod.png")
 ```
 
 De zoutbalans van het IJsselmeer laat een groot aantal redelijk vergelijkbare bijdrages zien. Met name de zoutlast door schut- en spuisluizen is hierbij van belang. De bovenstroomse aanvoer is onvermijdelijk en wordt veroorzaakt doordat rivierwater (zeker bij lage afvoeren) een niet verwaarloosbaar zoutgehalte heeft. Let wel: Verdamping leidt niet op zichzelf tot verzilting, maar doordat het water uit het meer onttrekt, wordt het nog aanwezige zoute water wel steeds zouter.
 
-```{r zoutlast, echo=FALSE, fig.cap="Zoutlast IJsselmeer in (droge) zomer."}
+```{r zoutlast, echo=FALSE, out.width="60%", fig.cap="Zoutlast IJsselmeer in (droge) zomer."}
 knitr::include_graphics("images/zoutlast.png")
 ```
 
 De afvoer van verzilting moet grotendeels gebeuren via de spuisluizen, al wordt een klein deel ook gedaan via de hevels. Bij een watertekort, kan minder water worden gespuid, waardoor minder zout water kan worden afgevoerd en de verzilting in het IJsselmeer zal toenemen.
 
-```{r zoutafvoer, echo=FALSE, fig.cap="Zoutafvoer IJsselmeer in (droge) zomer."}
+```{r zoutafvoer, echo=FALSE, out.width="60%", fig.cap="Zoutafvoer IJsselmeer in (droge) zomer."}
 knitr::include_graphics("images/zoutafvoer.png")
 ```
 
@@ -127,7 +127,7 @@ De schut- en spuisluizen in de Afsluitdijk zijn de grootste bron van zout water 
 
 Via de scheepvaartsluizen in de Afsluitdijk komt zout water op het IJsselmeer met name als onderdeel van het schutbedrijf en ook via enige lekkage. Zouttransport vindt plaats tijdens het nivelleerproces rond hoogwater en tijdens de kolkuitwisseling bij het openen van de sluisdeuren (zie Figuur \@ref(fig:zouttransportsluizen)). De kolkuitwisseling is veruit het dominante proces vanwege het grote volume van de kolk in vergelijking met de schutschijf. Bij Den Oever ligt één scheepvaartsluis (de Stevinsluis) en bij Kornwerderzand liggen een grote en een kleine scheepvaartsluis (de Lorentzsluizen). Behalve de grootte van de kolk is de zoutlast via de scheepvaartsluizen afhankelijk van de precieze schutoperatie en de sterk variabele chlorideconcentratie in de westelijke Waddenzee. In de praktijk speelt hierbij de afweging tussen kortere deur-openingstijden, het beperken van het aantal schutbewegingen per dag, het aantal schepen in de kolk en de doorstroom van het scheepvaartverkeer. (zoals deur-opentijden en aantal schutbewegingen). 
 
-```{r zouttransportsluizen, echo=FALSE, fig.cap="Zouttransport door kolkuitwisseling en nivelleren."}
+```{r zouttransportsluizen, echo=FALSE, out.width="60%", fig.cap="Zouttransport door kolkuitwisseling en nivelleren."}
 knitr::include_graphics("images/zouttransportsluizen.png")
 ```
 
@@ -144,7 +144,7 @@ Enkele maatregelen ten behoeve van de vismigratie zorgen voor een instroom van z
 - Spuien om visstand: als deze maatregelen wordt ingezet, worden de deuren van de spuisluizen (bij laagwater Waddenzee) op een kier gezet. Hierdoor kunnen sterke zwemmers tegen de stroming in van de Waddenzee naar het IJsselmeer zwemmen. Als (bijvoorbeeld in de zomerperiode) uitsluitend op visstand wordt gespuid vraagt dit enig zoetwater, maar de stroomsnelheden zijn dusdanig laag dat het niet bijdraagt aan verziltingsbestrijding. Spuien op visstand helpt niet voor verziltingsbestrijding.
 - Vismigratierivier: deze rivier is zo ontworpen dat er geen zout water op het IJsselmeer terecht moet komen. 
 
-```{r visvriendelijkspuibeheer, echo=FALSE, fig.cap="Schematische weergave van visvriendelijk spuibeheer."}
+```{r visvriendelijkspuibeheer, echo=FALSE, out.width="60%", fig.cap="Schematische weergave van visvriendelijk spuibeheer."}
 knitr::include_graphics("images/visvriendelijkspuibeheer.png")
 ```
 
