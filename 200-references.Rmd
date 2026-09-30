@@ -5,6 +5,20 @@
 `r if (knitr::is_html_output()) '
 # References {-}
 '`
+Deltares (2024). Wilbert Verbruggen, Maria Georgiou, Noor ten Harmsen van der Beek en Arnout Bijlsma. Ontwikkeling zesde-generatie 3D IJsselmeer model; Modelbouw, validatie. Deltares rapport 11210333-007-ZWS-0002, 19 december 2024.
 
+Deltares (2025a). Otto Weiler, Nino Zuiderwijk en Arnout Bijlsma. ‘KP-ZSS Systeemverkenningen Zoetwater; Oprekmogelijkheden door maatregelen op spui- en schutsluizen.’ Deltares rapport 11210315-004-BGS-0001, 9 april 2025.
+
+Deltares (2025b). Ruurd Noordhuis en Menno Genseberger. Natuur, peilbeheer en klimaatverandering in het IJsselmeergebied; Bouwsteen Tweede herijking Deltaprogramma IJsselmeergebied. Deltares rapport 11211551-002-ZWS-0001, 23 september 2025.
+
+Deltares (2026a). Wilbert Verbruggen, Reimer de Graaff en Meinard Tiessen. ‘Zoutverspreiding IJsselmeer t.g.v. stroomstoring 1 maart 2026; Resultaten hindcast simulatie 1 maart – 26 maart 2026. Deltares presentatie 11212806-008-HAF-0002, 4 juni 2026.
+
+Deltares (2026b). Wilbert Verbruggen. SITO-PS 2026 WBB02: Spuiadvies Afsluitdijk. Rapport nog ontwikkeling. Verwachte oplevering eind 2026. 
+
+Hydrologic (2021). ‘Actualisatie Waterverdeling IJsselmeergebied: Kwantificering en toelichting  watervraagtabellen’. Rapport Hydrologic P1176, oktober 2021.
+
+Rijkswaterstaat (2020). Yann Friocourt. ‘Nieuwe inzichten naar aanleiding van de verzilting van het IJsselmeer in 2018 en actualisatie van de posten van de water- en zoutbalans van het meer’. Rijkswaterstaat rapport (voorlopig), 20 maart 2020.
+
+Rijkswaterstaat (2021). Infographic Verzilting IJsselmeer en Markermeer. Versie 01, mei 2021. 
 
 <div id="refs"></div>
