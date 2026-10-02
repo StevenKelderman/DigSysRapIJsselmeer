@@ -2,6 +2,8 @@
 
 # Historische gegevens (2018-2022) {#meetdata}
 
+Dit hoofdstuk presenteert de beschikbare meetgegevens van water, wind en zout in het IJsselmeergebied voor de periode 2018–2022. Daarnaast bevat het een inventarisatie van de beschikbare informatie van ingrepen die tijdens de droogteperioden van 2018 en 2022 zijn uitgevoerd.
+
 ```{r setupWaterkwaliteit, include = FALSE}
 
 theme_wq = theme_bw()
@@ -25,10 +27,9 @@ WQ_IJS <- read_delim(path_IJS, delim = ";", guess_max = 1000000, na = c("9999999
 ```
 
 ## Water {#water}
+Deze paragraaf beschrijft de verschillende componenten van de waterbalans van het IJsselmeer. Eerst worden de verschillende posten van wateraanvoer en -afvoer afzondelijk gepresenteerd. Vervolgens worden deze componenten samengebracht in één waterbalans op dagbasis voor de jaren 2018 t/m 2022. Figuur \@ref(fig:kaartDDLlocaties) toont welke meteingen gebruikt zijn voor het IJsselmeer. 
 
-figuur \@ref(fig:kaartDDLlocaties)
-
-```{r kaartDDLlocaties, cache=F, fig.cap = "Huidige locaties met metingen ."}
+```{r kaartDDLlocaties, cache=F, fig.cap = "Gebruikte meetlocaties."}
 
 plotlocaties = c("Vliestroom", "Marsdiep noord", "Doove Balg west", "Dantziggat", "Boomkensdiep", "Terschelling 10 km uit de kust","Rottumerplaat 3 km uit de kust", "Huibertgat oost", "Bocht van Watum", "Groote Gat noord")
 
@@ -67,53 +68,53 @@ leaflet::leaflet(WQlocations_IJS) %>%
 
 ```
 
-```{r 01-Debiet-IJssel, echo=FALSE, fig.cap="debiet IJssel gemeten bij Olst"}
+```{r 01-Debiet-IJssel, echo=FALSE, fig.cap="Gemiddelde IJsselafvoer per dag bij Olst."}
 knitr::include_graphics("images/debiet/WADAR_debiet_olst_20260824.png")
 ```
 
-```{r 02-Debiet-Lorentzsluizen, echo=FALSE, fig.cap="debiet Lorentz spuisluizen"}
+```{r 02-Debiet-Lorentzsluizen, echo=FALSE, fig.cap="Gemiddeld spuidebiet per dag Lorentz spuisluizen."}
 knitr::include_graphics("images/debiet/carlijn_debiet_Lorentz_spuisluizen_Afsluitdijk_20260824.png")
 ```
 
-```{r 03-Debiet-Stevinssluizen, echo=FALSE, fig.cap="debiet Stevin spuisluizen"}
+```{r 03-Debiet-Stevinssluizen, echo=FALSE, fig.cap="Gemiddeld spuidebiet per dag Stevin spuisluizen."}
 knitr::include_graphics("images/debiet/carlijn_debiet_Stevin_spuisluizen_afsluitdijk_20260824.png")
 ```
 
-```{r 04-Debiet-Houtribsluis, echo=FALSE, fig.cap="debiet Houtribsluis noord"}
+```{r 04-Debiet-Houtribsluis, echo=FALSE, fig.cap="Gemiddeld spuidebiet per dag Houtribsluis noord."}
 knitr::include_graphics("images/debiet/WADAR_debiet_lelystad_houtribsluis_noord_20260824.png")
 ```
 
-```{r 05-Debiet-Krabbersgatsluizen, echo=FALSE, fig.cap="debiet Krabbersgat"}
+```{r 05-Debiet-Krabbersgatsluizen, echo=FALSE, fig.cap="Gemiddeld spuidebiet per dag Krabbersgat."}
 knitr::include_graphics("images/debiet/WADAR_debiet_krabbersgat_ijsselmeer_20260824.png")
 ```
 
-```{r 06-Debiet-overig, echo=FALSE, fig.cap="debiet overige locaties"}
+```{r 06-Debiet-overig, echo=FALSE, fig.cap="Overige regionale watervraag."}
 knitr::include_graphics("images/debiet/carlijn_debiet_overig_20260824.png")
 ```
 
-```{r 01-Berging-IJsselmeer, echo=FALSE, fig.cap="Berging IJsselmeer"}
+```{r 01-Berging-IJsselmeer, echo=FALSE, fig.cap="Berging IJsselmeer."}
 knitr::include_graphics("images/debiet/carlijn_debiet_Berging_IJsselmeer_20260824.png")
 ```
 
-```{r 01-Neerslag, echo=FALSE, fig.cap="Neerslag op dagbasis IJsselmeer"}
+```{r 01-Neerslag, echo=FALSE, fig.cap="Neerslag op dagbasis IJsselmeer."}
 knitr::include_graphics("images/debiet/carlijn_debiet_Neerslag_20260824.png")
 ```
 
-```{r 02-Verdamping, echo=FALSE, fig.cap="Verdamping op dagbasis IJsselmeer"}
+```{r 02-Verdamping, echo=FALSE, fig.cap="Verdamping op dagbasis IJsselmeer."}
 knitr::include_graphics("images/debiet/carlijn_debiet_Verdamping_20260824.png")
 ```
 
-```{r 01-waterbalans-abs, echo=FALSE, fig.cap="Maandelijkse in- en uitstroom absoluut"}
+```{r 01-waterbalans-abs, echo=FALSE, fig.cap="Waterbalans op dagbasis IJsselmeer."}
 knitr::include_graphics("images/waterbalans/monthly_in_out_netto_flow.png")
 ```
 
-```{r 02-waterbalans-rel, echo=FALSE, fig.cap="Maandelijkse in- en uitstroom relatief"}
+```{r 02-waterbalans-rel, echo=FALSE, fig.cap="Maandelijkse waterbalans relatief."}
 knitr::include_graphics("images/waterbalans/monthly_in_out_percentage.png")
 ```
 
 ## Wind {#wind}
 
-De onderstaande figuren tonen de ontwikkeling van windsnelheid en windrichting op meetlocaties in en rond het IJsselmeergebied. Wind is een belangrijke sturende factor binnen het watersysteem en heeft invloed op onder andere waterstanden, golfopbouw, menging van de waterkolom en de verspreiding van stoffen. De tijdreeksen laten zowel seizoensgebonden patronen als kortdurende stormachtige gebeurtenissen zien. Door de ontwikkelingen door de tijd te volgen en verschillende locaties met elkaar te vergelijken, ontstaat inzicht in de ruimtelijke en temporele variatie van de windcondities en hun mogelijke invloed op het functioneren van het watersysteem.
+De onderstaande interactieve figuur toont de windsnelheid en windrichting op meetlocatie Stavoren. Wind is een belangrijke sturende factor binnen het watersysteem en heeft invloed op onder andere waterstanden, golfopbouw, menging van de waterkolom en de verspreiding van stoffen. De tijdreeksen laten zowel seizoensgebonden patronen als kortdurende stormachtige gebeurtenissen zien. Linksboven in de figuur kan het jaarlijks via een drop-down menu aangepast worden. 
 
 ```{r interactive-wind, echo=FALSE, results='asis'}
 cat(
@@ -136,7 +137,6 @@ cat(
 # 
 # knitr::include_graphics(imgs)
 ```
-
 
 ## Zout {#zout}
 
@@ -222,7 +222,7 @@ cat(
 # 
 ```
 
-De onderstaande figuren tonen de ontwikkeling van diverse hydrologische en waterkwaliteitsparameters op meerdere meetlocaties binnen het IJsselmeergebied. De tijdreeksen geven inzicht in zowel langjarige trends als kortdurende fluctuaties, waardoor veranderingen in de toestand van het watersysteem door de tijd gevolgd kunnen worden. De weergegeven locaties omvatten onder andere belangrijke in- en uitstroompunten zoals Den Oever en Krabbersgat, evenals verschillende meetstations verspreid over het IJsselmeer. Voor meerdere parameters zijn duidelijke seizoenspatronen zichtbaar, terwijl andere reeksen juist worden gekenmerkt door incidentele pieken die samenhangen met hydrologische gebeurtenissen, weersomstandigheden of waterbeheermaatregelen. Door de ontwikkeling van de metingen tussen locaties te vergelijken, worden ruimtelijke verschillen binnen het systeem inzichtelijk en kunnen trends, afwijkingen en bijzondere gebeurtenissen beter worden geduid. De figuren bieden daarmee een waardevolle basis voor het beoordelen van de dynamiek en ontwikkeling van het IJsselmeerwatersysteem.
+De onderstaande figuren tonen de gemeten chlorideconcentraties op verschillende dieptes voor de volgende meetpunten: Andijk, PWN, Den Oever (IJsselmeer binnenhaven; spuisluis binnen; Waddenzee voorhaven kolk; IJsselmeer Vaargeul; Stevinsluizen zuid), Kornwerderzand (IJsselmeer binnenhaven; Waddenzee voorhaven kolk; IJsselmeer Middelgronden; IJsselmeer spui; IJsselmeer vaargeul; Spuihaven zuid), Vrouwezand, Gemaal Lely, Gemaal Blocq van Kuffeler (hoog; laag), Gemaal Zeeburg, Schellingwouderbrug en Spui Schellingwoude. Wanneer er geen data te zien zijn, betekent dit dat deze gegevens niet beschikbaar zijn.
 
 
 ```{r zoutbalans, echo=FALSE}
@@ -324,7 +324,7 @@ knitr::include_graphics("images/saliniteit/carlijn_chloride_spui_Schellingwoude_
 ```
 
 ## Inventaristatie van gedane ingrepen (toestand objecten)
-Om een relatie te kunnen leggen tussen optredende condities, genomen maatregelen, en het effect daarvan op het zoutgehalte en zoutverspreiding in het IJsselmeer is het de bedoeling voor specifieke jaren te bekijken welke maatregelen wanneer zijn genomen en waarom. Daarna kan worden bekeken hoe het zoutgehalte zich ontwikkelde. Tot slot kan een relatie worden gezocht tussen opgetreden condities (afvoer, bijvoorbeeld), genomen maatregelen, en mogelijke effecten van de genomen maatregelen. 
+Om een relatie te kunnen leggen tussen optredende condities, genomen maatregelen, en het effect daarvan op het zoutgehalte en zoutverspreiding in het IJsselmeer is het de bedoeling om voor specifieke jaren te bekijken welke maatregelen wanneer zijn genomen en waarom. Daarna kan worden bekeken hoe het zoutgehalte zich ontwikkelde. Tot slot kan een relatie worden gezocht tussen opgetreden condities (afvoer, bijvoorbeeld), genomen maatregelen, en mogelijke effecten van de genomen maatregelen. 
 
 Voor de beschouwde periode ligt de prioriteit op de droge zomer van 2018 en die van 2022. In de toekomst kunnen hieraan andere periodes worden toegevoegd, zoals andere verziltingsgebeurtenissen (bijvoorbeeld als gevolg van de stroomstoring maart 2026, Deltares (2026a)) of bijvoorbeeld momenten met harde wind om het effect van wind gedreven menging en stroming op zout in het IJsselmeer te duiden.
 
@@ -347,18 +347,18 @@ In de zomer van 2022 was ook sprake van lage afvoercondities. Voor deze periode 
 Door het ontbreken van gegevens van de daadwerkelijke toepassing van maatregelen kan hieronder geen directe relatie worden gelegd tussen opgelegde maatregelen en opgetreden zoutgehaltes. De effectiviteit van maatregelen en een beschouwing van de fysische processen die optraden in 2018 staat echter uitgebreid beschreven in een evaluatiedocument van Rijkswaterstaat dat is opgesteld naar aanleiding van de droge zomer 2018 (Rijkswaterstaat, 2020). Daarin wordt niet direct een relatie gelegd tussen opgetreden condities, de inzet van maatregelen en het effect van beide op het zoutgehalte in het meer, maar worden alleen algemene relaties uitgewerkt. Hieronder wordt daar een samenvatting van gegeven.
 
 **Zoutoplading en verspreiding zonder maatregelen:**
-Uit analyse van de meetdata van 2018 blijkt dat eerst de erosiekuilen achter de spuisluizen en in de nabijheid van de schutsluizen opvullen met zout. Deze fungeren als zoutvang waar het zoute water zich ophoopt. Daarbij ontstaat een sterke gelaagdheid tussen het zoute water in de diepe delen (tot 14.000 mg/l Chloride) en het zoete water boven de kuilrand (200 mg/l Chloride). Als de kuilen helemaal vol zijn, stromen ze over. Het vollopen van de erosiekuilen kan, afhankelijk van de mate van lekkage, maximaal 3 tot 6 dagen (bij Den Oever en Kornwerderzand, respectievelijk) duren, maar ook minder dan een dag (als de lekkage erg groot is). Er ontstaat als de erosiekuil overloopt een zouttong (van ongeveer 1 m dikte) nabij de bodem die over de drempel van de kuil stroomt naar een volgend laaggelegen gebied, bijvoorbeeld de voormalige getijdegeul, de Middelgronden en vaargeulen. Daar hoopt het zich vervolgens verder op (tot 8000 mg/l Chloride). Als het zoute water ver genoeg het meer indringt via de diepere delen,  treedt onder invloed van onder andere wind vervolgens menging op van het dieper gelegen zoute water met het hoger gelegen zoet(ere) water en (horizontale) verspreiding in de rest van het meer. In deze situatie is de verdere verspreiding van zout water in het meer niet meer effectief te bestrijden, en kan alleen ontzilting plaatsvinden door het meer te verversen met zoet water. Dit is een traag proces wat in 2018-2019 ongeveer 3 maanden heeft geduurd.
+Uit analyse van de meetdata van 2018 blijkt dat eerst de erosiekuilen achter de spuisluizen en in de nabijheid van de schutsluizen opvullen met zout. Deze fungeren als zoutvang waar het zoute water zich ophoopt. Daarbij ontstaat een sterke gelaagdheid tussen het zoute water in de diepe delen (tot 14.000 mg/l Chloride) en het zoete water boven de kuilrand (200 mg/l Chloride). Als de kuilen helemaal vol zijn, stromen ze over. Het vollopen van de erosiekuilen kan, afhankelijk van de mate van lekkage, maximaal 3 tot 6 dagen (bij Den Oever en Kornwerderzand, respectievelijk) duren, maar ook minder dan een dag (als de lekkage erg groot is). Als de erosiekuil overloopt ontstaat er een zouttong (van ongeveer 1 m dikte) nabij de bodem die over de drempel van de kuil stroomt naar een volgend laaggelegen gebied, bijvoorbeeld de voormalige getijdegeul, de Middelgronden en vaargeulen. Daar hoopt het zich vervolgens verder op (tot 8000 mg/l Chloride). Als het zoute water ver genoeg het meer indringt via de diepere delen,  treedt onder invloed van onder andere wind vervolgens menging op van het dieper gelegen zoute water met het hoger gelegen zoet(ere) water en (horizontale) verspreiding in de rest van het meer. In deze situatie is de verdere verspreiding van zout water in het meer niet meer effectief te bestrijden, en kan alleen ontzilting plaatsvinden door het meer te verversen met zoet water. Dit is een traag proces wat in 2018-2019 ongeveer 3 maanden heeft geduurd.
 
 **Effectiviteit van spuien:**
-Door experimenten uitgevoerd in 2019 en gegevens van de zomer van 2018 blijkt dat spuien zeer effectief is om de erosiekuilen bij Den Oever en Kornwerderzand te verzoeten. Dit geldt ook voor de Middelgronden mits er voldoende stroomsnelheid wordt gerealiseerd. Bij een normale spuigang (waarbij 3 spuikokers uit elke groep volledig open gaan) is sprake van voldoende stroomsnelheid. Bij normale spuigang kunnen de erosiekuilen zeer snel worden zoetgespoeld (soms zelfs binnen een uur). De effectiviteit van spuien op het ontzilten van verder gelegen (diepe) delen van het meer is beperkt en mede afhankelijk van de transportpaden over het meer en lokale stroomsnelheid in het verzilte gebied. 
+Door experimenten, uitgevoerd in 2019, en gegevens van de zomer van 2018 blijkt dat spuien zeer effectief is om de erosiekuilen bij Den Oever en Kornwerderzand te verzoeten. Dit geldt ook voor de Middelgronden mits er voldoende stroomsnelheid wordt gerealiseerd. Bij een normale spuigang (waarbij 3 spuikokers uit elke groep volledig open gaan) is sprake van voldoende stroomsnelheid. Bij normale spuigang kunnen de erosiekuilen zeer snel worden zoetgespoeld (soms zelfs binnen een uur). De effectiviteit van spuien op het ontzilten van verder gelegen (diepe) delen van het meer is beperkt en mede afhankelijk van de transportpaden over het meer en lokale stroomsnelheid in het verzilte gebied. 
 
-Alhoewel spuien effectief is om verzilting tegen te gaan, gaat het hier om grote hoeveelheden water: Bij Kornwerderzand is dit gemiddeld tussen 10 miljoen en 20 miljoen m<sup>3</sup>, wat overeenkomt met een peilverlaging van bijna 14 mm. Dit spuivolume is 75 keer groter dan het volume van de erosiekuil van Kornwerderzand, voor Den Oever is deze verhouding zelfs 1 op 150. Als het spuivolume wordt verkleind, wordt niet de gehele erosiekuil meer zoetgespoeld maar wordt alleen de bovenste laag afgeschaafd. Recent onderzoek (Deltares, 2025a) laat aan de hand van modelresultaten zien dat vaker met kleine spuivolumes spuien mogelijk effectiever is om zoutophoping in de erosiekuilen bij Den Oever en Kornwerderzand te bestrijden dan minder vaak met grote volumes. Zout water uit de diepste delen van de erosiekuil onttrekken kost relatief veel spoeldebiet.
+Alhoewel spuien effectief is om verzilting tegen te gaan, gaat het hier om grote hoeveelheden water: bij Kornwerderzand is dit gemiddeld tussen 10 miljoen en 20 miljoen m<sup>3</sup>, wat overeenkomt met een peilverlaging van bijna 14 mm. Dit spuivolume is 75 keer groter dan het volume van de erosiekuil van Kornwerderzand, voor Den Oever is deze verhouding zelfs 1 op 150. Als het spuivolume wordt verkleind, wordt niet de gehele erosiekuil meer zoetgespoeld maar wordt alleen de bovenste laag afgeschaafd. Recent onderzoek (Deltares, 2025a) laat aan de hand van modelresultaten zien dat vaker met kleine spuivolumes spuien mogelijk effectiever is om zoutophoping in de erosiekuilen bij Den Oever en Kornwerderzand te bestrijden dan minder vaak met grote volumes. Zout water uit de diepste delen van de erosiekuil onttrekken kost relatief veel spoeldebiet.
 
 **Waterinlaat via Stavoren:**
 Hierover zijn geen gegevens bekend. In Rijkswaterstaat (2020) worden wel de lokale lozingen en onttrekkingen beschouwd, maar wordt niet specifiek gesproken van de maatregel waterinlaat via Stavoren.
 
 **Waterverdeling Rijn:**
-Hierover zijn voor de zomer van 2018 geen gegevens bekend. Bij een Rijn-afvoer (Lobith) van tussen 1600 m<sup>3</sup>/s en 2600 m<sup>3</sup>/s wordt Stuw Driel geleidelijk gesloten. Door eerder de stuw te sluiten kan in beperkte mate water naar het IJsselmeer worden gestuwd. Omdat tijdens de zomer van 2018 de Rijn-afvoer lager was dan 1600 m<sup>3</sup>/s, is het onwaarschijnlijk dat deze maatregel is toegepast.
+Hierover zijn voor de zomer van 2018 geen gegevens bekend. Bij een Rijnafvoer (Lobith) van tussen 1600 m<sup>3</sup>/s en 2600 m<sup>3</sup>/s wordt Stuw Driel geleidelijk gesloten. Door eerder de stuw te sluiten kan in beperkte mate water naar het IJsselmeer worden gestuwd. Omdat tijdens de zomer van 2018 de Rijnafvoer lager was dan 1600 m<sup>3</sup>/s, is het onwaarschijnlijk dat deze maatregel is toegepast.
 
 **Verdeling Krabbersgat-/Houtribsluizen:**
 Hierover zijn geen gegevens bekend.
@@ -388,7 +388,7 @@ Visvriendelijk schutten, dat wil zeggen het schutten met lege kolken ’s nachts
 Door het ontbreken van zowel gegevens over de inzet van maatregelen, als een referentie waarin de opgetreden condities zijn beschreven, kan voor dit jaar geen beschouwing worden gedaan van de fysische processen en de effectiviteit van ingrepen.
 
 ## Conclusies
-Het ontbreken van gegevens over de inzet van specifieke maatregelen maakt het lastig om de effectiviteit van maatregelen te kunnen kwantificeren aan de hand van daadwerkelijk opgetreden condities. Daarnaast speelt ook mee dat vaak een combinatie van verschillende maatregelen worden toegepast om de verzilting te bestrijden. Op basis van alleen meetdata is het in die situatie nagenoeg onmogelijk om de effectiviteit van individuele maatregelen te kwantificeren. Naast dat maatregelen tegelijk worden genomen, is er daarnaast ook sprake van veranderende condities, zoals windcondities die zowel voor het hele meer (verticale en horizontale opmenging) als lokaal (verplaatsing van zoutpluimen) kunnen leiden tot significante effecten.
+Het ontbreken van gegevens over de inzet van specifieke maatregelen maakt het lastig om de effectiviteit van maatregelen te kunnen kwantificeren aan de hand van daadwerkelijk opgetreden condities. Daarnaast speelt ook mee dat vaak een combinatie van verschillende maatregelen wordt toegepast om de verzilting te bestrijden. Op basis van alleen meetdata is het in die situatie nagenoeg onmogelijk om de effectiviteit van individuele maatregelen te kwantificeren. Naast dat maatregelen tegelijk worden genomen, is er daarnaast ook sprake van veranderende condities, zoals windcondities die zowel voor het hele meer (verticale en horizontale opmenging) als lokaal (verplaatsing van zoutpluimen) kunnen leiden tot significante effecten.
 
 In lopende onderzoeken (Deltares, 2026b) wordt aan de hand van numerieke model simulaties wel verder uitgewerkt wat de impact van verschillende maatregelen is op de zoutverspreiding in het meer.
 
