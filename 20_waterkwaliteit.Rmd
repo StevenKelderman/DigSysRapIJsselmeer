@@ -67,7 +67,7 @@ leaflet::leaflet(WQlocations_IJS) %>%
     direction = "auto",
     offset = c(6, 0),
     style = list(
-      "font-size" = "11px",
+      "font-size" = "12px",
       "font-weight" = "normal"
     )
   )) #%>%

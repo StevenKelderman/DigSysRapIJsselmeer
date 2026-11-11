@@ -1,5 +1,5 @@
 ---
-title: "Verhaal van het IJsselmeer"
+title: "Verhaal van het IJsselmeergebied"
 author: "Rijkswaterstaat / Deltares"
 date: "2026-11-11"
 output:
