@@ -27,7 +27,7 @@ WQ_IJS <- read_delim(path_IJS, delim = ";", guess_max = 1000000, na = c("9999999
 ```
 
 ## Water {#water}
-Deze paragraaf beschrijft de verschillende componenten van de waterbalans van het IJsselmeer. Eerst worden de verschillende posten van wateraanvoer en -afvoer afzondelijk gepresenteerd. Vervolgens worden deze componenten samengebracht in één waterbalans op dagbasis voor de jaren 2018 t/m 2022. Figuur \@ref(fig:kaartDDLlocaties) toont welke meteingen gebruikt zijn voor het IJsselmeer. 
+Deze paragraaf beschrijft de verschillende componenten van de waterbalans van het IJsselmeer. Eerst worden de verschillende posten van wateraanvoer en -afvoer afzondelijk gepresenteerd. Vervolgens worden deze componenten samengebracht in één waterbalans op dagbasis voor de jaren 2018 t/m 2022. Figuur \@ref(fig:kaartDDLlocaties) toont welke metingen gebruikt zijn voor het IJsselmeer. 
 
 ```{r kaartDDLlocaties, cache=F, fig.cap = "Gebruikte meetlocaties."}
 
@@ -60,7 +60,17 @@ leaflet::leaflet(WQlocations_IJS) %>%
   # addProviderTiles(providers$Esri.WorldTopoMap, group = "Esri.WorldTopoMap") %>%
   # addProviderTiles(providers$Esri.WorldImagery, group = "Esri.WorldImagery") %>%
   # leaflet::addProviderTiles("OpenSeaMap", group = "OpenSeaMap") %>%
-  leaflet::addCircleMarkers(label = ~htmltools::htmlEscape(paste0(naam)), group = "all_locations", radius = 4, labelOptions = labelOptions(noHide = T, direction = 30)) #%>%
+  leaflet::addCircleMarkers(label = ~htmltools::htmlEscape(paste0(naam)), group = "all_locations", 
+  radius = 4,
+  labelOptions = labelOptions(
+    noHide = FALSE,
+    direction = "auto",
+    offset = c(6, 0),
+    style = list(
+      "font-size" = "11px",
+      "font-weight" = "normal"
+    )
+  )) #%>%
   # leaflet::addLayersControl(
   #   baseGroups = c("OSM",  "Esri.WorldTopoMap", "Esri.WorldImagery"),
   #   overlayGroups = c("all_locations", "watersysteem", "OpenSeaMap")) %>%    #, "KRW waterlichamen 2006"
