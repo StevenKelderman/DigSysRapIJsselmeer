@@ -23,17 +23,23 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install -y \
+            r-base-dev \
+            build-essential \
             libuv1-dev \
             libsecret-1-dev \
             libcurl4-openssl-dev \
             libssl-dev \
-            libxml2-dev
-      - name: Install system dependencies
-        run: sudo apt-get update && sudo apt-get install -y libuv1-dev
-      - name: Install system dependencies
-        run: sudo apt-get update && sudo apt-get install -y r-base-dev build-essential
-      - name: Install system dependencies2
-        run: sudo apt-get update && sudo apt-get install -y libcurl4-openssl-dev libudunits2-dev libgdal-dev libgeos-dev libproj-dev cmake libfreetype6-dev libfontconfig1-dev xclip
+            libxml2-dev \
+            libudunits2-dev \
+            libgdal-dev \
+            libgeos-dev \
+            libproj-dev \
+            cmake \
+            libfreetype6-dev \
+            libfontconfig1-dev \
+            xclip \
+            libharfbuzz-dev \
+            libfribidi-dev
       - name: install textshaping package
         run: sudo apt install libharfbuzz-dev libfribidi-dev
       - name: Install R dependencies from CRAN
