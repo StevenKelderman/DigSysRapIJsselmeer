@@ -114,7 +114,7 @@ knitr::include_graphics("images/waterbalans/monthly_in_out_percentage.png")
 
 ## Wind {#wind}
 
-De onderstaande interactieve figuur toont de windsnelheid en windrichting op meetlocatie Stavoren. Wind is een belangrijke sturende factor binnen het watersysteem en heeft invloed op onder andere waterstanden, golfopbouw, menging van de waterkolom en de verspreiding van stoffen. De tijdreeksen laten zowel seizoensgebonden patronen als kortdurende stormachtige gebeurtenissen zien. Linksboven in de figuur kan het jaarlijks via een drop-down menu aangepast worden. 
+De onderstaande interactieve figuur toont de windsnelheid en windrichting op meetlocatie Stavoren. Wind is een belangrijke sturende factor binnen het watersysteem en heeft invloed op onder andere waterstanden, menging van de waterkolom en de verspreiding van stoffen. De tijdreeksen laten zowel seizoensgebonden patronen als kortdurende stormachtige gebeurtenissen zien. Linksboven in de figuur kan het jaar via een drop-down menu aangepast worden. 
 
 ```{r interactive-wind, echo=FALSE, results='asis'}
 cat(
