@@ -83,7 +83,7 @@ knitr::include_graphics("images/debiet/WADAR_debiet_olst_20260824.png")
 ```
 
 ```{r 02-Debiet-Lorentzsluizen, echo=FALSE, fig.cap="Gemiddeld spuidebiet per dag Lorentz spuisluizen."}
-knitr::include_graphics("images/debiet/carlijn_debiet_YMR_lorentz_spuisluizen_Afsluitdijk_20261125.png")
+knitr::include_graphics("images/debiet/carlijn_debiet_YMR_Lorentz_spuisluizen_Afsluitdijk_20261125.png")
 ```
 
 ```{r 03-Debiet-Stevinssluizen, echo=FALSE, fig.cap="Gemiddeld spuidebiet per dag Stevin spuisluizen."}
