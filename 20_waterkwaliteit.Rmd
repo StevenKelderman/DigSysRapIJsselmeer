@@ -83,11 +83,11 @@ knitr::include_graphics("images/debiet/WADAR_debiet_olst_20260824.png")
 ```
 
 ```{r 02-Debiet-Lorentzsluizen, echo=FALSE, fig.cap="Gemiddeld spuidebiet per dag Lorentz spuisluizen."}
-knitr::include_graphics("images/debiet/carlijn_debiet_Lorentz_spuisluizen_Afsluitdijk_20260824.png")
+knitr::include_graphics("images/debiet/carlijn_debiet_YMR_lorentz_spuisluizen_Afsluitdijk_20261125.png")
 ```
 
 ```{r 03-Debiet-Stevinssluizen, echo=FALSE, fig.cap="Gemiddeld spuidebiet per dag Stevin spuisluizen."}
-knitr::include_graphics("images/debiet/carlijn_debiet_Stevin_spuisluizen_afsluitdijk_20260824.png")
+knitr::include_graphics("images/debiet/carlijn_debiet_YMR_Stevin_spuisluizen_Afsluitdijk_20261125.png")
 ```
 
 ```{r 04-Debiet-Houtribsluis, echo=FALSE, fig.cap="Gemiddeld spuidebiet per dag Houtribsluis noord."}
@@ -99,27 +99,27 @@ knitr::include_graphics("images/debiet/WADAR_debiet_krabbersgat_ijsselmeer_20260
 ```
 
 ```{r 06-Debiet-overig, echo=FALSE, fig.cap="Overige regionale watervraag."}
-knitr::include_graphics("images/debiet/carlijn_debiet_overig_20260824.png")
+knitr::include_graphics("images/debiet/carlijn_debiet_overig_YMR_20261125.png")
 ```
 
 ```{r 01-Berging-IJsselmeer, echo=FALSE, fig.cap="Berging IJsselmeer."}
-knitr::include_graphics("images/debiet/carlijn_debiet_Berging_IJsselmeer_20260824.png")
+knitr::include_graphics("images/debiet/carlijn_debiet_YMR_Berging_IJsselmeer_20261125.png")
 ```
 
 ```{r 01-Neerslag, echo=FALSE, fig.cap="Neerslag op dagbasis IJsselmeer."}
-knitr::include_graphics("images/debiet/carlijn_debiet_Neerslag_20260824.png")
+knitr::include_graphics("images/debiet/carlijn_debiet_YMR_Neerslag_20261125.png")
 ```
 
 ```{r 02-Verdamping, echo=FALSE, fig.cap="Verdamping op dagbasis IJsselmeer."}
-knitr::include_graphics("images/debiet/carlijn_debiet_Verdamping_20260824.png")
+knitr::include_graphics("images/debiet/carlijn_debiet_YMR_Verdamping_20261125.png")
 ```
 
 ```{r 01-waterbalans-abs, echo=FALSE, fig.cap="Waterbalans op dagbasis IJsselmeer."}
-knitr::include_graphics("images/waterbalans/monthly_in_out_netto_flow.png")
+knitr::include_graphics("images/waterbalans/daily_in_out_netto_flow_YMR_20261125.png")
 ```
 
 ```{r 02-waterbalans-rel, echo=FALSE, fig.cap="Maandelijkse waterbalans relatief."}
-knitr::include_graphics("images/waterbalans/monthly_in_out_percentage.png")
+knitr::include_graphics("images/waterbalans/monthly_in_out_percentage_YMR_20261125.png")
 ```
 
 ## Wind {#wind}
@@ -407,7 +407,7 @@ In lopende onderzoeken (Deltares, 2026b) wordt aan de hand van numerieke model s
 ```{r def, echo=FALSE, results='asis'}
 cat(
   '<iframe
-      src="images/interactive/interactive_plot_waterbalans_wind_saliniteit_20260728.html"
+      src="images/interactive/interactive_plot_YMR_waterbalans_wind_saliniteit_20261125.html"
       width="100%"
       height="1200px"
       style="border:none;">
